@@ -1,0 +1,19 @@
+python3 run_seminar_model.py --run_mode eval --soft_search_type mhta --data_name kuaisar --model_type eta --model_name kuaisar_eta --multi_modal_emb_enable false --fusion_weight_query 0.5 --max_seq_length 1000 --retrieve_topK 200 --query_keywords_vocab_size 3000000 --log_epoch_step 1
+
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 10000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 20000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 10000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 20000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 10000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 20000
+DEBUG: User 0 Item Sequence Length 74, Query Sequence Length 74
+DEBUG: Finish Reading get_item2attribute_json attribute_size size 150000, Item 1 Sparse Key Value [6332, 2, 3, 4, 5, 6, 9, 10, 8, 22, 20, 15, 15, 17]
+Namespace(data_dir='./data/', output_dir='output/', data_name='kuaisar', do_eval=False, run_mode='eval', ckp=10, query_keywords_vocab_size=3000000, query_max_token_num=5, fusion_type='weighed_average', fusion_weight_query=0.5, soft_search_type='mhta', image_emb_size=512, text_emb_size=512, multi_modal_emb_enable=False, model_type='eta', retrieve_qin_stage1_topK=500, retrieve_topK=200, num_heads=4, model_name='kuaisar_eta', hidden_size=64, num_hidden_layers=2, num_attention_heads=2, hidden_act='gelu', attention_probs_dropout_prob=0.5, hidden_dropout_prob=0.5, initializer_range=0.02, max_seq_length=1000, lr=0.001, batch_size=256, pre_batch_size=256, epochs=200, pretrain_epochs=5, no_cuda=False, log_epoch_step=1, log_freq=1, seed=42, weight_decay=0.0, adam_beta1=0.9, adam_beta2=0.999, gpu_id='0', loss_next_pair_weight=1.0, loss_multimodal_align_weight=1.0, loss_qi_relevance_weight=1.0, pretrain_next_pair_enable=True, pretrain_multimodal_align_enable=True, pretrain_qi_relevance_enable=True, freeze_psu_emb=False, freeze_psu_projection=False, freeze_multi_modal_projection=False, pretrain_max_sample_size=100000000, test_set_mode='recommendation', cuda_condition=False, data_file='./data/kuaisar.txt', queries_file='./data/kuaisar_queries.txt', sample_file='./data/kuaisar_sample.txt', sample_neg_queries_file='./data/kuaisar_sample_queries.txt', item_size=1482274, mask_id=1482273, attribute_size=150001, log_file='output/kuaisar_eta-eta-kuaisar-10.txt')
+Total Parameters: 296680466
+Total Parameters: 296680466
+##### Starting Evaluation...
+Load model from output/kuaisar_eta-eta-kuaisar-10.pt for test!
+Recommendation EP_test:0: 100%|| 100/100 [1:04:31<00:00, 38.72s/it]
+{'Epoch': 0, 'HIT@1': '0.2191', 'NDCG@1': '0.1891', 'HIT@5': '0.2839', 'NDCG@5': '0.2642', 'HIT@10': '0.3270', 'NDCG@10': '0.2756', 'HIT@50': '0.6107', 'NDCG@50': '0.3313', 'MRR': '0.2476'}
+kuaisar_eta-eta-kuaisar-10
+{'Epoch': 0, 'HIT@1': '0.2191', 'NDCG@1': '0.1891', 'HIT@5': '0.2839', 'NDCG@5': '0.2642', 'HIT@10': '0.3270', 'NDCG@10': '0.2756', 'HIT@50': '0.6107', 'NDCG@50': '0.3313', 'MRR': '0.2476'}
