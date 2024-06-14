@@ -1,0 +1,1299 @@
+python3 run_seminar_model.py --data_name Movies_and_TV --epochs 1 --model_type sim --model_name amazon_sim_model_mm --multi_modal_emb_enable true --soft_search_type mhta --max_seq_length 100 --retrieve_topK 50 --query_keywords_vocab_size 3000000 --log_epoch_step 1
+
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 10000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 20000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 30000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 40000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 50000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 60000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 70000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 80000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 90000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 100000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 110000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 120000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 130000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 140000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 150000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 160000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 170000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 180000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 190000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 200000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 210000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 220000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 230000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 240000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 250000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 260000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 270000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 280000
+DEBUG: get_user_seqs_and_sample Reading User Item Sequence File Lineno 290000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 10000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 20000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 30000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 40000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 50000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 60000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 70000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 80000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 90000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 100000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 110000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 120000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 130000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 140000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 150000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 160000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 170000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 180000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 190000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 200000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 210000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 220000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 230000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 240000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 250000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 260000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 270000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 280000
+DEBUG: get_user_seqs_and_sample Reading User Query Sequence File Lineno 290000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 10000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 20000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 30000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 40000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 50000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 60000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 70000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 80000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 90000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 100000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 110000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 120000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 130000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 140000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 150000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 160000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 170000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 180000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 190000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 200000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 210000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 220000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 230000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 240000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 250000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 260000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 270000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 280000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Sequence File Lineno 290000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 10000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 20000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 30000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 40000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 50000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 60000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 70000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 80000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 90000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 100000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 110000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 120000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 130000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 140000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 150000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 160000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 170000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 180000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 190000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 200000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 210000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 220000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 230000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 240000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 250000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 260000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 270000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 280000
+DEBUG: get_user_seqs_and_sample Reading Negatively Sample Query Sequence File Lineno 290000
+DEBUG: User 0 Item Sequence Length 5, Query Sequence Length 5
+DEBUG: Finish Reading get_item2attribute_json attribute_size size 150000, Item 1 Sparse Key Value [3978, 2, 3, 4, 5, 6, 7, 8, 7, 9, 10, 5, 16, 13, 5, 7, 39, 2, 13, 7, 37, 5, 15, 14, 22, 13, 5, 17, 7, 40, 15, 14, 5, 26, 2, 13, 4, 5, 6, 22, 6, 4, 31, 7, 10, 4, 17, 5, 2, 6, 7, 8, 7, 40, 2, 16, 31, 5, 13, 14, 6]
+Namespace(data_dir='./data/', output_dir='output/', data_name='Movies_and_TV', do_eval=False, run_mode='train', ckp=10, query_keywords_vocab_size=3000000, query_max_token_num=5, fusion_type='weighed_average', fusion_weight_query=0.5, soft_search_type='mhta', image_emb_size=512, text_emb_size=512, multi_modal_emb_enable=True, model_type='sim', retrieve_qin_stage1_topK=500, retrieve_topK=50, num_heads=4, model_name='amazon_sim_model_mm', hidden_size=64, num_hidden_layers=2, num_attention_heads=2, hidden_act='gelu', attention_probs_dropout_prob=0.5, hidden_dropout_prob=0.5, initializer_range=0.02, max_seq_length=100, lr=0.001, batch_size=256, pre_batch_size=256, epochs=1, pretrain_epochs=5, no_cuda=False, log_epoch_step=1, log_freq=1, seed=42, weight_decay=0.0, adam_beta1=0.9, adam_beta2=0.999, gpu_id='0', loss_next_pair_weight=1.0, loss_multimodal_align_weight=1.0, loss_qi_relevance_weight=1.0, freeze_psu_emb=False, test_set_mode='recommendation', cuda_condition=False, data_file='./data/Movies_and_TV.txt', queries_file='./data/Movies_and_TV_queries.txt', sample_file='./data/Movies_and_TV_sample.txt', sample_neg_queries_file='./data/Movies_and_TV_sample_queries.txt', item_size=59927, mask_id=59926, attribute_size=150001, log_file='output/amazon_sim_model_mm-sim-Movies_and_TV-10.txt')
+DEBUG: Finish Loadding Pytorch id2image_emb_dic size 59925, image_emb shape torch.Size([59927, 512])
+DEBUG: Finish Loadding Pytorch id2title_emb_dic size 59925, text_emb shape torch.Size([59927, 512])
+Total Parameters: 267031045
+Total Parameters: 267031045
+##### Starting Training...
+### Starting Loading Pretrained Checkpoint from output/Pretrain-amazon_sim_model_mm-sim-Movies_and_TV-10.pt
+output/Pretrain-amazon_sim_model_mm-sim-Movies_and_TV-10.pt Not Found! The Model is same as Base MultiModal SAR Sequence Model...
+##### Starting Training...
+Recommendation EP_train:0:   0%|| 0/1162 [00:00<?, ?it/s]DEBUG: Epoch 0, Step 0, loss_gsu is 0.693331, loss_esu is 0.694360
+Recommendation EP_train:0:   0%|| 1/1162 [00:04<1:24:22,  4.36s/it]DEBUG: Epoch 0, Step 1, loss_gsu is 0.693232, loss_esu is 0.693761
+Recommendation EP_train:0:   0%|| 2/1162 [00:06<57:19,  2.96s/it]  DEBUG: Epoch 0, Step 2, loss_gsu is 0.693159, loss_esu is 0.693412
+Recommendation EP_train:0:   0%|| 3/1162 [00:08<49:25,  2.56s/it]DEBUG: Epoch 0, Step 3, loss_gsu is 0.693124, loss_esu is 0.693169
+Recommendation EP_train:0:   0%|| 4/1162 [00:11<51:12,  2.65s/it]DEBUG: Epoch 0, Step 4, loss_gsu is 0.693137, loss_esu is 0.693139
+Recommendation EP_train:0:   0%|| 5/1162 [00:13<49:07,  2.55s/it]DEBUG: Epoch 0, Step 5, loss_gsu is 0.693042, loss_esu is 0.693166
+Recommendation EP_train:0:   1%|| 6/1162 [00:15<46:25,  2.41s/it]DEBUG: Epoch 0, Step 6, loss_gsu is 0.693032, loss_esu is 0.693289
+Recommendation EP_train:0:   1%|| 7/1162 [00:17<44:59,  2.34s/it]DEBUG: Epoch 0, Step 7, loss_gsu is 0.693072, loss_esu is 0.693241
+Recommendation EP_train:0:   1%|| 8/1162 [00:20<43:38,  2.27s/it]DEBUG: Epoch 0, Step 8, loss_gsu is 0.693183, loss_esu is 0.693324
+Recommendation EP_train:0:   1%|| 9/1162 [00:22<43:15,  2.25s/it]DEBUG: Epoch 0, Step 9, loss_gsu is 0.692924, loss_esu is 0.693123
+Recommendation EP_train:0:   1%|| 10/1162 [00:24<41:42,  2.17s/it]DEBUG: Epoch 0, Step 10, loss_gsu is 0.692922, loss_esu is 0.693060
+Recommendation EP_train:0:   1%|| 11/1162 [00:26<40:19,  2.10s/it]DEBUG: Epoch 0, Step 11, loss_gsu is 0.692946, loss_esu is 0.693102
+Recommendation EP_train:0:   1%|| 12/1162 [00:28<38:36,  2.01s/it]DEBUG: Epoch 0, Step 12, loss_gsu is 0.692857, loss_esu is 0.693066
+Recommendation EP_train:0:   1%|| 13/1162 [00:29<38:04,  1.99s/it]DEBUG: Epoch 0, Step 13, loss_gsu is 0.692507, loss_esu is 0.693088
+Recommendation EP_train:0:   1%|| 14/1162 [00:31<37:33,  1.96s/it]DEBUG: Epoch 0, Step 14, loss_gsu is 0.692514, loss_esu is 0.693130
+Recommendation EP_train:0:   1%|| 15/1162 [00:33<37:14,  1.95s/it]DEBUG: Epoch 0, Step 15, loss_gsu is 0.692667, loss_esu is 0.693135
+Recommendation EP_train:0:   1%|| 16/1162 [00:36<39:44,  2.08s/it]DEBUG: Epoch 0, Step 16, loss_gsu is 0.692362, loss_esu is 0.693058
+Recommendation EP_train:0:   1%|| 17/1162 [00:38<39:08,  2.05s/it]DEBUG: Epoch 0, Step 17, loss_gsu is 0.691915, loss_esu is 0.693007
+Recommendation EP_train:0:   2%|| 18/1162 [00:39<36:44,  1.93s/it]DEBUG: Epoch 0, Step 18, loss_gsu is 0.691361, loss_esu is 0.692975
+Recommendation EP_train:0:   2%|| 19/1162 [00:41<35:58,  1.89s/it]DEBUG: Epoch 0, Step 19, loss_gsu is 0.691797, loss_esu is 0.693013
+Recommendation EP_train:0:   2%|| 20/1162 [00:43<33:59,  1.79s/it]DEBUG: Epoch 0, Step 20, loss_gsu is 0.691408, loss_esu is 0.692980
+Recommendation EP_train:0:   2%|| 21/1162 [00:44<34:23,  1.81s/it]DEBUG: Epoch 0, Step 21, loss_gsu is 0.689962, loss_esu is 0.692821
+Recommendation EP_train:0:   2%|| 22/1162 [00:46<34:52,  1.84s/it]DEBUG: Epoch 0, Step 22, loss_gsu is 0.688662, loss_esu is 0.692864
+Recommendation EP_train:0:   2%|| 23/1162 [00:48<35:16,  1.86s/it]DEBUG: Epoch 0, Step 23, loss_gsu is 0.687176, loss_esu is 0.692711
+Recommendation EP_train:0:   2%|| 24/1162 [00:50<35:21,  1.86s/it]DEBUG: Epoch 0, Step 24, loss_gsu is 0.686848, loss_esu is 0.692712
+Recommendation EP_train:0:   2%|| 25/1162 [00:52<35:53,  1.89s/it]DEBUG: Epoch 0, Step 25, loss_gsu is 0.684799, loss_esu is 0.692667
+Recommendation EP_train:0:   2%|| 26/1162 [00:54<36:23,  1.92s/it]DEBUG: Epoch 0, Step 26, loss_gsu is 0.681400, loss_esu is 0.692547
+Recommendation EP_train:0:   2%|| 27/1162 [00:56<37:38,  1.99s/it]DEBUG: Epoch 0, Step 27, loss_gsu is 0.681715, loss_esu is 0.692563
+Recommendation EP_train:0:   2%|| 28/1162 [00:58<36:53,  1.95s/it]DEBUG: Epoch 0, Step 28, loss_gsu is 0.678163, loss_esu is 0.692445
+Recommendation EP_train:0:   2%|| 29/1162 [01:00<36:27,  1.93s/it]DEBUG: Epoch 0, Step 29, loss_gsu is 0.678691, loss_esu is 0.692519
+Recommendation EP_train:0:   3%|| 30/1162 [01:02<36:39,  1.94s/it]DEBUG: Epoch 0, Step 30, loss_gsu is 0.670731, loss_esu is 0.692280
+Recommendation EP_train:0:   3%|| 31/1162 [01:04<36:32,  1.94s/it]DEBUG: Epoch 0, Step 31, loss_gsu is 0.671075, loss_esu is 0.692285
+Recommendation EP_train:0:   3%|| 32/1162 [01:06<37:01,  1.97s/it]DEBUG: Epoch 0, Step 32, loss_gsu is 0.674441, loss_esu is 0.692455
+Recommendation EP_train:0:   3%|| 33/1162 [01:08<36:15,  1.93s/it]DEBUG: Epoch 0, Step 33, loss_gsu is 0.673156, loss_esu is 0.692394
+Recommendation EP_train:0:   3%|| 34/1162 [01:10<36:21,  1.93s/it]DEBUG: Epoch 0, Step 34, loss_gsu is 0.654647, loss_esu is 0.691932
+Recommendation EP_train:0:   3%|| 35/1162 [01:12<36:29,  1.94s/it]DEBUG: Epoch 0, Step 35, loss_gsu is 0.654455, loss_esu is 0.691923
+Recommendation EP_train:0:   3%|| 36/1162 [01:14<35:53,  1.91s/it]DEBUG: Epoch 0, Step 36, loss_gsu is 0.657306, loss_esu is 0.691960
+Recommendation EP_train:0:   3%|| 37/1162 [01:15<35:37,  1.90s/it]DEBUG: Epoch 0, Step 37, loss_gsu is 0.651287, loss_esu is 0.692009
+Recommendation EP_train:0:   3%|| 38/1162 [01:17<34:45,  1.86s/it]DEBUG: Epoch 0, Step 38, loss_gsu is 0.641079, loss_esu is 0.691559
+Recommendation EP_train:0:   3%|| 39/1162 [01:19<34:38,  1.85s/it]DEBUG: Epoch 0, Step 39, loss_gsu is 0.635004, loss_esu is 0.691476
+Recommendation EP_train:0:   3%|| 40/1162 [01:21<34:03,  1.82s/it]DEBUG: Epoch 0, Step 40, loss_gsu is 0.623231, loss_esu is 0.691114
+Recommendation EP_train:0:   4%|| 41/1162 [01:23<34:24,  1.84s/it]DEBUG: Epoch 0, Step 41, loss_gsu is 0.629646, loss_esu is 0.691138
+Recommendation EP_train:0:   4%|| 42/1162 [01:25<34:46,  1.86s/it]DEBUG: Epoch 0, Step 42, loss_gsu is 0.610711, loss_esu is 0.690658
+Recommendation EP_train:0:   4%|| 43/1162 [01:26<34:12,  1.83s/it]DEBUG: Epoch 0, Step 43, loss_gsu is 0.604972, loss_esu is 0.690414
+Recommendation EP_train:0:   4%|| 44/1162 [01:28<32:56,  1.77s/it]DEBUG: Epoch 0, Step 44, loss_gsu is 0.605274, loss_esu is 0.690112
+Recommendation EP_train:0:   4%|| 45/1162 [01:30<32:00,  1.72s/it]DEBUG: Epoch 0, Step 45, loss_gsu is 0.612166, loss_esu is 0.690101
+Recommendation EP_train:0:   4%|| 46/1162 [01:31<31:14,  1.68s/it]DEBUG: Epoch 0, Step 46, loss_gsu is 0.574094, loss_esu is 0.688871
+Recommendation EP_train:0:   4%|| 47/1162 [01:33<31:12,  1.68s/it]DEBUG: Epoch 0, Step 47, loss_gsu is 0.587350, loss_esu is 0.689054
+Recommendation EP_train:0:   4%|| 48/1162 [01:34<30:54,  1.66s/it]DEBUG: Epoch 0, Step 48, loss_gsu is 0.622341, loss_esu is 0.689486
+Recommendation EP_train:0:   4%|| 49/1162 [01:36<32:41,  1.76s/it]DEBUG: Epoch 0, Step 49, loss_gsu is 0.568735, loss_esu is 0.688114
+Recommendation EP_train:0:   4%|| 50/1162 [01:38<33:29,  1.81s/it]DEBUG: Epoch 0, Step 50, loss_gsu is 0.596871, loss_esu is 0.688486
+Recommendation EP_train:0:   4%|| 51/1162 [01:40<33:58,  1.84s/it]DEBUG: Epoch 0, Step 51, loss_gsu is 0.614675, loss_esu is 0.688761
+Recommendation EP_train:0:   4%|| 52/1162 [01:42<34:02,  1.84s/it]DEBUG: Epoch 0, Step 52, loss_gsu is 0.584354, loss_esu is 0.687328
+Recommendation EP_train:0:   5%|| 53/1162 [01:44<35:05,  1.90s/it]DEBUG: Epoch 0, Step 53, loss_gsu is 0.567775, loss_esu is 0.685896
+Recommendation EP_train:0:   5%|| 54/1162 [01:46<34:35,  1.87s/it]DEBUG: Epoch 0, Step 54, loss_gsu is 0.568174, loss_esu is 0.685670
+Recommendation EP_train:0:   5%|| 55/1162 [01:48<34:24,  1.86s/it]DEBUG: Epoch 0, Step 55, loss_gsu is 0.576755, loss_esu is 0.685285
+Recommendation EP_train:0:   5%|| 56/1162 [01:50<35:05,  1.90s/it]DEBUG: Epoch 0, Step 56, loss_gsu is 0.553527, loss_esu is 0.683381
+Recommendation EP_train:0:   5%|| 57/1162 [01:52<35:17,  1.92s/it]DEBUG: Epoch 0, Step 57, loss_gsu is 0.564077, loss_esu is 0.684401
+Recommendation EP_train:0:   5%|| 58/1162 [01:54<36:38,  1.99s/it]DEBUG: Epoch 0, Step 58, loss_gsu is 0.555348, loss_esu is 0.683215
+Recommendation EP_train:0:   5%|| 59/1162 [01:56<36:55,  2.01s/it]DEBUG: Epoch 0, Step 59, loss_gsu is 0.603889, loss_esu is 0.683328
+Recommendation EP_train:0:   5%|| 60/1162 [01:58<36:19,  1.98s/it]DEBUG: Epoch 0, Step 60, loss_gsu is 0.554062, loss_esu is 0.682020
+Recommendation EP_train:0:   5%|| 61/1162 [02:00<36:23,  1.98s/it]DEBUG: Epoch 0, Step 61, loss_gsu is 0.593905, loss_esu is 0.682391
+Recommendation EP_train:0:   5%|| 62/1162 [02:02<35:45,  1.95s/it]DEBUG: Epoch 0, Step 62, loss_gsu is 0.555864, loss_esu is 0.680055
+Recommendation EP_train:0:   5%|| 63/1162 [02:04<35:44,  1.95s/it]DEBUG: Epoch 0, Step 63, loss_gsu is 0.582233, loss_esu is 0.680974
+Recommendation EP_train:0:   6%|| 64/1162 [02:06<35:39,  1.95s/it]DEBUG: Epoch 0, Step 64, loss_gsu is 0.559467, loss_esu is 0.679523
+Recommendation EP_train:0:   6%|| 65/1162 [02:08<36:40,  2.01s/it]DEBUG: Epoch 0, Step 65, loss_gsu is 0.589720, loss_esu is 0.680627
+Recommendation EP_train:0:   6%|| 66/1162 [02:10<36:02,  1.97s/it]DEBUG: Epoch 0, Step 66, loss_gsu is 0.578382, loss_esu is 0.679419
+Recommendation EP_train:0:   6%|| 67/1162 [02:12<36:21,  1.99s/it]DEBUG: Epoch 0, Step 67, loss_gsu is 0.575057, loss_esu is 0.677639
+Recommendation EP_train:0:   6%|| 68/1162 [02:14<36:06,  1.98s/it]DEBUG: Epoch 0, Step 68, loss_gsu is 0.540724, loss_esu is 0.673959
+Recommendation EP_train:0:   6%|| 69/1162 [02:16<36:33,  2.01s/it]DEBUG: Epoch 0, Step 69, loss_gsu is 0.554373, loss_esu is 0.675272
+Recommendation EP_train:0:   6%|| 70/1162 [02:18<36:26,  2.00s/it]DEBUG: Epoch 0, Step 70, loss_gsu is 0.575680, loss_esu is 0.674764
+Recommendation EP_train:0:   6%|| 71/1162 [02:20<36:03,  1.98s/it]DEBUG: Epoch 0, Step 71, loss_gsu is 0.544634, loss_esu is 0.671813
+Recommendation EP_train:0:   6%|| 72/1162 [02:21<34:54,  1.92s/it]DEBUG: Epoch 0, Step 72, loss_gsu is 0.564640, loss_esu is 0.671132
+Recommendation EP_train:0:   6%|| 73/1162 [02:23<34:52,  1.92s/it]DEBUG: Epoch 0, Step 73, loss_gsu is 0.586398, loss_esu is 0.673725
+Recommendation EP_train:0:   6%|| 74/1162 [02:25<34:30,  1.90s/it]DEBUG: Epoch 0, Step 74, loss_gsu is 0.559002, loss_esu is 0.669005
+Recommendation EP_train:0:   6%|| 75/1162 [02:27<34:41,  1.92s/it]DEBUG: Epoch 0, Step 75, loss_gsu is 0.548731, loss_esu is 0.668306
+Recommendation EP_train:0:   7%|| 76/1162 [02:29<34:50,  1.92s/it]DEBUG: Epoch 0, Step 76, loss_gsu is 0.560091, loss_esu is 0.669097
+Recommendation EP_train:0:   7%|| 77/1162 [02:31<34:11,  1.89s/it]DEBUG: Epoch 0, Step 77, loss_gsu is 0.542549, loss_esu is 0.663937
+Recommendation EP_train:0:   7%|| 78/1162 [02:33<34:16,  1.90s/it]DEBUG: Epoch 0, Step 78, loss_gsu is 0.559902, loss_esu is 0.663504
+Recommendation EP_train:0:   7%|| 79/1162 [02:35<35:13,  1.95s/it]DEBUG: Epoch 0, Step 79, loss_gsu is 0.528014, loss_esu is 0.656984
+Recommendation EP_train:0:   7%|| 80/1162 [02:37<35:21,  1.96s/it]DEBUG: Epoch 0, Step 80, loss_gsu is 0.499392, loss_esu is 0.654935
+Recommendation EP_train:0:   7%|| 81/1162 [02:39<36:11,  2.01s/it]DEBUG: Epoch 0, Step 81, loss_gsu is 0.545208, loss_esu is 0.660813
+Recommendation EP_train:0:   7%|| 82/1162 [02:41<36:02,  2.00s/it]DEBUG: Epoch 0, Step 82, loss_gsu is 0.553450, loss_esu is 0.659793
+Recommendation EP_train:0:   7%|| 83/1162 [02:43<36:10,  2.01s/it]DEBUG: Epoch 0, Step 83, loss_gsu is 0.550434, loss_esu is 0.659573
+Recommendation EP_train:0:   7%|| 84/1162 [02:45<36:12,  2.02s/it]DEBUG: Epoch 0, Step 84, loss_gsu is 0.544836, loss_esu is 0.655569
+Recommendation EP_train:0:   7%|| 85/1162 [02:47<35:59,  2.01s/it]DEBUG: Epoch 0, Step 85, loss_gsu is 0.557654, loss_esu is 0.657063
+Recommendation EP_train:0:   7%|| 86/1162 [02:49<34:59,  1.95s/it]DEBUG: Epoch 0, Step 86, loss_gsu is 0.564855, loss_esu is 0.651822
+Recommendation EP_train:0:   7%|| 87/1162 [02:51<35:43,  1.99s/it]DEBUG: Epoch 0, Step 87, loss_gsu is 0.562224, loss_esu is 0.654786
+Recommendation EP_train:0:   8%|| 88/1162 [02:53<36:29,  2.04s/it]DEBUG: Epoch 0, Step 88, loss_gsu is 0.560917, loss_esu is 0.649722
+Recommendation EP_train:0:   8%|| 89/1162 [02:55<36:53,  2.06s/it]DEBUG: Epoch 0, Step 89, loss_gsu is 0.517888, loss_esu is 0.642889
+Recommendation EP_train:0:   8%|| 90/1162 [02:57<36:31,  2.04s/it]DEBUG: Epoch 0, Step 90, loss_gsu is 0.577937, loss_esu is 0.649331
+Recommendation EP_train:0:   8%|| 91/1162 [02:59<37:32,  2.10s/it]DEBUG: Epoch 0, Step 91, loss_gsu is 0.537319, loss_esu is 0.639672
+Recommendation EP_train:0:   8%|| 92/1162 [03:02<41:16,  2.31s/it]DEBUG: Epoch 0, Step 92, loss_gsu is 0.541189, loss_esu is 0.642863
+Recommendation EP_train:0:   8%|| 93/1162 [03:05<43:38,  2.45s/it]DEBUG: Epoch 0, Step 93, loss_gsu is 0.505279, loss_esu is 0.631184
+Recommendation EP_train:0:   8%|| 94/1162 [03:08<44:44,  2.51s/it]DEBUG: Epoch 0, Step 94, loss_gsu is 0.531556, loss_esu is 0.634291
+Recommendation EP_train:0:   8%|| 95/1162 [03:10<44:50,  2.52s/it]DEBUG: Epoch 0, Step 95, loss_gsu is 0.515035, loss_esu is 0.631211
+Recommendation EP_train:0:   8%|| 96/1162 [03:13<44:12,  2.49s/it]DEBUG: Epoch 0, Step 96, loss_gsu is 0.553346, loss_esu is 0.635306
+Recommendation EP_train:0:   8%|| 97/1162 [03:15<43:36,  2.46s/it]DEBUG: Epoch 0, Step 97, loss_gsu is 0.509890, loss_esu is 0.620768
+Recommendation EP_train:0:   8%|| 98/1162 [03:17<41:15,  2.33s/it]DEBUG: Epoch 0, Step 98, loss_gsu is 0.517518, loss_esu is 0.628026
+Recommendation EP_train:0:   9%|| 99/1162 [03:19<39:45,  2.24s/it]DEBUG: Epoch 0, Step 99, loss_gsu is 0.509364, loss_esu is 0.620706
+Recommendation EP_train:0:   9%|| 100/1162 [03:21<38:57,  2.20s/it]DEBUG: Epoch 0, Step 100, loss_gsu is 0.531944, loss_esu is 0.624828
+Recommendation EP_train:0:   9%|| 101/1162 [03:23<37:59,  2.15s/it]DEBUG: Epoch 0, Step 101, loss_gsu is 0.581488, loss_esu is 0.632573
+Recommendation EP_train:0:   9%|| 102/1162 [03:25<37:00,  2.09s/it]DEBUG: Epoch 0, Step 102, loss_gsu is 0.517922, loss_esu is 0.618748
+Recommendation EP_train:0:   9%|| 103/1162 [03:27<35:59,  2.04s/it]DEBUG: Epoch 0, Step 103, loss_gsu is 0.536037, loss_esu is 0.617861
+Recommendation EP_train:0:   9%|| 104/1162 [03:29<35:03,  1.99s/it]DEBUG: Epoch 0, Step 104, loss_gsu is 0.512161, loss_esu is 0.614717
+Recommendation EP_train:0:   9%|| 105/1162 [03:31<34:43,  1.97s/it]DEBUG: Epoch 0, Step 105, loss_gsu is 0.558250, loss_esu is 0.624087
+Recommendation EP_train:0:   9%|| 106/1162 [03:33<34:35,  1.97s/it]DEBUG: Epoch 0, Step 106, loss_gsu is 0.515404, loss_esu is 0.606700
+Recommendation EP_train:0:   9%|| 107/1162 [03:35<35:10,  2.00s/it]DEBUG: Epoch 0, Step 107, loss_gsu is 0.479599, loss_esu is 0.593713
+Recommendation EP_train:0:   9%|| 108/1162 [03:37<34:42,  1.98s/it]DEBUG: Epoch 0, Step 108, loss_gsu is 0.545456, loss_esu is 0.612598
+Recommendation EP_train:0:   9%|| 109/1162 [03:39<34:19,  1.96s/it]DEBUG: Epoch 0, Step 109, loss_gsu is 0.545501, loss_esu is 0.607167
+Recommendation EP_train:0:   9%|| 110/1162 [03:41<33:44,  1.92s/it]DEBUG: Epoch 0, Step 110, loss_gsu is 0.541308, loss_esu is 0.610238
+Recommendation EP_train:0:  10%|| 111/1162 [03:42<33:12,  1.90s/it]DEBUG: Epoch 0, Step 111, loss_gsu is 0.480987, loss_esu is 0.586722
+Recommendation EP_train:0:  10%|| 112/1162 [03:44<32:58,  1.88s/it]DEBUG: Epoch 0, Step 112, loss_gsu is 0.514159, loss_esu is 0.600340
+Recommendation EP_train:0:  10%|| 113/1162 [03:46<33:30,  1.92s/it]DEBUG: Epoch 0, Step 113, loss_gsu is 0.550961, loss_esu is 0.610860
+Recommendation EP_train:0:  10%|| 114/1162 [03:48<34:10,  1.96s/it]DEBUG: Epoch 0, Step 114, loss_gsu is 0.529404, loss_esu is 0.592873
+Recommendation EP_train:0:  10%|| 115/1162 [03:50<33:51,  1.94s/it]DEBUG: Epoch 0, Step 115, loss_gsu is 0.550990, loss_esu is 0.606920
+Recommendation EP_train:0:  10%|| 116/1162 [03:52<33:27,  1.92s/it]DEBUG: Epoch 0, Step 116, loss_gsu is 0.503870, loss_esu is 0.573881
+Recommendation EP_train:0:  10%|| 117/1162 [03:54<32:26,  1.86s/it]DEBUG: Epoch 0, Step 117, loss_gsu is 0.531889, loss_esu is 0.589258
+Recommendation EP_train:0:  10%|| 118/1162 [03:56<31:39,  1.82s/it]DEBUG: Epoch 0, Step 118, loss_gsu is 0.550366, loss_esu is 0.598981
+Recommendation EP_train:0:  10%|| 119/1162 [03:57<32:25,  1.87s/it]DEBUG: Epoch 0, Step 119, loss_gsu is 0.543315, loss_esu is 0.591727
+Recommendation EP_train:0:  10%|| 120/1162 [03:59<31:10,  1.79s/it]DEBUG: Epoch 0, Step 120, loss_gsu is 0.525239, loss_esu is 0.587138
+Recommendation EP_train:0:  10%|| 121/1162 [04:01<31:13,  1.80s/it]DEBUG: Epoch 0, Step 121, loss_gsu is 0.543121, loss_esu is 0.596806
+Recommendation EP_train:0:  10%|| 122/1162 [04:03<31:30,  1.82s/it]DEBUG: Epoch 0, Step 122, loss_gsu is 0.545790, loss_esu is 0.586381
+Recommendation EP_train:0:  11%|| 123/1162 [04:05<32:17,  1.86s/it]DEBUG: Epoch 0, Step 123, loss_gsu is 0.512582, loss_esu is 0.572469
+Recommendation EP_train:0:  11%|| 124/1162 [04:07<32:35,  1.88s/it]DEBUG: Epoch 0, Step 124, loss_gsu is 0.559524, loss_esu is 0.590654
+Recommendation EP_train:0:  11%|| 125/1162 [04:09<33:29,  1.94s/it]DEBUG: Epoch 0, Step 125, loss_gsu is 0.532181, loss_esu is 0.580701
+Recommendation EP_train:0:  11%|| 126/1162 [04:11<35:08,  2.03s/it]DEBUG: Epoch 0, Step 126, loss_gsu is 0.534514, loss_esu is 0.575770
+Recommendation EP_train:0:  11%|| 127/1162 [04:13<35:55,  2.08s/it]DEBUG: Epoch 0, Step 127, loss_gsu is 0.517749, loss_esu is 0.561895
+Recommendation EP_train:0:  11%|| 128/1162 [04:16<37:48,  2.19s/it]DEBUG: Epoch 0, Step 128, loss_gsu is 0.536489, loss_esu is 0.573149
+Recommendation EP_train:0:  11%|| 129/1162 [04:18<39:08,  2.27s/it]DEBUG: Epoch 0, Step 129, loss_gsu is 0.519165, loss_esu is 0.563812
+Recommendation EP_train:0:  11%|| 130/1162 [04:20<38:40,  2.25s/it]DEBUG: Epoch 0, Step 130, loss_gsu is 0.522511, loss_esu is 0.566252
+Recommendation EP_train:0:  11%|| 131/1162 [04:23<40:50,  2.38s/it]DEBUG: Epoch 0, Step 131, loss_gsu is 0.528287, loss_esu is 0.562164
+Recommendation EP_train:0:  11%|| 132/1162 [04:26<44:58,  2.62s/it]DEBUG: Epoch 0, Step 132, loss_gsu is 0.510754, loss_esu is 0.560631
+Recommendation EP_train:0:  11%|| 133/1162 [04:29<45:33,  2.66s/it]DEBUG: Epoch 0, Step 133, loss_gsu is 0.522837, loss_esu is 0.564301
+Recommendation EP_train:0:  12%|| 134/1162 [04:32<45:05,  2.63s/it]DEBUG: Epoch 0, Step 134, loss_gsu is 0.514898, loss_esu is 0.560813
+Recommendation EP_train:0:  12%|| 135/1162 [04:34<45:23,  2.65s/it]DEBUG: Epoch 0, Step 135, loss_gsu is 0.523719, loss_esu is 0.559067
+Recommendation EP_train:0:  12%|| 136/1162 [04:37<47:42,  2.79s/it]DEBUG: Epoch 0, Step 136, loss_gsu is 0.547334, loss_esu is 0.573076
+Recommendation EP_train:0:  12%|| 137/1162 [04:40<48:19,  2.83s/it]DEBUG: Epoch 0, Step 137, loss_gsu is 0.523927, loss_esu is 0.556027
+Recommendation EP_train:0:  12%|| 138/1162 [04:43<46:51,  2.75s/it]DEBUG: Epoch 0, Step 138, loss_gsu is 0.555353, loss_esu is 0.569599
+Recommendation EP_train:0:  12%|| 139/1162 [04:45<44:56,  2.64s/it]DEBUG: Epoch 0, Step 139, loss_gsu is 0.505417, loss_esu is 0.533076
+Recommendation EP_train:0:  12%|| 140/1162 [04:47<42:14,  2.48s/it]DEBUG: Epoch 0, Step 140, loss_gsu is 0.501131, loss_esu is 0.547977
+Recommendation EP_train:0:  12%|| 141/1162 [04:50<41:30,  2.44s/it]DEBUG: Epoch 0, Step 141, loss_gsu is 0.501444, loss_esu is 0.542271
+Recommendation EP_train:0:  12%|| 142/1162 [04:52<39:33,  2.33s/it]DEBUG: Epoch 0, Step 142, loss_gsu is 0.517156, loss_esu is 0.540730
+Recommendation EP_train:0:  12%|| 143/1162 [04:54<38:03,  2.24s/it]DEBUG: Epoch 0, Step 143, loss_gsu is 0.533104, loss_esu is 0.554618
+Recommendation EP_train:0:  12%|| 144/1162 [04:55<35:28,  2.09s/it]DEBUG: Epoch 0, Step 144, loss_gsu is 0.517154, loss_esu is 0.541637
+Recommendation EP_train:0:  12%|| 145/1162 [04:57<33:08,  1.96s/it]DEBUG: Epoch 0, Step 145, loss_gsu is 0.508700, loss_esu is 0.540489
+Recommendation EP_train:0:  13%|| 146/1162 [04:59<32:51,  1.94s/it]DEBUG: Epoch 0, Step 146, loss_gsu is 0.505358, loss_esu is 0.536355
+Recommendation EP_train:0:  13%|| 147/1162 [05:01<33:11,  1.96s/it]DEBUG: Epoch 0, Step 147, loss_gsu is 0.521646, loss_esu is 0.538025
+Recommendation EP_train:0:  13%|| 148/1162 [05:03<34:15,  2.03s/it]DEBUG: Epoch 0, Step 148, loss_gsu is 0.529145, loss_esu is 0.549281
+Recommendation EP_train:0:  13%|| 149/1162 [05:06<35:57,  2.13s/it]DEBUG: Epoch 0, Step 149, loss_gsu is 0.501832, loss_esu is 0.539618
+Recommendation EP_train:0:  13%|| 150/1162 [05:08<37:00,  2.19s/it]DEBUG: Epoch 0, Step 150, loss_gsu is 0.519435, loss_esu is 0.550243
+Recommendation EP_train:0:  13%|| 151/1162 [05:10<36:47,  2.18s/it]DEBUG: Epoch 0, Step 151, loss_gsu is 0.495374, loss_esu is 0.514803
+Recommendation EP_train:0:  13%|| 152/1162 [05:12<37:18,  2.22s/it]DEBUG: Epoch 0, Step 152, loss_gsu is 0.508147, loss_esu is 0.530052
+Recommendation EP_train:0:  13%|| 153/1162 [05:15<38:45,  2.30s/it]DEBUG: Epoch 0, Step 153, loss_gsu is 0.502655, loss_esu is 0.523299
+Recommendation EP_train:0:  13%|| 154/1162 [05:18<40:30,  2.41s/it]DEBUG: Epoch 0, Step 154, loss_gsu is 0.483150, loss_esu is 0.519059
+Recommendation EP_train:0:  13%|| 155/1162 [05:20<39:25,  2.35s/it]DEBUG: Epoch 0, Step 155, loss_gsu is 0.496565, loss_esu is 0.518214
+Recommendation EP_train:0:  13%|| 156/1162 [05:22<37:45,  2.25s/it]DEBUG: Epoch 0, Step 156, loss_gsu is 0.490749, loss_esu is 0.510794
+Recommendation EP_train:0:  14%|| 157/1162 [05:24<36:48,  2.20s/it]DEBUG: Epoch 0, Step 157, loss_gsu is 0.497633, loss_esu is 0.514570
+Recommendation EP_train:0:  14%|| 158/1162 [05:26<36:21,  2.17s/it]DEBUG: Epoch 0, Step 158, loss_gsu is 0.501395, loss_esu is 0.514180
+Recommendation EP_train:0:  14%|| 159/1162 [05:28<36:12,  2.17s/it]DEBUG: Epoch 0, Step 159, loss_gsu is 0.535544, loss_esu is 0.550477
+Recommendation EP_train:0:  14%|| 160/1162 [05:30<35:17,  2.11s/it]DEBUG: Epoch 0, Step 160, loss_gsu is 0.519016, loss_esu is 0.534883
+Recommendation EP_train:0:  14%|| 161/1162 [05:32<34:31,  2.07s/it]DEBUG: Epoch 0, Step 161, loss_gsu is 0.475545, loss_esu is 0.502346
+Recommendation EP_train:0:  14%|| 162/1162 [05:34<33:35,  2.02s/it]DEBUG: Epoch 0, Step 162, loss_gsu is 0.513850, loss_esu is 0.519674
+Recommendation EP_train:0:  14%|| 163/1162 [05:36<33:08,  1.99s/it]DEBUG: Epoch 0, Step 163, loss_gsu is 0.511324, loss_esu is 0.523305
+Recommendation EP_train:0:  14%|| 164/1162 [05:38<32:35,  1.96s/it]DEBUG: Epoch 0, Step 164, loss_gsu is 0.481386, loss_esu is 0.507724
+Recommendation EP_train:0:  14%|| 165/1162 [05:40<32:16,  1.94s/it]DEBUG: Epoch 0, Step 165, loss_gsu is 0.491635, loss_esu is 0.503306
+Recommendation EP_train:0:  14%|| 166/1162 [05:42<31:48,  1.92s/it]DEBUG: Epoch 0, Step 166, loss_gsu is 0.499954, loss_esu is 0.512678
+Recommendation EP_train:0:  14%|| 167/1162 [05:43<31:55,  1.93s/it]DEBUG: Epoch 0, Step 167, loss_gsu is 0.493812, loss_esu is 0.509219
+Recommendation EP_train:0:  14%|| 168/1162 [05:45<31:31,  1.90s/it]DEBUG: Epoch 0, Step 168, loss_gsu is 0.480456, loss_esu is 0.491695
+Recommendation EP_train:0:  15%|| 169/1162 [05:47<31:35,  1.91s/it]DEBUG: Epoch 0, Step 169, loss_gsu is 0.502792, loss_esu is 0.524058
+Recommendation EP_train:0:  15%|| 170/1162 [05:49<31:29,  1.90s/it]DEBUG: Epoch 0, Step 170, loss_gsu is 0.480854, loss_esu is 0.499356
+Recommendation EP_train:0:  15%|| 171/1162 [05:51<31:25,  1.90s/it]DEBUG: Epoch 0, Step 171, loss_gsu is 0.530375, loss_esu is 0.533461
+Recommendation EP_train:0:  15%|| 172/1162 [05:53<32:06,  1.95s/it]DEBUG: Epoch 0, Step 172, loss_gsu is 0.475902, loss_esu is 0.494789
+Recommendation EP_train:0:  15%|| 173/1162 [05:55<33:01,  2.00s/it]DEBUG: Epoch 0, Step 173, loss_gsu is 0.477155, loss_esu is 0.491125
+Recommendation EP_train:0:  15%|| 174/1162 [05:57<33:08,  2.01s/it]DEBUG: Epoch 0, Step 174, loss_gsu is 0.532553, loss_esu is 0.526144
+Recommendation EP_train:0:  15%|| 175/1162 [05:59<33:09,  2.02s/it]DEBUG: Epoch 0, Step 175, loss_gsu is 0.484640, loss_esu is 0.508678
+Recommendation EP_train:0:  15%|| 176/1162 [06:01<32:33,  1.98s/it]DEBUG: Epoch 0, Step 176, loss_gsu is 0.505740, loss_esu is 0.515561
+Recommendation EP_train:0:  15%|| 177/1162 [06:03<32:39,  1.99s/it]DEBUG: Epoch 0, Step 177, loss_gsu is 0.538092, loss_esu is 0.538817
+Recommendation EP_train:0:  15%|| 178/1162 [06:05<32:04,  1.96s/it]DEBUG: Epoch 0, Step 178, loss_gsu is 0.524793, loss_esu is 0.534329
+Recommendation EP_train:0:  15%|| 179/1162 [06:07<31:55,  1.95s/it]DEBUG: Epoch 0, Step 179, loss_gsu is 0.451060, loss_esu is 0.465324
+Recommendation EP_train:0:  15%|| 180/1162 [06:09<31:50,  1.95s/it]DEBUG: Epoch 0, Step 180, loss_gsu is 0.504209, loss_esu is 0.509873
+Recommendation EP_train:0:  16%|| 181/1162 [06:11<31:41,  1.94s/it]DEBUG: Epoch 0, Step 181, loss_gsu is 0.483056, loss_esu is 0.498930
+Recommendation EP_train:0:  16%|| 182/1162 [06:13<32:18,  1.98s/it]DEBUG: Epoch 0, Step 182, loss_gsu is 0.472749, loss_esu is 0.483748
+Recommendation EP_train:0:  16%|| 183/1162 [06:15<32:54,  2.02s/it]DEBUG: Epoch 0, Step 183, loss_gsu is 0.519398, loss_esu is 0.523124
+Recommendation EP_train:0:  16%|| 184/1162 [06:17<32:22,  1.99s/it]DEBUG: Epoch 0, Step 184, loss_gsu is 0.524297, loss_esu is 0.528817
+Recommendation EP_train:0:  16%|| 185/1162 [06:19<32:35,  2.00s/it]DEBUG: Epoch 0, Step 185, loss_gsu is 0.492663, loss_esu is 0.503372
+Recommendation EP_train:0:  16%|| 186/1162 [06:21<32:12,  1.98s/it]DEBUG: Epoch 0, Step 186, loss_gsu is 0.536764, loss_esu is 0.533373
+Recommendation EP_train:0:  16%|| 187/1162 [06:23<32:40,  2.01s/it]DEBUG: Epoch 0, Step 187, loss_gsu is 0.498103, loss_esu is 0.507999
+Recommendation EP_train:0:  16%|| 188/1162 [06:25<33:08,  2.04s/it]DEBUG: Epoch 0, Step 188, loss_gsu is 0.478851, loss_esu is 0.486213
+Recommendation EP_train:0:  16%|| 189/1162 [06:27<33:21,  2.06s/it]DEBUG: Epoch 0, Step 189, loss_gsu is 0.505286, loss_esu is 0.509281
+Recommendation EP_train:0:  16%|| 190/1162 [06:29<34:15,  2.11s/it]DEBUG: Epoch 0, Step 190, loss_gsu is 0.487577, loss_esu is 0.500607
+Recommendation EP_train:0:  16%|| 191/1162 [06:32<36:13,  2.24s/it]DEBUG: Epoch 0, Step 191, loss_gsu is 0.539962, loss_esu is 0.540946
+Recommendation EP_train:0:  17%|| 192/1162 [06:34<35:47,  2.21s/it]DEBUG: Epoch 0, Step 192, loss_gsu is 0.474279, loss_esu is 0.477774
+Recommendation EP_train:0:  17%|| 193/1162 [06:37<37:12,  2.30s/it]DEBUG: Epoch 0, Step 193, loss_gsu is 0.488045, loss_esu is 0.499935
+Recommendation EP_train:0:  17%|| 194/1162 [06:39<35:52,  2.22s/it]DEBUG: Epoch 0, Step 194, loss_gsu is 0.496083, loss_esu is 0.501277
+Recommendation EP_train:0:  17%|| 195/1162 [06:41<35:06,  2.18s/it]DEBUG: Epoch 0, Step 195, loss_gsu is 0.477477, loss_esu is 0.490223
+Recommendation EP_train:0:  17%|| 196/1162 [06:43<34:04,  2.12s/it]DEBUG: Epoch 0, Step 196, loss_gsu is 0.495997, loss_esu is 0.510585
+Recommendation EP_train:0:  17%|| 197/1162 [06:45<33:43,  2.10s/it]DEBUG: Epoch 0, Step 197, loss_gsu is 0.484090, loss_esu is 0.484594
+Recommendation EP_train:0:  17%|| 198/1162 [06:47<33:44,  2.10s/it]DEBUG: Epoch 0, Step 198, loss_gsu is 0.516626, loss_esu is 0.519614
+Recommendation EP_train:0:  17%|| 199/1162 [06:49<34:01,  2.12s/it]DEBUG: Epoch 0, Step 199, loss_gsu is 0.504857, loss_esu is 0.503320
+Recommendation EP_train:0:  17%|| 200/1162 [06:51<33:39,  2.10s/it]DEBUG: Epoch 0, Step 200, loss_gsu is 0.512538, loss_esu is 0.512445
+Recommendation EP_train:0:  17%|| 201/1162 [06:53<33:27,  2.09s/it]DEBUG: Epoch 0, Step 201, loss_gsu is 0.502995, loss_esu is 0.510903
+Recommendation EP_train:0:  17%|| 202/1162 [06:55<33:41,  2.11s/it]DEBUG: Epoch 0, Step 202, loss_gsu is 0.486813, loss_esu is 0.493904
+Recommendation EP_train:0:  17%|| 203/1162 [06:57<33:23,  2.09s/it]DEBUG: Epoch 0, Step 203, loss_gsu is 0.539068, loss_esu is 0.529410
+Recommendation EP_train:0:  18%|| 204/1162 [06:59<32:19,  2.02s/it]DEBUG: Epoch 0, Step 204, loss_gsu is 0.488501, loss_esu is 0.500474
+Recommendation EP_train:0:  18%|| 205/1162 [07:01<30:40,  1.92s/it]DEBUG: Epoch 0, Step 205, loss_gsu is 0.476491, loss_esu is 0.492844
+Recommendation EP_train:0:  18%|| 206/1162 [07:03<30:16,  1.90s/it]DEBUG: Epoch 0, Step 206, loss_gsu is 0.497421, loss_esu is 0.496847
+Recommendation EP_train:0:  18%|| 207/1162 [07:05<29:41,  1.86s/it]DEBUG: Epoch 0, Step 207, loss_gsu is 0.458747, loss_esu is 0.468345
+Recommendation EP_train:0:  18%|| 208/1162 [07:06<29:04,  1.83s/it]DEBUG: Epoch 0, Step 208, loss_gsu is 0.477459, loss_esu is 0.491830
+Recommendation EP_train:0:  18%|| 209/1162 [07:08<28:13,  1.78s/it]DEBUG: Epoch 0, Step 209, loss_gsu is 0.492564, loss_esu is 0.497007
+Recommendation EP_train:0:  18%|| 210/1162 [07:10<28:09,  1.77s/it]DEBUG: Epoch 0, Step 210, loss_gsu is 0.479907, loss_esu is 0.487121
+Recommendation EP_train:0:  18%|| 211/1162 [07:12<28:07,  1.77s/it]DEBUG: Epoch 0, Step 211, loss_gsu is 0.507012, loss_esu is 0.515958
+Recommendation EP_train:0:  18%|| 212/1162 [07:13<28:21,  1.79s/it]DEBUG: Epoch 0, Step 212, loss_gsu is 0.514043, loss_esu is 0.537042
+Recommendation EP_train:0:  18%|| 213/1162 [07:15<29:45,  1.88s/it]DEBUG: Epoch 0, Step 213, loss_gsu is 0.485801, loss_esu is 0.484656
+Recommendation EP_train:0:  18%|| 214/1162 [07:18<31:04,  1.97s/it]DEBUG: Epoch 0, Step 214, loss_gsu is 0.475825, loss_esu is 0.482688
+Recommendation EP_train:0:  19%|| 215/1162 [07:20<32:07,  2.03s/it]DEBUG: Epoch 0, Step 215, loss_gsu is 0.470573, loss_esu is 0.480410
+Recommendation EP_train:0:  19%|| 216/1162 [07:22<31:58,  2.03s/it]DEBUG: Epoch 0, Step 216, loss_gsu is 0.494840, loss_esu is 0.499669
+Recommendation EP_train:0:  19%|| 217/1162 [07:24<32:08,  2.04s/it]DEBUG: Epoch 0, Step 217, loss_gsu is 0.481400, loss_esu is 0.488002
+Recommendation EP_train:0:  19%|| 218/1162 [07:26<31:54,  2.03s/it]DEBUG: Epoch 0, Step 218, loss_gsu is 0.449843, loss_esu is 0.455438
+Recommendation EP_train:0:  19%|| 219/1162 [07:28<31:52,  2.03s/it]DEBUG: Epoch 0, Step 219, loss_gsu is 0.498991, loss_esu is 0.500017
+Recommendation EP_train:0:  19%|| 220/1162 [07:30<31:41,  2.02s/it]DEBUG: Epoch 0, Step 220, loss_gsu is 0.523224, loss_esu is 0.526369
+Recommendation EP_train:0:  19%|| 221/1162 [07:32<31:54,  2.03s/it]DEBUG: Epoch 0, Step 221, loss_gsu is 0.514409, loss_esu is 0.518257
+Recommendation EP_train:0:  19%|| 222/1162 [07:34<31:59,  2.04s/it]DEBUG: Epoch 0, Step 222, loss_gsu is 0.439978, loss_esu is 0.441522
+Recommendation EP_train:0:  19%|| 223/1162 [07:36<31:10,  1.99s/it]DEBUG: Epoch 0, Step 223, loss_gsu is 0.479767, loss_esu is 0.492166
+Recommendation EP_train:0:  19%|| 224/1162 [07:38<30:23,  1.94s/it]DEBUG: Epoch 0, Step 224, loss_gsu is 0.507043, loss_esu is 0.502945
+Recommendation EP_train:0:  19%|| 225/1162 [07:40<31:41,  2.03s/it]DEBUG: Epoch 0, Step 225, loss_gsu is 0.494565, loss_esu is 0.506513
+Recommendation EP_train:0:  19%|| 226/1162 [07:42<33:36,  2.15s/it]DEBUG: Epoch 0, Step 226, loss_gsu is 0.528920, loss_esu is 0.532998
+Recommendation EP_train:0:  20%|| 227/1162 [07:45<34:17,  2.20s/it]DEBUG: Epoch 0, Step 227, loss_gsu is 0.501169, loss_esu is 0.505528
+Recommendation EP_train:0:  20%|| 228/1162 [07:47<33:32,  2.15s/it]DEBUG: Epoch 0, Step 228, loss_gsu is 0.489195, loss_esu is 0.492963
+Recommendation EP_train:0:  20%|| 229/1162 [07:49<32:58,  2.12s/it]DEBUG: Epoch 0, Step 229, loss_gsu is 0.492230, loss_esu is 0.502648
+Recommendation EP_train:0:  20%|| 230/1162 [07:51<33:26,  2.15s/it]DEBUG: Epoch 0, Step 230, loss_gsu is 0.484945, loss_esu is 0.488769
+Recommendation EP_train:0:  20%|| 231/1162 [07:53<34:44,  2.24s/it]DEBUG: Epoch 0, Step 231, loss_gsu is 0.501657, loss_esu is 0.512152
+Recommendation EP_train:0:  20%|| 232/1162 [07:55<33:26,  2.16s/it]DEBUG: Epoch 0, Step 232, loss_gsu is 0.520157, loss_esu is 0.531109
+Recommendation EP_train:0:  20%|| 233/1162 [07:57<32:00,  2.07s/it]DEBUG: Epoch 0, Step 233, loss_gsu is 0.461456, loss_esu is 0.467530
+Recommendation EP_train:0:  20%|| 234/1162 [07:59<30:51,  1.99s/it]DEBUG: Epoch 0, Step 234, loss_gsu is 0.477936, loss_esu is 0.486339
+Recommendation EP_train:0:  20%|| 235/1162 [08:01<29:34,  1.91s/it]DEBUG: Epoch 0, Step 235, loss_gsu is 0.511503, loss_esu is 0.518438
+Recommendation EP_train:0:  20%|| 236/1162 [08:03<28:50,  1.87s/it]DEBUG: Epoch 0, Step 236, loss_gsu is 0.470415, loss_esu is 0.486488
+Recommendation EP_train:0:  20%|| 237/1162 [08:05<28:53,  1.87s/it]DEBUG: Epoch 0, Step 237, loss_gsu is 0.456171, loss_esu is 0.467586
+Recommendation EP_train:0:  20%|| 238/1162 [08:06<28:26,  1.85s/it]DEBUG: Epoch 0, Step 238, loss_gsu is 0.497683, loss_esu is 0.507176
+Recommendation EP_train:0:  21%|| 239/1162 [08:08<28:08,  1.83s/it]DEBUG: Epoch 0, Step 239, loss_gsu is 0.469763, loss_esu is 0.480767
+Recommendation EP_train:0:  21%|| 240/1162 [08:10<27:17,  1.78s/it]DEBUG: Epoch 0, Step 240, loss_gsu is 0.492037, loss_esu is 0.490094
+Recommendation EP_train:0:  21%|| 241/1162 [08:11<26:52,  1.75s/it]DEBUG: Epoch 0, Step 241, loss_gsu is 0.481185, loss_esu is 0.491374
+Recommendation EP_train:0:  21%|| 242/1162 [08:13<27:10,  1.77s/it]DEBUG: Epoch 0, Step 242, loss_gsu is 0.497480, loss_esu is 0.499865
+Recommendation EP_train:0:  21%|| 243/1162 [08:15<27:31,  1.80s/it]DEBUG: Epoch 0, Step 243, loss_gsu is 0.475939, loss_esu is 0.482694
+Recommendation EP_train:0:  21%|| 244/1162 [08:17<27:35,  1.80s/it]DEBUG: Epoch 0, Step 244, loss_gsu is 0.449357, loss_esu is 0.456680
+Recommendation EP_train:0:  21%|| 245/1162 [08:19<27:48,  1.82s/it]DEBUG: Epoch 0, Step 245, loss_gsu is 0.447771, loss_esu is 0.447899
+Recommendation EP_train:0:  21%|| 246/1162 [08:21<28:03,  1.84s/it]DEBUG: Epoch 0, Step 246, loss_gsu is 0.508560, loss_esu is 0.522449
+Recommendation EP_train:0:  21%|| 247/1162 [08:23<28:32,  1.87s/it]DEBUG: Epoch 0, Step 247, loss_gsu is 0.480650, loss_esu is 0.489098
+Recommendation EP_train:0:  21%|| 248/1162 [08:24<27:27,  1.80s/it]DEBUG: Epoch 0, Step 248, loss_gsu is 0.510044, loss_esu is 0.519172
+Recommendation EP_train:0:  21%|| 249/1162 [08:26<26:39,  1.75s/it]DEBUG: Epoch 0, Step 249, loss_gsu is 0.481142, loss_esu is 0.485589
+Recommendation EP_train:0:  22%|| 250/1162 [08:27<25:50,  1.70s/it]DEBUG: Epoch 0, Step 250, loss_gsu is 0.491636, loss_esu is 0.500690
+Recommendation EP_train:0:  22%|| 251/1162 [08:29<25:26,  1.68s/it]DEBUG: Epoch 0, Step 251, loss_gsu is 0.508641, loss_esu is 0.522253
+Recommendation EP_train:0:  22%|| 252/1162 [08:31<24:52,  1.64s/it]DEBUG: Epoch 0, Step 252, loss_gsu is 0.463265, loss_esu is 0.467602
+Recommendation EP_train:0:  22%|| 253/1162 [08:32<24:38,  1.63s/it]DEBUG: Epoch 0, Step 253, loss_gsu is 0.499010, loss_esu is 0.510414
+Recommendation EP_train:0:  22%|| 254/1162 [08:34<24:15,  1.60s/it]DEBUG: Epoch 0, Step 254, loss_gsu is 0.490789, loss_esu is 0.489793
+Recommendation EP_train:0:  22%|| 255/1162 [08:35<24:27,  1.62s/it]DEBUG: Epoch 0, Step 255, loss_gsu is 0.429964, loss_esu is 0.441676
+Recommendation EP_train:0:  22%|| 256/1162 [08:37<25:19,  1.68s/it]DEBUG: Epoch 0, Step 256, loss_gsu is 0.453333, loss_esu is 0.456430
+Recommendation EP_train:0:  22%|| 257/1162 [08:39<26:00,  1.72s/it]DEBUG: Epoch 0, Step 257, loss_gsu is 0.490340, loss_esu is 0.491301
+Recommendation EP_train:0:  22%|| 258/1162 [08:41<26:31,  1.76s/it]DEBUG: Epoch 0, Step 258, loss_gsu is 0.491289, loss_esu is 0.499707
+Recommendation EP_train:0:  22%|| 259/1162 [08:43<26:41,  1.77s/it]DEBUG: Epoch 0, Step 259, loss_gsu is 0.471540, loss_esu is 0.483729
+Recommendation EP_train:0:  22%|| 260/1162 [08:45<27:12,  1.81s/it]DEBUG: Epoch 0, Step 260, loss_gsu is 0.481545, loss_esu is 0.498867
+Recommendation EP_train:0:  22%|| 261/1162 [08:47<27:33,  1.83s/it]DEBUG: Epoch 0, Step 261, loss_gsu is 0.494998, loss_esu is 0.504248
+Recommendation EP_train:0:  23%|| 262/1162 [08:48<28:03,  1.87s/it]DEBUG: Epoch 0, Step 262, loss_gsu is 0.484826, loss_esu is 0.495362
+Recommendation EP_train:0:  23%|| 263/1162 [08:50<28:41,  1.92s/it]DEBUG: Epoch 0, Step 263, loss_gsu is 0.491406, loss_esu is 0.497698
+Recommendation EP_train:0:  23%|| 264/1162 [08:53<29:39,  1.98s/it]DEBUG: Epoch 0, Step 264, loss_gsu is 0.491124, loss_esu is 0.508348
+Recommendation EP_train:0:  23%|| 265/1162 [08:55<30:43,  2.05s/it]DEBUG: Epoch 0, Step 265, loss_gsu is 0.496448, loss_esu is 0.505178
+Recommendation EP_train:0:  23%|| 266/1162 [08:57<30:36,  2.05s/it]DEBUG: Epoch 0, Step 266, loss_gsu is 0.467033, loss_esu is 0.476380
+Recommendation EP_train:0:  23%|| 267/1162 [08:59<30:56,  2.07s/it]DEBUG: Epoch 0, Step 267, loss_gsu is 0.473110, loss_esu is 0.481506
+Recommendation EP_train:0:  23%|| 268/1162 [09:01<31:00,  2.08s/it]DEBUG: Epoch 0, Step 268, loss_gsu is 0.497440, loss_esu is 0.510397
+Recommendation EP_train:0:  23%|| 269/1162 [09:03<30:35,  2.06s/it]DEBUG: Epoch 0, Step 269, loss_gsu is 0.507404, loss_esu is 0.521672
+Recommendation EP_train:0:  23%|| 270/1162 [09:05<30:17,  2.04s/it]DEBUG: Epoch 0, Step 270, loss_gsu is 0.456912, loss_esu is 0.465688
+Recommendation EP_train:0:  23%|| 271/1162 [09:07<30:26,  2.05s/it]DEBUG: Epoch 0, Step 271, loss_gsu is 0.507348, loss_esu is 0.523157
+Recommendation EP_train:0:  23%|| 272/1162 [09:09<30:25,  2.05s/it]DEBUG: Epoch 0, Step 272, loss_gsu is 0.474519, loss_esu is 0.482062
+Recommendation EP_train:0:  23%|| 273/1162 [09:11<30:41,  2.07s/it]DEBUG: Epoch 0, Step 273, loss_gsu is 0.430626, loss_esu is 0.449425
+Recommendation EP_train:0:  24%|| 274/1162 [09:13<29:59,  2.03s/it]DEBUG: Epoch 0, Step 274, loss_gsu is 0.538763, loss_esu is 0.544256
+Recommendation EP_train:0:  24%|| 275/1162 [09:15<29:58,  2.03s/it]DEBUG: Epoch 0, Step 275, loss_gsu is 0.484200, loss_esu is 0.503884
+Recommendation EP_train:0:  24%|| 276/1162 [09:17<30:06,  2.04s/it]DEBUG: Epoch 0, Step 276, loss_gsu is 0.459043, loss_esu is 0.459258
+Recommendation EP_train:0:  24%|| 277/1162 [09:19<30:25,  2.06s/it]DEBUG: Epoch 0, Step 277, loss_gsu is 0.486626, loss_esu is 0.483417
+Recommendation EP_train:0:  24%|| 278/1162 [09:22<30:11,  2.05s/it]DEBUG: Epoch 0, Step 278, loss_gsu is 0.454721, loss_esu is 0.464419
+Recommendation EP_train:0:  24%|| 279/1162 [09:23<29:43,  2.02s/it]DEBUG: Epoch 0, Step 279, loss_gsu is 0.514218, loss_esu is 0.521748
+Recommendation EP_train:0:  24%|| 280/1162 [09:25<28:37,  1.95s/it]DEBUG: Epoch 0, Step 280, loss_gsu is 0.440442, loss_esu is 0.448393
+Recommendation EP_train:0:  24%|| 281/1162 [09:27<27:54,  1.90s/it]DEBUG: Epoch 0, Step 281, loss_gsu is 0.450964, loss_esu is 0.457983
+Recommendation EP_train:0:  24%|| 282/1162 [09:29<28:10,  1.92s/it]DEBUG: Epoch 0, Step 282, loss_gsu is 0.431268, loss_esu is 0.442560
+Recommendation EP_train:0:  24%|| 283/1162 [09:31<28:48,  1.97s/it]DEBUG: Epoch 0, Step 283, loss_gsu is 0.479682, loss_esu is 0.493815
+Recommendation EP_train:0:  24%|| 284/1162 [09:33<28:45,  1.96s/it]DEBUG: Epoch 0, Step 284, loss_gsu is 0.469705, loss_esu is 0.483179
+Recommendation EP_train:0:  25%|| 285/1162 [09:35<28:53,  1.98s/it]DEBUG: Epoch 0, Step 285, loss_gsu is 0.469430, loss_esu is 0.479808
+Recommendation EP_train:0:  25%|| 286/1162 [09:37<28:40,  1.96s/it]DEBUG: Epoch 0, Step 286, loss_gsu is 0.460640, loss_esu is 0.475444
+Recommendation EP_train:0:  25%|| 287/1162 [09:39<28:52,  1.98s/it]DEBUG: Epoch 0, Step 287, loss_gsu is 0.466894, loss_esu is 0.478728
+Recommendation EP_train:0:  25%|| 288/1162 [09:41<29:05,  2.00s/it]DEBUG: Epoch 0, Step 288, loss_gsu is 0.440599, loss_esu is 0.455448
+Recommendation EP_train:0:  25%|| 289/1162 [09:43<29:47,  2.05s/it]DEBUG: Epoch 0, Step 289, loss_gsu is 0.471698, loss_esu is 0.493556
+Recommendation EP_train:0:  25%|| 290/1162 [09:45<29:40,  2.04s/it]DEBUG: Epoch 0, Step 290, loss_gsu is 0.468812, loss_esu is 0.469255
+Recommendation EP_train:0:  25%|| 291/1162 [09:47<29:59,  2.07s/it]DEBUG: Epoch 0, Step 291, loss_gsu is 0.522615, loss_esu is 0.528631
+Recommendation EP_train:0:  25%|| 292/1162 [09:49<29:52,  2.06s/it]DEBUG: Epoch 0, Step 292, loss_gsu is 0.445790, loss_esu is 0.460672
+Recommendation EP_train:0:  25%|| 293/1162 [09:52<30:14,  2.09s/it]DEBUG: Epoch 0, Step 293, loss_gsu is 0.475691, loss_esu is 0.488399
+Recommendation EP_train:0:  25%|| 294/1162 [09:54<30:21,  2.10s/it]DEBUG: Epoch 0, Step 294, loss_gsu is 0.461837, loss_esu is 0.472119
+Recommendation EP_train:0:  25%|| 295/1162 [09:56<30:08,  2.09s/it]DEBUG: Epoch 0, Step 295, loss_gsu is 0.459634, loss_esu is 0.463951
+Recommendation EP_train:0:  25%|| 296/1162 [09:58<29:29,  2.04s/it]DEBUG: Epoch 0, Step 296, loss_gsu is 0.517464, loss_esu is 0.517111
+Recommendation EP_train:0:  26%|| 297/1162 [10:00<29:12,  2.03s/it]DEBUG: Epoch 0, Step 297, loss_gsu is 0.483297, loss_esu is 0.493188
+Recommendation EP_train:0:  26%|| 298/1162 [10:02<28:57,  2.01s/it]DEBUG: Epoch 0, Step 298, loss_gsu is 0.445638, loss_esu is 0.454367
+Recommendation EP_train:0:  26%|| 299/1162 [10:04<29:32,  2.05s/it]DEBUG: Epoch 0, Step 299, loss_gsu is 0.484090, loss_esu is 0.486530
+Recommendation EP_train:0:  26%|| 300/1162 [10:06<29:29,  2.05s/it]DEBUG: Epoch 0, Step 300, loss_gsu is 0.498991, loss_esu is 0.507274
+Recommendation EP_train:0:  26%|| 301/1162 [10:08<29:42,  2.07s/it]DEBUG: Epoch 0, Step 301, loss_gsu is 0.496843, loss_esu is 0.508941
+Recommendation EP_train:0:  26%|| 302/1162 [10:10<29:33,  2.06s/it]DEBUG: Epoch 0, Step 302, loss_gsu is 0.467602, loss_esu is 0.483057
+Recommendation EP_train:0:  26%|| 303/1162 [10:12<29:36,  2.07s/it]DEBUG: Epoch 0, Step 303, loss_gsu is 0.476781, loss_esu is 0.496293
+Recommendation EP_train:0:  26%|| 304/1162 [10:14<29:45,  2.08s/it]DEBUG: Epoch 0, Step 304, loss_gsu is 0.501196, loss_esu is 0.512339
+Recommendation EP_train:0:  26%|| 305/1162 [10:16<30:00,  2.10s/it]DEBUG: Epoch 0, Step 305, loss_gsu is 0.477615, loss_esu is 0.482306
+Recommendation EP_train:0:  26%|| 306/1162 [10:18<29:28,  2.07s/it]DEBUG: Epoch 0, Step 306, loss_gsu is 0.452165, loss_esu is 0.459737
+Recommendation EP_train:0:  26%|| 307/1162 [10:20<29:19,  2.06s/it]DEBUG: Epoch 0, Step 307, loss_gsu is 0.524350, loss_esu is 0.537254
+Recommendation EP_train:0:  27%|| 308/1162 [10:22<29:39,  2.08s/it]DEBUG: Epoch 0, Step 308, loss_gsu is 0.458238, loss_esu is 0.456199
+Recommendation EP_train:0:  27%|| 309/1162 [10:25<29:49,  2.10s/it]DEBUG: Epoch 0, Step 309, loss_gsu is 0.444937, loss_esu is 0.448810
+Recommendation EP_train:0:  27%|| 310/1162 [10:27<29:14,  2.06s/it]DEBUG: Epoch 0, Step 310, loss_gsu is 0.469305, loss_esu is 0.472934
+Recommendation EP_train:0:  27%|| 311/1162 [10:29<29:36,  2.09s/it]DEBUG: Epoch 0, Step 311, loss_gsu is 0.439357, loss_esu is 0.447623
+Recommendation EP_train:0:  27%|| 312/1162 [10:31<29:28,  2.08s/it]DEBUG: Epoch 0, Step 312, loss_gsu is 0.446486, loss_esu is 0.453923
+Recommendation EP_train:0:  27%|| 313/1162 [10:33<29:59,  2.12s/it]DEBUG: Epoch 0, Step 313, loss_gsu is 0.502897, loss_esu is 0.499940
+Recommendation EP_train:0:  27%|| 314/1162 [10:35<30:14,  2.14s/it]DEBUG: Epoch 0, Step 314, loss_gsu is 0.433414, loss_esu is 0.448017
+Recommendation EP_train:0:  27%|| 315/1162 [10:37<30:14,  2.14s/it]DEBUG: Epoch 0, Step 315, loss_gsu is 0.468151, loss_esu is 0.475950
+Recommendation EP_train:0:  27%|| 316/1162 [10:40<30:25,  2.16s/it]DEBUG: Epoch 0, Step 316, loss_gsu is 0.516767, loss_esu is 0.520557
+Recommendation EP_train:0:  27%|| 317/1162 [10:42<30:48,  2.19s/it]DEBUG: Epoch 0, Step 317, loss_gsu is 0.443498, loss_esu is 0.457325
+Recommendation EP_train:0:  27%|| 318/1162 [10:44<31:55,  2.27s/it]DEBUG: Epoch 0, Step 318, loss_gsu is 0.517200, loss_esu is 0.521985
+Recommendation EP_train:0:  27%|| 319/1162 [10:46<31:30,  2.24s/it]DEBUG: Epoch 0, Step 319, loss_gsu is 0.438519, loss_esu is 0.449442
+Recommendation EP_train:0:  28%|| 320/1162 [10:48<30:22,  2.16s/it]DEBUG: Epoch 0, Step 320, loss_gsu is 0.456573, loss_esu is 0.457732
+Recommendation EP_train:0:  28%|| 321/1162 [10:51<31:05,  2.22s/it]DEBUG: Epoch 0, Step 321, loss_gsu is 0.480311, loss_esu is 0.487595
+Recommendation EP_train:0:  28%|| 322/1162 [10:53<31:26,  2.25s/it]DEBUG: Epoch 0, Step 322, loss_gsu is 0.477903, loss_esu is 0.481304
+Recommendation EP_train:0:  28%|| 323/1162 [10:55<31:22,  2.24s/it]DEBUG: Epoch 0, Step 323, loss_gsu is 0.476315, loss_esu is 0.487146
+Recommendation EP_train:0:  28%|| 324/1162 [10:57<30:34,  2.19s/it]DEBUG: Epoch 0, Step 324, loss_gsu is 0.450835, loss_esu is 0.459864
+Recommendation EP_train:0:  28%|| 325/1162 [11:00<30:20,  2.18s/it]DEBUG: Epoch 0, Step 325, loss_gsu is 0.460567, loss_esu is 0.470447
+Recommendation EP_train:0:  28%|| 326/1162 [11:02<31:06,  2.23s/it]DEBUG: Epoch 0, Step 326, loss_gsu is 0.492511, loss_esu is 0.497357
+Recommendation EP_train:0:  28%|| 327/1162 [11:04<31:19,  2.25s/it]DEBUG: Epoch 0, Step 327, loss_gsu is 0.471325, loss_esu is 0.474407
+Recommendation EP_train:0:  28%|| 328/1162 [11:06<30:37,  2.20s/it]DEBUG: Epoch 0, Step 328, loss_gsu is 0.494316, loss_esu is 0.491083
+Recommendation EP_train:0:  28%|| 329/1162 [11:09<30:57,  2.23s/it]DEBUG: Epoch 0, Step 329, loss_gsu is 0.444941, loss_esu is 0.452068
+Recommendation EP_train:0:  28%|| 330/1162 [11:11<33:18,  2.40s/it]DEBUG: Epoch 0, Step 330, loss_gsu is 0.488283, loss_esu is 0.500050
+Recommendation EP_train:0:  28%|| 331/1162 [11:14<35:08,  2.54s/it]DEBUG: Epoch 0, Step 331, loss_gsu is 0.487429, loss_esu is 0.503931
+Recommendation EP_train:0:  29%|| 332/1162 [11:16<33:08,  2.40s/it]DEBUG: Epoch 0, Step 332, loss_gsu is 0.470178, loss_esu is 0.477054
+Recommendation EP_train:0:  29%|| 333/1162 [11:18<32:07,  2.32s/it]DEBUG: Epoch 0, Step 333, loss_gsu is 0.487724, loss_esu is 0.491195
+Recommendation EP_train:0:  29%|| 334/1162 [11:20<30:53,  2.24s/it]DEBUG: Epoch 0, Step 334, loss_gsu is 0.454840, loss_esu is 0.462133
+Recommendation EP_train:0:  29%|| 335/1162 [11:23<31:08,  2.26s/it]DEBUG: Epoch 0, Step 335, loss_gsu is 0.442419, loss_esu is 0.452147
+Recommendation EP_train:0:  29%|| 336/1162 [11:25<32:39,  2.37s/it]DEBUG: Epoch 0, Step 336, loss_gsu is 0.482249, loss_esu is 0.495085
+Recommendation EP_train:0:  29%|| 337/1162 [11:28<31:23,  2.28s/it]DEBUG: Epoch 0, Step 337, loss_gsu is 0.478001, loss_esu is 0.495502
+Recommendation EP_train:0:  29%|| 338/1162 [11:30<31:54,  2.32s/it]DEBUG: Epoch 0, Step 338, loss_gsu is 0.471629, loss_esu is 0.476930
+Recommendation EP_train:0:  29%|| 339/1162 [11:32<31:48,  2.32s/it]DEBUG: Epoch 0, Step 339, loss_gsu is 0.488034, loss_esu is 0.492784
+Recommendation EP_train:0:  29%|| 340/1162 [11:34<31:16,  2.28s/it]DEBUG: Epoch 0, Step 340, loss_gsu is 0.497493, loss_esu is 0.493182
+Recommendation EP_train:0:  29%|| 341/1162 [11:37<31:28,  2.30s/it]DEBUG: Epoch 0, Step 341, loss_gsu is 0.490974, loss_esu is 0.501991
+Recommendation EP_train:0:  29%|| 342/1162 [11:39<30:26,  2.23s/it]DEBUG: Epoch 0, Step 342, loss_gsu is 0.447819, loss_esu is 0.459925
+Recommendation EP_train:0:  30%|| 343/1162 [11:41<30:41,  2.25s/it]DEBUG: Epoch 0, Step 343, loss_gsu is 0.501721, loss_esu is 0.511963
+Recommendation EP_train:0:  30%|| 344/1162 [11:43<30:46,  2.26s/it]DEBUG: Epoch 0, Step 344, loss_gsu is 0.399739, loss_esu is 0.409760
+Recommendation EP_train:0:  30%|| 345/1162 [11:46<30:52,  2.27s/it]DEBUG: Epoch 0, Step 345, loss_gsu is 0.452760, loss_esu is 0.465875
+Recommendation EP_train:0:  30%|| 346/1162 [11:48<29:55,  2.20s/it]DEBUG: Epoch 0, Step 346, loss_gsu is 0.445844, loss_esu is 0.457300
+Recommendation EP_train:0:  30%|| 347/1162 [11:50<29:20,  2.16s/it]DEBUG: Epoch 0, Step 347, loss_gsu is 0.485667, loss_esu is 0.497352
+Recommendation EP_train:0:  30%|| 348/1162 [11:52<29:09,  2.15s/it]DEBUG: Epoch 0, Step 348, loss_gsu is 0.457168, loss_esu is 0.470966
+Recommendation EP_train:0:  30%|| 349/1162 [11:54<29:22,  2.17s/it]DEBUG: Epoch 0, Step 349, loss_gsu is 0.482732, loss_esu is 0.493570
+Recommendation EP_train:0:  30%|| 350/1162 [11:57<30:43,  2.27s/it]DEBUG: Epoch 0, Step 350, loss_gsu is 0.448507, loss_esu is 0.462696
+Recommendation EP_train:0:  30%|| 351/1162 [11:59<30:24,  2.25s/it]DEBUG: Epoch 0, Step 351, loss_gsu is 0.482557, loss_esu is 0.495899
+Recommendation EP_train:0:  30%|| 352/1162 [12:01<28:52,  2.14s/it]DEBUG: Epoch 0, Step 352, loss_gsu is 0.447100, loss_esu is 0.461328
+Recommendation EP_train:0:  30%|| 353/1162 [12:03<27:59,  2.08s/it]DEBUG: Epoch 0, Step 353, loss_gsu is 0.480276, loss_esu is 0.489196
+Recommendation EP_train:0:  30%|| 354/1162 [12:05<27:13,  2.02s/it]DEBUG: Epoch 0, Step 354, loss_gsu is 0.465361, loss_esu is 0.469805
+Recommendation EP_train:0:  31%|| 355/1162 [12:06<26:47,  1.99s/it]DEBUG: Epoch 0, Step 355, loss_gsu is 0.484715, loss_esu is 0.506325
+Recommendation EP_train:0:  31%|| 356/1162 [12:08<26:36,  1.98s/it]DEBUG: Epoch 0, Step 356, loss_gsu is 0.430802, loss_esu is 0.438727
+Recommendation EP_train:0:  31%|| 357/1162 [12:10<26:33,  1.98s/it]DEBUG: Epoch 0, Step 357, loss_gsu is 0.491532, loss_esu is 0.493539
+Recommendation EP_train:0:  31%|| 358/1162 [12:12<25:55,  1.93s/it]DEBUG: Epoch 0, Step 358, loss_gsu is 0.476086, loss_esu is 0.488964
+Recommendation EP_train:0:  31%|| 359/1162 [12:14<25:40,  1.92s/it]DEBUG: Epoch 0, Step 359, loss_gsu is 0.452309, loss_esu is 0.462925
+Recommendation EP_train:0:  31%|| 360/1162 [12:16<25:29,  1.91s/it]DEBUG: Epoch 0, Step 360, loss_gsu is 0.410483, loss_esu is 0.420214
+Recommendation EP_train:0:  31%|| 361/1162 [12:18<26:43,  2.00s/it]DEBUG: Epoch 0, Step 361, loss_gsu is 0.471079, loss_esu is 0.481219
+Recommendation EP_train:0:  31%|| 362/1162 [12:20<26:50,  2.01s/it]DEBUG: Epoch 0, Step 362, loss_gsu is 0.432026, loss_esu is 0.442200
+Recommendation EP_train:0:  31%|| 363/1162 [12:22<27:06,  2.04s/it]DEBUG: Epoch 0, Step 363, loss_gsu is 0.489230, loss_esu is 0.498123
+Recommendation EP_train:0:  31%|| 364/1162 [12:24<26:57,  2.03s/it]DEBUG: Epoch 0, Step 364, loss_gsu is 0.481150, loss_esu is 0.487824
+Recommendation EP_train:0:  31%|| 365/1162 [12:26<26:57,  2.03s/it]DEBUG: Epoch 0, Step 365, loss_gsu is 0.486436, loss_esu is 0.500876
+Recommendation EP_train:0:  31%|| 366/1162 [12:28<27:01,  2.04s/it]DEBUG: Epoch 0, Step 366, loss_gsu is 0.458799, loss_esu is 0.469378
+Recommendation EP_train:0:  32%|| 367/1162 [12:31<27:34,  2.08s/it]DEBUG: Epoch 0, Step 367, loss_gsu is 0.453018, loss_esu is 0.463621
+Recommendation EP_train:0:  32%|| 368/1162 [12:33<27:39,  2.09s/it]DEBUG: Epoch 0, Step 368, loss_gsu is 0.476356, loss_esu is 0.487661
+Recommendation EP_train:0:  32%|| 369/1162 [12:35<27:21,  2.07s/it]DEBUG: Epoch 0, Step 369, loss_gsu is 0.436590, loss_esu is 0.441450
+Recommendation EP_train:0:  32%|| 370/1162 [12:37<27:30,  2.08s/it]DEBUG: Epoch 0, Step 370, loss_gsu is 0.444657, loss_esu is 0.448458
+Recommendation EP_train:0:  32%|| 371/1162 [12:39<27:15,  2.07s/it]DEBUG: Epoch 0, Step 371, loss_gsu is 0.449714, loss_esu is 0.466348
+Recommendation EP_train:0:  32%|| 372/1162 [12:41<27:30,  2.09s/it]DEBUG: Epoch 0, Step 372, loss_gsu is 0.457921, loss_esu is 0.466764
+Recommendation EP_train:0:  32%|| 373/1162 [12:43<27:02,  2.06s/it]DEBUG: Epoch 0, Step 373, loss_gsu is 0.436549, loss_esu is 0.451556
+Recommendation EP_train:0:  32%|| 374/1162 [12:45<26:50,  2.04s/it]DEBUG: Epoch 0, Step 374, loss_gsu is 0.448534, loss_esu is 0.460836
+Recommendation EP_train:0:  32%|| 375/1162 [12:47<26:45,  2.04s/it]DEBUG: Epoch 0, Step 375, loss_gsu is 0.476258, loss_esu is 0.473090
+Recommendation EP_train:0:  32%|| 376/1162 [12:49<26:30,  2.02s/it]DEBUG: Epoch 0, Step 376, loss_gsu is 0.403889, loss_esu is 0.415376
+Recommendation EP_train:0:  32%|| 377/1162 [12:51<25:58,  1.99s/it]DEBUG: Epoch 0, Step 377, loss_gsu is 0.449430, loss_esu is 0.454581
+Recommendation EP_train:0:  33%|| 378/1162 [12:53<25:44,  1.97s/it]DEBUG: Epoch 0, Step 378, loss_gsu is 0.466412, loss_esu is 0.464298
+Recommendation EP_train:0:  33%|| 379/1162 [12:55<26:15,  2.01s/it]DEBUG: Epoch 0, Step 379, loss_gsu is 0.469090, loss_esu is 0.470051
+Recommendation EP_train:0:  33%|| 380/1162 [12:57<26:34,  2.04s/it]DEBUG: Epoch 0, Step 380, loss_gsu is 0.432779, loss_esu is 0.438028
+Recommendation EP_train:0:  33%|| 381/1162 [12:59<26:39,  2.05s/it]DEBUG: Epoch 0, Step 381, loss_gsu is 0.506802, loss_esu is 0.510141
+Recommendation EP_train:0:  33%|| 382/1162 [13:01<26:28,  2.04s/it]DEBUG: Epoch 0, Step 382, loss_gsu is 0.516671, loss_esu is 0.526247
+Recommendation EP_train:0:  33%|| 383/1162 [13:03<26:19,  2.03s/it]DEBUG: Epoch 0, Step 383, loss_gsu is 0.448311, loss_esu is 0.442343
+Recommendation EP_train:0:  33%|| 384/1162 [13:05<25:44,  1.98s/it]DEBUG: Epoch 0, Step 384, loss_gsu is 0.498878, loss_esu is 0.514417
+Recommendation EP_train:0:  33%|| 385/1162 [13:07<26:24,  2.04s/it]DEBUG: Epoch 0, Step 385, loss_gsu is 0.456530, loss_esu is 0.456516
+Recommendation EP_train:0:  33%|| 386/1162 [13:09<26:06,  2.02s/it]DEBUG: Epoch 0, Step 386, loss_gsu is 0.447271, loss_esu is 0.462852
+Recommendation EP_train:0:  33%|| 387/1162 [13:11<26:01,  2.01s/it]DEBUG: Epoch 0, Step 387, loss_gsu is 0.485116, loss_esu is 0.490627
+Recommendation EP_train:0:  33%|| 388/1162 [13:13<24:16,  1.88s/it]DEBUG: Epoch 0, Step 388, loss_gsu is 0.443935, loss_esu is 0.454373
+Recommendation EP_train:0:  33%|| 389/1162 [13:15<23:46,  1.84s/it]DEBUG: Epoch 0, Step 389, loss_gsu is 0.498296, loss_esu is 0.506344
+Recommendation EP_train:0:  34%|| 390/1162 [13:16<23:37,  1.84s/it]DEBUG: Epoch 0, Step 390, loss_gsu is 0.433111, loss_esu is 0.434266
+Recommendation EP_train:0:  34%|| 391/1162 [13:18<24:05,  1.87s/it]DEBUG: Epoch 0, Step 391, loss_gsu is 0.487004, loss_esu is 0.484573
+Recommendation EP_train:0:  34%|| 392/1162 [13:20<24:17,  1.89s/it]DEBUG: Epoch 0, Step 392, loss_gsu is 0.434444, loss_esu is 0.443885
+Recommendation EP_train:0:  34%|| 393/1162 [13:22<25:10,  1.96s/it]DEBUG: Epoch 0, Step 393, loss_gsu is 0.422226, loss_esu is 0.427622
+Recommendation EP_train:0:  34%|| 394/1162 [13:24<25:08,  1.96s/it]DEBUG: Epoch 0, Step 394, loss_gsu is 0.473850, loss_esu is 0.476671
+Recommendation EP_train:0:  34%|| 395/1162 [13:26<25:40,  2.01s/it]DEBUG: Epoch 0, Step 395, loss_gsu is 0.446532, loss_esu is 0.465511
+Recommendation EP_train:0:  34%|| 396/1162 [13:28<25:38,  2.01s/it]DEBUG: Epoch 0, Step 396, loss_gsu is 0.447495, loss_esu is 0.458589
+Recommendation EP_train:0:  34%|| 397/1162 [13:30<25:34,  2.01s/it]DEBUG: Epoch 0, Step 397, loss_gsu is 0.446839, loss_esu is 0.461724
+Recommendation EP_train:0:  34%|| 398/1162 [13:32<25:27,  2.00s/it]DEBUG: Epoch 0, Step 398, loss_gsu is 0.463242, loss_esu is 0.477198
+Recommendation EP_train:0:  34%|| 399/1162 [13:34<25:27,  2.00s/it]DEBUG: Epoch 0, Step 399, loss_gsu is 0.451511, loss_esu is 0.457551
+Recommendation EP_train:0:  34%|| 400/1162 [13:36<24:53,  1.96s/it]DEBUG: Epoch 0, Step 400, loss_gsu is 0.464184, loss_esu is 0.483538
+Recommendation EP_train:0:  35%|| 401/1162 [13:38<24:39,  1.94s/it]DEBUG: Epoch 0, Step 401, loss_gsu is 0.491145, loss_esu is 0.496147
+Recommendation EP_train:0:  35%|| 402/1162 [13:40<24:09,  1.91s/it]DEBUG: Epoch 0, Step 402, loss_gsu is 0.473821, loss_esu is 0.485516
+Recommendation EP_train:0:  35%|| 403/1162 [13:42<24:09,  1.91s/it]DEBUG: Epoch 0, Step 403, loss_gsu is 0.436625, loss_esu is 0.440865
+Recommendation EP_train:0:  35%|| 404/1162 [13:44<23:55,  1.89s/it]DEBUG: Epoch 0, Step 404, loss_gsu is 0.471537, loss_esu is 0.475672
+Recommendation EP_train:0:  35%|| 405/1162 [13:46<23:46,  1.88s/it]DEBUG: Epoch 0, Step 405, loss_gsu is 0.450726, loss_esu is 0.451949
+Recommendation EP_train:0:  35%|| 406/1162 [13:48<23:32,  1.87s/it]DEBUG: Epoch 0, Step 406, loss_gsu is 0.450434, loss_esu is 0.448591
+Recommendation EP_train:0:  35%|| 407/1162 [13:49<23:25,  1.86s/it]DEBUG: Epoch 0, Step 407, loss_gsu is 0.438086, loss_esu is 0.455168
+Recommendation EP_train:0:  35%|| 408/1162 [13:51<22:57,  1.83s/it]DEBUG: Epoch 0, Step 408, loss_gsu is 0.516427, loss_esu is 0.514968
+Recommendation EP_train:0:  35%|| 409/1162 [13:53<23:18,  1.86s/it]DEBUG: Epoch 0, Step 409, loss_gsu is 0.423208, loss_esu is 0.431445
+Recommendation EP_train:0:  35%|| 410/1162 [13:55<23:41,  1.89s/it]DEBUG: Epoch 0, Step 410, loss_gsu is 0.462947, loss_esu is 0.471454
+Recommendation EP_train:0:  35%|| 411/1162 [13:57<23:46,  1.90s/it]DEBUG: Epoch 0, Step 411, loss_gsu is 0.487842, loss_esu is 0.506251
+Recommendation EP_train:0:  35%|| 412/1162 [13:59<23:40,  1.89s/it]DEBUG: Epoch 0, Step 412, loss_gsu is 0.470825, loss_esu is 0.475142
+Recommendation EP_train:0:  36%|| 413/1162 [14:01<23:32,  1.89s/it]DEBUG: Epoch 0, Step 413, loss_gsu is 0.407445, loss_esu is 0.417411
+Recommendation EP_train:0:  36%|| 414/1162 [14:03<23:54,  1.92s/it]DEBUG: Epoch 0, Step 414, loss_gsu is 0.428520, loss_esu is 0.440685
+Recommendation EP_train:0:  36%|| 415/1162 [14:05<24:57,  2.00s/it]DEBUG: Epoch 0, Step 415, loss_gsu is 0.441843, loss_esu is 0.460009
+Recommendation EP_train:0:  36%|| 416/1162 [14:07<26:35,  2.14s/it]DEBUG: Epoch 0, Step 416, loss_gsu is 0.479216, loss_esu is 0.478714
+Recommendation EP_train:0:  36%|| 417/1162 [14:10<28:21,  2.28s/it]DEBUG: Epoch 0, Step 417, loss_gsu is 0.428887, loss_esu is 0.436226
+Recommendation EP_train:0:  36%|| 418/1162 [14:13<29:47,  2.40s/it]DEBUG: Epoch 0, Step 418, loss_gsu is 0.419898, loss_esu is 0.429516
+Recommendation EP_train:0:  36%|| 419/1162 [14:15<30:39,  2.48s/it]DEBUG: Epoch 0, Step 419, loss_gsu is 0.448424, loss_esu is 0.446198
+Recommendation EP_train:0:  36%|| 420/1162 [14:18<29:37,  2.40s/it]DEBUG: Epoch 0, Step 420, loss_gsu is 0.457694, loss_esu is 0.460599
+Recommendation EP_train:0:  36%|| 421/1162 [14:20<28:12,  2.28s/it]DEBUG: Epoch 0, Step 421, loss_gsu is 0.439693, loss_esu is 0.450565
+Recommendation EP_train:0:  36%|| 422/1162 [14:21<26:26,  2.14s/it]DEBUG: Epoch 0, Step 422, loss_gsu is 0.447088, loss_esu is 0.461012
+Recommendation EP_train:0:  36%|| 423/1162 [14:23<25:23,  2.06s/it]DEBUG: Epoch 0, Step 423, loss_gsu is 0.439373, loss_esu is 0.447824
+Recommendation EP_train:0:  36%|| 424/1162 [14:25<25:07,  2.04s/it]DEBUG: Epoch 0, Step 424, loss_gsu is 0.508105, loss_esu is 0.509856
+Recommendation EP_train:0:  37%|| 425/1162 [14:28<26:20,  2.14s/it]DEBUG: Epoch 0, Step 425, loss_gsu is 0.497993, loss_esu is 0.504816
+Recommendation EP_train:0:  37%|| 426/1162 [14:30<26:59,  2.20s/it]DEBUG: Epoch 0, Step 426, loss_gsu is 0.452713, loss_esu is 0.461525
+Recommendation EP_train:0:  37%|| 427/1162 [14:32<27:28,  2.24s/it]DEBUG: Epoch 0, Step 427, loss_gsu is 0.471940, loss_esu is 0.484829
+Recommendation EP_train:0:  37%|| 428/1162 [14:35<27:48,  2.27s/it]DEBUG: Epoch 0, Step 428, loss_gsu is 0.484004, loss_esu is 0.499907
+Recommendation EP_train:0:  37%|| 429/1162 [14:37<27:13,  2.23s/it]DEBUG: Epoch 0, Step 429, loss_gsu is 0.450734, loss_esu is 0.462166
+Recommendation EP_train:0:  37%|| 430/1162 [14:39<27:05,  2.22s/it]DEBUG: Epoch 0, Step 430, loss_gsu is 0.494517, loss_esu is 0.501798
+Recommendation EP_train:0:  37%|| 431/1162 [14:41<26:57,  2.21s/it]DEBUG: Epoch 0, Step 431, loss_gsu is 0.465937, loss_esu is 0.474407
+Recommendation EP_train:0:  37%|| 432/1162 [14:43<26:15,  2.16s/it]DEBUG: Epoch 0, Step 432, loss_gsu is 0.488530, loss_esu is 0.493444
+Recommendation EP_train:0:  37%|| 433/1162 [14:45<25:38,  2.11s/it]DEBUG: Epoch 0, Step 433, loss_gsu is 0.426627, loss_esu is 0.435789
+Recommendation EP_train:0:  37%|| 434/1162 [14:47<24:48,  2.04s/it]DEBUG: Epoch 0, Step 434, loss_gsu is 0.429003, loss_esu is 0.439025
+Recommendation EP_train:0:  37%|| 435/1162 [14:49<26:13,  2.16s/it]DEBUG: Epoch 0, Step 435, loss_gsu is 0.442638, loss_esu is 0.452231
+Recommendation EP_train:0:  38%|| 436/1162 [14:52<26:30,  2.19s/it]DEBUG: Epoch 0, Step 436, loss_gsu is 0.448047, loss_esu is 0.463690
+Recommendation EP_train:0:  38%|| 437/1162 [14:54<26:57,  2.23s/it]DEBUG: Epoch 0, Step 437, loss_gsu is 0.445284, loss_esu is 0.449399
+Recommendation EP_train:0:  38%|| 438/1162 [14:56<26:43,  2.21s/it]DEBUG: Epoch 0, Step 438, loss_gsu is 0.479868, loss_esu is 0.495379
+Recommendation EP_train:0:  38%|| 439/1162 [14:59<26:53,  2.23s/it]DEBUG: Epoch 0, Step 439, loss_gsu is 0.454768, loss_esu is 0.468022
+Recommendation EP_train:0:  38%|| 440/1162 [15:01<27:45,  2.31s/it]DEBUG: Epoch 0, Step 440, loss_gsu is 0.483890, loss_esu is 0.487083
+Recommendation EP_train:0:  38%|| 441/1162 [15:03<27:31,  2.29s/it]DEBUG: Epoch 0, Step 441, loss_gsu is 0.425384, loss_esu is 0.437054
+Recommendation EP_train:0:  38%|| 442/1162 [15:05<25:51,  2.16s/it]DEBUG: Epoch 0, Step 442, loss_gsu is 0.478974, loss_esu is 0.501125
+Recommendation EP_train:0:  38%|| 443/1162 [15:07<25:00,  2.09s/it]DEBUG: Epoch 0, Step 443, loss_gsu is 0.467456, loss_esu is 0.483897
+Recommendation EP_train:0:  38%|| 444/1162 [15:09<24:21,  2.04s/it]DEBUG: Epoch 0, Step 444, loss_gsu is 0.424653, loss_esu is 0.439017
+Recommendation EP_train:0:  38%|| 445/1162 [15:11<23:46,  1.99s/it]DEBUG: Epoch 0, Step 445, loss_gsu is 0.450891, loss_esu is 0.456639
+Recommendation EP_train:0:  38%|| 446/1162 [15:13<23:10,  1.94s/it]DEBUG: Epoch 0, Step 446, loss_gsu is 0.409639, loss_esu is 0.416198
+Recommendation EP_train:0:  38%|| 447/1162 [15:14<22:44,  1.91s/it]DEBUG: Epoch 0, Step 447, loss_gsu is 0.444822, loss_esu is 0.447172
+Recommendation EP_train:0:  39%|| 448/1162 [15:16<22:24,  1.88s/it]DEBUG: Epoch 0, Step 448, loss_gsu is 0.441074, loss_esu is 0.453636
+Recommendation EP_train:0:  39%|| 449/1162 [15:18<22:22,  1.88s/it]DEBUG: Epoch 0, Step 449, loss_gsu is 0.403894, loss_esu is 0.430810
+Recommendation EP_train:0:  39%|| 450/1162 [15:20<22:15,  1.88s/it]DEBUG: Epoch 0, Step 450, loss_gsu is 0.450972, loss_esu is 0.459170
+Recommendation EP_train:0:  39%|| 451/1162 [15:22<22:15,  1.88s/it]DEBUG: Epoch 0, Step 451, loss_gsu is 0.480857, loss_esu is 0.493948
+Recommendation EP_train:0:  39%|| 452/1162 [15:24<22:42,  1.92s/it]DEBUG: Epoch 0, Step 452, loss_gsu is 0.422338, loss_esu is 0.439175
+Recommendation EP_train:0:  39%|| 453/1162 [15:26<23:48,  2.01s/it]DEBUG: Epoch 0, Step 453, loss_gsu is 0.491680, loss_esu is 0.505369
+Recommendation EP_train:0:  39%|| 454/1162 [15:28<24:19,  2.06s/it]DEBUG: Epoch 0, Step 454, loss_gsu is 0.407873, loss_esu is 0.424090
+Recommendation EP_train:0:  39%|| 455/1162 [15:31<25:30,  2.17s/it]DEBUG: Epoch 0, Step 455, loss_gsu is 0.451285, loss_esu is 0.465093
+Recommendation EP_train:0:  39%|| 456/1162 [15:33<25:54,  2.20s/it]DEBUG: Epoch 0, Step 456, loss_gsu is 0.444204, loss_esu is 0.463485
+Recommendation EP_train:0:  39%|| 457/1162 [15:36<26:48,  2.28s/it]DEBUG: Epoch 0, Step 457, loss_gsu is 0.439681, loss_esu is 0.439482
+Recommendation EP_train:0:  39%|| 458/1162 [15:38<26:38,  2.27s/it]DEBUG: Epoch 0, Step 458, loss_gsu is 0.513561, loss_esu is 0.516150
+Recommendation EP_train:0:  40%|| 459/1162 [15:40<26:23,  2.25s/it]DEBUG: Epoch 0, Step 459, loss_gsu is 0.512150, loss_esu is 0.519737
+Recommendation EP_train:0:  40%|| 460/1162 [15:42<25:23,  2.17s/it]DEBUG: Epoch 0, Step 460, loss_gsu is 0.464434, loss_esu is 0.468805
+Recommendation EP_train:0:  40%|| 461/1162 [15:44<25:08,  2.15s/it]DEBUG: Epoch 0, Step 461, loss_gsu is 0.468184, loss_esu is 0.480175
+Recommendation EP_train:0:  40%|| 462/1162 [15:46<24:36,  2.11s/it]DEBUG: Epoch 0, Step 462, loss_gsu is 0.419995, loss_esu is 0.433277
+Recommendation EP_train:0:  40%|| 463/1162 [15:48<24:59,  2.15s/it]DEBUG: Epoch 0, Step 463, loss_gsu is 0.435055, loss_esu is 0.447645
+Recommendation EP_train:0:  40%|| 464/1162 [15:50<24:22,  2.10s/it]DEBUG: Epoch 0, Step 464, loss_gsu is 0.411390, loss_esu is 0.421641
+Recommendation EP_train:0:  40%|| 465/1162 [15:52<23:57,  2.06s/it]DEBUG: Epoch 0, Step 465, loss_gsu is 0.434467, loss_esu is 0.448880
+Recommendation EP_train:0:  40%|| 466/1162 [15:54<24:01,  2.07s/it]DEBUG: Epoch 0, Step 466, loss_gsu is 0.480342, loss_esu is 0.491712
+Recommendation EP_train:0:  40%|| 467/1162 [15:56<23:27,  2.03s/it]DEBUG: Epoch 0, Step 467, loss_gsu is 0.470488, loss_esu is 0.484414
+Recommendation EP_train:0:  40%|| 468/1162 [15:58<22:48,  1.97s/it]DEBUG: Epoch 0, Step 468, loss_gsu is 0.433342, loss_esu is 0.442677
+Recommendation EP_train:0:  40%|| 469/1162 [16:00<22:49,  1.98s/it]DEBUG: Epoch 0, Step 469, loss_gsu is 0.419959, loss_esu is 0.427412
+Recommendation EP_train:0:  40%|| 470/1162 [16:02<22:31,  1.95s/it]DEBUG: Epoch 0, Step 470, loss_gsu is 0.454449, loss_esu is 0.463438
+Recommendation EP_train:0:  41%|| 471/1162 [16:04<22:46,  1.98s/it]DEBUG: Epoch 0, Step 471, loss_gsu is 0.469726, loss_esu is 0.478769
+Recommendation EP_train:0:  41%|| 472/1162 [16:06<22:50,  1.99s/it]DEBUG: Epoch 0, Step 472, loss_gsu is 0.424831, loss_esu is 0.431072
+Recommendation EP_train:0:  41%|| 473/1162 [16:08<23:04,  2.01s/it]DEBUG: Epoch 0, Step 473, loss_gsu is 0.432665, loss_esu is 0.459379
+Recommendation EP_train:0:  41%|| 474/1162 [16:10<23:28,  2.05s/it]DEBUG: Epoch 0, Step 474, loss_gsu is 0.463058, loss_esu is 0.481253
+Recommendation EP_train:0:  41%|| 475/1162 [16:13<24:32,  2.14s/it]DEBUG: Epoch 0, Step 475, loss_gsu is 0.458143, loss_esu is 0.468883
+Recommendation EP_train:0:  41%|| 476/1162 [16:15<24:29,  2.14s/it]DEBUG: Epoch 0, Step 476, loss_gsu is 0.427584, loss_esu is 0.449026
+Recommendation EP_train:0:  41%|| 477/1162 [16:17<23:52,  2.09s/it]DEBUG: Epoch 0, Step 477, loss_gsu is 0.447241, loss_esu is 0.471458
+Recommendation EP_train:0:  41%|| 478/1162 [16:19<23:11,  2.03s/it]DEBUG: Epoch 0, Step 478, loss_gsu is 0.442875, loss_esu is 0.455366
+Recommendation EP_train:0:  41%|| 479/1162 [16:21<22:55,  2.01s/it]DEBUG: Epoch 0, Step 479, loss_gsu is 0.460639, loss_esu is 0.474347
+Recommendation EP_train:0:  41%|| 480/1162 [16:23<22:42,  2.00s/it]DEBUG: Epoch 0, Step 480, loss_gsu is 0.442830, loss_esu is 0.454449
+Recommendation EP_train:0:  41%|| 481/1162 [16:25<22:36,  1.99s/it]DEBUG: Epoch 0, Step 481, loss_gsu is 0.445221, loss_esu is 0.453046
+Recommendation EP_train:0:  41%|| 482/1162 [16:26<22:19,  1.97s/it]DEBUG: Epoch 0, Step 482, loss_gsu is 0.448073, loss_esu is 0.461227
+Recommendation EP_train:0:  42%|| 483/1162 [16:28<22:11,  1.96s/it]DEBUG: Epoch 0, Step 483, loss_gsu is 0.470031, loss_esu is 0.481676
+Recommendation EP_train:0:  42%|| 484/1162 [16:30<21:52,  1.94s/it]DEBUG: Epoch 0, Step 484, loss_gsu is 0.442558, loss_esu is 0.447403
+Recommendation EP_train:0:  42%|| 485/1162 [16:32<21:46,  1.93s/it]DEBUG: Epoch 0, Step 485, loss_gsu is 0.420588, loss_esu is 0.427880
+Recommendation EP_train:0:  42%|| 486/1162 [16:34<22:26,  1.99s/it]DEBUG: Epoch 0, Step 486, loss_gsu is 0.461309, loss_esu is 0.481726
+Recommendation EP_train:0:  42%|| 487/1162 [16:37<23:40,  2.10s/it]DEBUG: Epoch 0, Step 487, loss_gsu is 0.463438, loss_esu is 0.489144
+Recommendation EP_train:0:  42%|| 488/1162 [16:39<23:30,  2.09s/it]DEBUG: Epoch 0, Step 488, loss_gsu is 0.464682, loss_esu is 0.471333
+Recommendation EP_train:0:  42%|| 489/1162 [16:41<24:09,  2.15s/it]DEBUG: Epoch 0, Step 489, loss_gsu is 0.497661, loss_esu is 0.509105
+Recommendation EP_train:0:  42%|| 490/1162 [16:43<24:06,  2.15s/it]DEBUG: Epoch 0, Step 490, loss_gsu is 0.425774, loss_esu is 0.435453
+Recommendation EP_train:0:  42%|| 491/1162 [16:46<24:45,  2.21s/it]DEBUG: Epoch 0, Step 491, loss_gsu is 0.482631, loss_esu is 0.495093
+Recommendation EP_train:0:  42%|| 492/1162 [16:48<24:36,  2.20s/it]DEBUG: Epoch 0, Step 492, loss_gsu is 0.385894, loss_esu is 0.394384
+Recommendation EP_train:0:  42%|| 493/1162 [16:50<24:27,  2.19s/it]DEBUG: Epoch 0, Step 493, loss_gsu is 0.439469, loss_esu is 0.444773
+Recommendation EP_train:0:  43%|| 494/1162 [16:52<24:38,  2.21s/it]DEBUG: Epoch 0, Step 494, loss_gsu is 0.449760, loss_esu is 0.461662
+Recommendation EP_train:0:  43%|| 495/1162 [16:55<25:10,  2.26s/it]DEBUG: Epoch 0, Step 495, loss_gsu is 0.452071, loss_esu is 0.465795
+Recommendation EP_train:0:  43%|| 496/1162 [16:57<25:27,  2.29s/it]DEBUG: Epoch 0, Step 496, loss_gsu is 0.432900, loss_esu is 0.445490
+Recommendation EP_train:0:  43%|| 497/1162 [16:59<25:23,  2.29s/it]DEBUG: Epoch 0, Step 497, loss_gsu is 0.435481, loss_esu is 0.449149
+Recommendation EP_train:0:  43%|| 498/1162 [17:01<24:26,  2.21s/it]DEBUG: Epoch 0, Step 498, loss_gsu is 0.424510, loss_esu is 0.434208
+Recommendation EP_train:0:  43%|| 499/1162 [17:03<23:36,  2.14s/it]DEBUG: Epoch 0, Step 499, loss_gsu is 0.412325, loss_esu is 0.429584
+Recommendation EP_train:0:  43%|| 500/1162 [17:05<22:58,  2.08s/it]DEBUG: Epoch 0, Step 500, loss_gsu is 0.392841, loss_esu is 0.409080
+Recommendation EP_train:0:  43%|| 501/1162 [17:07<22:26,  2.04s/it]DEBUG: Epoch 0, Step 501, loss_gsu is 0.473558, loss_esu is 0.487274
+Recommendation EP_train:0:  43%|| 502/1162 [17:09<21:55,  1.99s/it]DEBUG: Epoch 0, Step 502, loss_gsu is 0.408425, loss_esu is 0.431318
+Recommendation EP_train:0:  43%|| 503/1162 [17:11<21:39,  1.97s/it]DEBUG: Epoch 0, Step 503, loss_gsu is 0.463643, loss_esu is 0.472696
+Recommendation EP_train:0:  43%|| 504/1162 [17:13<21:56,  2.00s/it]DEBUG: Epoch 0, Step 504, loss_gsu is 0.476279, loss_esu is 0.479553
+Recommendation EP_train:0:  43%|| 505/1162 [17:15<21:57,  2.01s/it]DEBUG: Epoch 0, Step 505, loss_gsu is 0.467868, loss_esu is 0.477408
+Recommendation EP_train:0:  44%|| 506/1162 [17:17<21:50,  2.00s/it]DEBUG: Epoch 0, Step 506, loss_gsu is 0.451890, loss_esu is 0.472316
+Recommendation EP_train:0:  44%|| 507/1162 [17:19<21:39,  1.98s/it]DEBUG: Epoch 0, Step 507, loss_gsu is 0.438752, loss_esu is 0.461376
+Recommendation EP_train:0:  44%|| 508/1162 [17:21<21:58,  2.02s/it]DEBUG: Epoch 0, Step 508, loss_gsu is 0.512628, loss_esu is 0.531063
+Recommendation EP_train:0:  44%|| 509/1162 [17:23<22:55,  2.11s/it]DEBUG: Epoch 0, Step 509, loss_gsu is 0.429515, loss_esu is 0.449374
+Recommendation EP_train:0:  44%|| 510/1162 [17:25<22:45,  2.09s/it]DEBUG: Epoch 0, Step 510, loss_gsu is 0.453123, loss_esu is 0.461387
+Recommendation EP_train:0:  44%|| 511/1162 [17:27<22:49,  2.10s/it]DEBUG: Epoch 0, Step 511, loss_gsu is 0.488664, loss_esu is 0.489603
+Recommendation EP_train:0:  44%|| 512/1162 [17:29<22:18,  2.06s/it]DEBUG: Epoch 0, Step 512, loss_gsu is 0.430771, loss_esu is 0.433452
+Recommendation EP_train:0:  44%|| 513/1162 [17:31<21:41,  2.01s/it]DEBUG: Epoch 0, Step 513, loss_gsu is 0.421273, loss_esu is 0.420971
+Recommendation EP_train:0:  44%|| 514/1162 [17:33<20:56,  1.94s/it]DEBUG: Epoch 0, Step 514, loss_gsu is 0.451825, loss_esu is 0.458439
+Recommendation EP_train:0:  44%|| 515/1162 [17:35<20:43,  1.92s/it]DEBUG: Epoch 0, Step 515, loss_gsu is 0.472486, loss_esu is 0.482015
+Recommendation EP_train:0:  44%|| 516/1162 [17:37<20:32,  1.91s/it]DEBUG: Epoch 0, Step 516, loss_gsu is 0.461426, loss_esu is 0.478416
+Recommendation EP_train:0:  44%|| 517/1162 [17:39<20:29,  1.91s/it]DEBUG: Epoch 0, Step 517, loss_gsu is 0.443205, loss_esu is 0.446673
+Recommendation EP_train:0:  45%|| 518/1162 [17:41<20:20,  1.90s/it]DEBUG: Epoch 0, Step 518, loss_gsu is 0.426048, loss_esu is 0.447033
+Recommendation EP_train:0:  45%|| 519/1162 [17:43<20:13,  1.89s/it]DEBUG: Epoch 0, Step 519, loss_gsu is 0.437256, loss_esu is 0.459885
+Recommendation EP_train:0:  45%|| 520/1162 [17:44<19:59,  1.87s/it]DEBUG: Epoch 0, Step 520, loss_gsu is 0.387125, loss_esu is 0.393045
+Recommendation EP_train:0:  45%|| 521/1162 [17:46<19:51,  1.86s/it]DEBUG: Epoch 0, Step 521, loss_gsu is 0.481293, loss_esu is 0.496169
+Recommendation EP_train:0:  45%|| 522/1162 [17:48<19:34,  1.84s/it]DEBUG: Epoch 0, Step 522, loss_gsu is 0.457333, loss_esu is 0.475617
+Recommendation EP_train:0:  45%|| 523/1162 [17:50<19:37,  1.84s/it]DEBUG: Epoch 0, Step 523, loss_gsu is 0.505666, loss_esu is 0.503810
+Recommendation EP_train:0:  45%|| 524/1162 [17:52<19:32,  1.84s/it]DEBUG: Epoch 0, Step 524, loss_gsu is 0.413874, loss_esu is 0.437252
+Recommendation EP_train:0:  45%|| 525/1162 [17:54<19:37,  1.85s/it]DEBUG: Epoch 0, Step 525, loss_gsu is 0.376261, loss_esu is 0.402433
+Recommendation EP_train:0:  45%|| 526/1162 [17:55<20:00,  1.89s/it]DEBUG: Epoch 0, Step 526, loss_gsu is 0.448418, loss_esu is 0.456916
+Recommendation EP_train:0:  45%|| 527/1162 [17:57<19:56,  1.88s/it]DEBUG: Epoch 0, Step 527, loss_gsu is 0.429180, loss_esu is 0.434114
+Recommendation EP_train:0:  45%|| 528/1162 [17:59<19:56,  1.89s/it]DEBUG: Epoch 0, Step 528, loss_gsu is 0.439506, loss_esu is 0.448751
+Recommendation EP_train:0:  46%|| 529/1162 [18:01<19:52,  1.88s/it]DEBUG: Epoch 0, Step 529, loss_gsu is 0.433400, loss_esu is 0.446715
+Recommendation EP_train:0:  46%|| 530/1162 [18:03<19:45,  1.88s/it]DEBUG: Epoch 0, Step 530, loss_gsu is 0.439465, loss_esu is 0.454547
+Recommendation EP_train:0:  46%|| 531/1162 [18:05<19:36,  1.86s/it]DEBUG: Epoch 0, Step 531, loss_gsu is 0.456142, loss_esu is 0.461910
+Recommendation EP_train:0:  46%|| 532/1162 [18:07<19:25,  1.85s/it]DEBUG: Epoch 0, Step 532, loss_gsu is 0.405065, loss_esu is 0.423779
+Recommendation EP_train:0:  46%|| 533/1162 [18:09<19:25,  1.85s/it]DEBUG: Epoch 0, Step 533, loss_gsu is 0.410187, loss_esu is 0.430874
+Recommendation EP_train:0:  46%|| 534/1162 [18:10<19:11,  1.83s/it]DEBUG: Epoch 0, Step 534, loss_gsu is 0.414117, loss_esu is 0.440778
+Recommendation EP_train:0:  46%|| 535/1162 [18:12<19:04,  1.82s/it]DEBUG: Epoch 0, Step 535, loss_gsu is 0.439343, loss_esu is 0.458829
+Recommendation EP_train:0:  46%|| 536/1162 [18:14<18:56,  1.82s/it]DEBUG: Epoch 0, Step 536, loss_gsu is 0.443491, loss_esu is 0.461436
+Recommendation EP_train:0:  46%|| 537/1162 [18:16<18:58,  1.82s/it]DEBUG: Epoch 0, Step 537, loss_gsu is 0.401566, loss_esu is 0.414967
+Recommendation EP_train:0:  46%|| 538/1162 [18:18<18:51,  1.81s/it]DEBUG: Epoch 0, Step 538, loss_gsu is 0.458593, loss_esu is 0.460908
+Recommendation EP_train:0:  46%|| 539/1162 [18:19<18:49,  1.81s/it]DEBUG: Epoch 0, Step 539, loss_gsu is 0.433363, loss_esu is 0.448936
+Recommendation EP_train:0:  46%|| 540/1162 [18:21<19:03,  1.84s/it]DEBUG: Epoch 0, Step 540, loss_gsu is 0.445134, loss_esu is 0.464085
+Recommendation EP_train:0:  47%|| 541/1162 [18:23<19:14,  1.86s/it]DEBUG: Epoch 0, Step 541, loss_gsu is 0.464140, loss_esu is 0.484947
+Recommendation EP_train:0:  47%|| 542/1162 [18:25<19:06,  1.85s/it]DEBUG: Epoch 0, Step 542, loss_gsu is 0.466303, loss_esu is 0.473695
+Recommendation EP_train:0:  47%|| 543/1162 [18:27<19:15,  1.87s/it]DEBUG: Epoch 0, Step 543, loss_gsu is 0.425285, loss_esu is 0.455889
+Recommendation EP_train:0:  47%|| 544/1162 [18:29<19:08,  1.86s/it]DEBUG: Epoch 0, Step 544, loss_gsu is 0.466916, loss_esu is 0.487648
+Recommendation EP_train:0:  47%|| 545/1162 [18:31<18:58,  1.84s/it]DEBUG: Epoch 0, Step 545, loss_gsu is 0.414762, loss_esu is 0.419418
+Recommendation EP_train:0:  47%|| 546/1162 [18:32<18:54,  1.84s/it]DEBUG: Epoch 0, Step 546, loss_gsu is 0.455010, loss_esu is 0.467818
+Recommendation EP_train:0:  47%|| 547/1162 [18:34<19:02,  1.86s/it]DEBUG: Epoch 0, Step 547, loss_gsu is 0.448419, loss_esu is 0.454724
+Recommendation EP_train:0:  47%|| 548/1162 [18:36<18:45,  1.83s/it]DEBUG: Epoch 0, Step 548, loss_gsu is 0.466479, loss_esu is 0.487924
+Recommendation EP_train:0:  47%|| 549/1162 [18:38<18:41,  1.83s/it]DEBUG: Epoch 0, Step 549, loss_gsu is 0.483174, loss_esu is 0.511142
+Recommendation EP_train:0:  47%|| 550/1162 [18:40<18:25,  1.81s/it]DEBUG: Epoch 0, Step 550, loss_gsu is 0.428431, loss_esu is 0.428291
+Recommendation EP_train:0:  47%|| 551/1162 [18:41<18:34,  1.82s/it]DEBUG: Epoch 0, Step 551, loss_gsu is 0.447025, loss_esu is 0.457680
+Recommendation EP_train:0:  48%|| 552/1162 [18:43<18:31,  1.82s/it]DEBUG: Epoch 0, Step 552, loss_gsu is 0.451129, loss_esu is 0.464358
+Recommendation EP_train:0:  48%|| 553/1162 [18:45<19:10,  1.89s/it]DEBUG: Epoch 0, Step 553, loss_gsu is 0.426270, loss_esu is 0.429846
+Recommendation EP_train:0:  48%|| 554/1162 [18:47<18:45,  1.85s/it]DEBUG: Epoch 0, Step 554, loss_gsu is 0.442092, loss_esu is 0.460849
+Recommendation EP_train:0:  48%|| 555/1162 [18:49<18:48,  1.86s/it]DEBUG: Epoch 0, Step 555, loss_gsu is 0.458473, loss_esu is 0.473672
+Recommendation EP_train:0:  48%|| 556/1162 [18:51<18:51,  1.87s/it]DEBUG: Epoch 0, Step 556, loss_gsu is 0.417036, loss_esu is 0.426027
+Recommendation EP_train:0:  48%|| 557/1162 [18:53<19:32,  1.94s/it]DEBUG: Epoch 0, Step 557, loss_gsu is 0.439457, loss_esu is 0.449306
+Recommendation EP_train:0:  48%|| 558/1162 [18:55<19:25,  1.93s/it]DEBUG: Epoch 0, Step 558, loss_gsu is 0.452473, loss_esu is 0.452816
+Recommendation EP_train:0:  48%|| 559/1162 [18:57<19:24,  1.93s/it]DEBUG: Epoch 0, Step 559, loss_gsu is 0.420079, loss_esu is 0.445646
+Recommendation EP_train:0:  48%|| 560/1162 [18:59<19:22,  1.93s/it]DEBUG: Epoch 0, Step 560, loss_gsu is 0.436028, loss_esu is 0.444638
+Recommendation EP_train:0:  48%|| 561/1162 [19:01<19:06,  1.91s/it]DEBUG: Epoch 0, Step 561, loss_gsu is 0.455152, loss_esu is 0.468438
+Recommendation EP_train:0:  48%|| 562/1162 [19:02<18:53,  1.89s/it]DEBUG: Epoch 0, Step 562, loss_gsu is 0.407725, loss_esu is 0.432725
+Recommendation EP_train:0:  48%|| 563/1162 [19:04<18:48,  1.88s/it]DEBUG: Epoch 0, Step 563, loss_gsu is 0.467830, loss_esu is 0.495428
+Recommendation EP_train:0:  49%|| 564/1162 [19:06<18:37,  1.87s/it]DEBUG: Epoch 0, Step 564, loss_gsu is 0.426989, loss_esu is 0.436907
+Recommendation EP_train:0:  49%|| 565/1162 [19:08<18:31,  1.86s/it]DEBUG: Epoch 0, Step 565, loss_gsu is 0.407746, loss_esu is 0.418645
+Recommendation EP_train:0:  49%|| 566/1162 [19:10<18:17,  1.84s/it]DEBUG: Epoch 0, Step 566, loss_gsu is 0.430733, loss_esu is 0.449574
+Recommendation EP_train:0:  49%|| 567/1162 [19:12<18:05,  1.82s/it]DEBUG: Epoch 0, Step 567, loss_gsu is 0.422279, loss_esu is 0.437232
+Recommendation EP_train:0:  49%|| 568/1162 [19:13<17:56,  1.81s/it]DEBUG: Epoch 0, Step 568, loss_gsu is 0.419067, loss_esu is 0.440044
+Recommendation EP_train:0:  49%|| 569/1162 [19:15<17:54,  1.81s/it]DEBUG: Epoch 0, Step 569, loss_gsu is 0.401939, loss_esu is 0.426112
+Recommendation EP_train:0:  49%|| 570/1162 [19:17<17:50,  1.81s/it]DEBUG: Epoch 0, Step 570, loss_gsu is 0.425312, loss_esu is 0.432407
+Recommendation EP_train:0:  49%|| 571/1162 [19:19<17:59,  1.83s/it]DEBUG: Epoch 0, Step 571, loss_gsu is 0.430911, loss_esu is 0.440375
+Recommendation EP_train:0:  49%|| 572/1162 [19:21<17:55,  1.82s/it]DEBUG: Epoch 0, Step 572, loss_gsu is 0.383344, loss_esu is 0.400484
+Recommendation EP_train:0:  49%|| 573/1162 [19:22<17:57,  1.83s/it]DEBUG: Epoch 0, Step 573, loss_gsu is 0.383847, loss_esu is 0.397018
+Recommendation EP_train:0:  49%|| 574/1162 [19:24<17:55,  1.83s/it]DEBUG: Epoch 0, Step 574, loss_gsu is 0.433564, loss_esu is 0.439754
+Recommendation EP_train:0:  49%|| 575/1162 [19:26<18:04,  1.85s/it]DEBUG: Epoch 0, Step 575, loss_gsu is 0.451541, loss_esu is 0.452145
+Recommendation EP_train:0:  50%|| 576/1162 [19:28<18:03,  1.85s/it]DEBUG: Epoch 0, Step 576, loss_gsu is 0.411666, loss_esu is 0.429126
+Recommendation EP_train:0:  50%|| 577/1162 [19:30<18:17,  1.88s/it]DEBUG: Epoch 0, Step 577, loss_gsu is 0.464355, loss_esu is 0.486711
+Recommendation EP_train:0:  50%|| 578/1162 [19:32<18:15,  1.88s/it]DEBUG: Epoch 0, Step 578, loss_gsu is 0.400265, loss_esu is 0.409328
+Recommendation EP_train:0:  50%|| 579/1162 [19:34<18:15,  1.88s/it]DEBUG: Epoch 0, Step 579, loss_gsu is 0.455652, loss_esu is 0.464679
+Recommendation EP_train:0:  50%|| 580/1162 [19:36<17:57,  1.85s/it]DEBUG: Epoch 0, Step 580, loss_gsu is 0.396031, loss_esu is 0.410081
+Recommendation EP_train:0:  50%|| 581/1162 [19:37<17:58,  1.86s/it]DEBUG: Epoch 0, Step 581, loss_gsu is 0.436742, loss_esu is 0.458893
+Recommendation EP_train:0:  50%|| 582/1162 [19:39<17:40,  1.83s/it]DEBUG: Epoch 0, Step 582, loss_gsu is 0.390323, loss_esu is 0.413233
+Recommendation EP_train:0:  50%|| 583/1162 [19:41<17:47,  1.84s/it]DEBUG: Epoch 0, Step 583, loss_gsu is 0.379702, loss_esu is 0.397527
+Recommendation EP_train:0:  50%|| 584/1162 [19:43<17:50,  1.85s/it]DEBUG: Epoch 0, Step 584, loss_gsu is 0.420674, loss_esu is 0.433621
+Recommendation EP_train:0:  50%|| 585/1162 [19:45<17:44,  1.85s/it]DEBUG: Epoch 0, Step 585, loss_gsu is 0.412946, loss_esu is 0.431518
+Recommendation EP_train:0:  50%|| 586/1162 [19:47<17:40,  1.84s/it]DEBUG: Epoch 0, Step 586, loss_gsu is 0.407390, loss_esu is 0.424130
+Recommendation EP_train:0:  51%|| 587/1162 [19:48<17:28,  1.82s/it]DEBUG: Epoch 0, Step 587, loss_gsu is 0.441941, loss_esu is 0.451291
+Recommendation EP_train:0:  51%|| 588/1162 [19:50<17:23,  1.82s/it]DEBUG: Epoch 0, Step 588, loss_gsu is 0.415781, loss_esu is 0.437072
+Recommendation EP_train:0:  51%|| 589/1162 [19:52<17:25,  1.83s/it]DEBUG: Epoch 0, Step 589, loss_gsu is 0.476722, loss_esu is 0.481135
+Recommendation EP_train:0:  51%|| 590/1162 [19:54<17:32,  1.84s/it]DEBUG: Epoch 0, Step 590, loss_gsu is 0.411304, loss_esu is 0.424833
+Recommendation EP_train:0:  51%|| 591/1162 [19:56<17:40,  1.86s/it]DEBUG: Epoch 0, Step 591, loss_gsu is 0.435243, loss_esu is 0.451655
+Recommendation EP_train:0:  51%|| 592/1162 [19:58<17:42,  1.86s/it]DEBUG: Epoch 0, Step 592, loss_gsu is 0.434835, loss_esu is 0.453065
+Recommendation EP_train:0:  51%|| 593/1162 [20:00<17:43,  1.87s/it]DEBUG: Epoch 0, Step 593, loss_gsu is 0.465888, loss_esu is 0.483522
+Recommendation EP_train:0:  51%|| 594/1162 [20:01<17:35,  1.86s/it]DEBUG: Epoch 0, Step 594, loss_gsu is 0.428536, loss_esu is 0.439142
+Recommendation EP_train:0:  51%|| 595/1162 [20:03<17:33,  1.86s/it]DEBUG: Epoch 0, Step 595, loss_gsu is 0.428475, loss_esu is 0.452007
+Recommendation EP_train:0:  51%|| 596/1162 [20:05<17:31,  1.86s/it]DEBUG: Epoch 0, Step 596, loss_gsu is 0.435093, loss_esu is 0.449710
+Recommendation EP_train:0:  51%|| 597/1162 [20:07<17:29,  1.86s/it]DEBUG: Epoch 0, Step 597, loss_gsu is 0.403736, loss_esu is 0.418556
+Recommendation EP_train:0:  51%|| 598/1162 [20:09<17:16,  1.84s/it]DEBUG: Epoch 0, Step 598, loss_gsu is 0.470616, loss_esu is 0.476363
+Recommendation EP_train:0:  52%|| 599/1162 [20:11<17:12,  1.83s/it]DEBUG: Epoch 0, Step 599, loss_gsu is 0.430429, loss_esu is 0.442976
+Recommendation EP_train:0:  52%|| 600/1162 [20:12<17:00,  1.82s/it]DEBUG: Epoch 0, Step 600, loss_gsu is 0.456675, loss_esu is 0.476215
+Recommendation EP_train:0:  52%|| 601/1162 [20:14<17:02,  1.82s/it]DEBUG: Epoch 0, Step 601, loss_gsu is 0.417713, loss_esu is 0.437206
+Recommendation EP_train:0:  52%|| 602/1162 [20:16<16:56,  1.81s/it]DEBUG: Epoch 0, Step 602, loss_gsu is 0.470502, loss_esu is 0.494456
+Recommendation EP_train:0:  52%|| 603/1162 [20:18<17:00,  1.83s/it]DEBUG: Epoch 0, Step 603, loss_gsu is 0.426892, loss_esu is 0.452927
+Recommendation EP_train:0:  52%|| 604/1162 [20:20<16:55,  1.82s/it]DEBUG: Epoch 0, Step 604, loss_gsu is 0.379573, loss_esu is 0.386148
+Recommendation EP_train:0:  52%|| 605/1162 [20:21<16:52,  1.82s/it]DEBUG: Epoch 0, Step 605, loss_gsu is 0.432326, loss_esu is 0.441677
+Recommendation EP_train:0:  52%|| 606/1162 [20:23<16:49,  1.82s/it]DEBUG: Epoch 0, Step 606, loss_gsu is 0.397859, loss_esu is 0.411530
+Recommendation EP_train:0:  52%|| 607/1162 [20:25<16:44,  1.81s/it]DEBUG: Epoch 0, Step 607, loss_gsu is 0.430578, loss_esu is 0.446326
+Recommendation EP_train:0:  52%|| 608/1162 [20:27<16:40,  1.81s/it]DEBUG: Epoch 0, Step 608, loss_gsu is 0.369755, loss_esu is 0.386200
+Recommendation EP_train:0:  52%|| 609/1162 [20:29<16:39,  1.81s/it]DEBUG: Epoch 0, Step 609, loss_gsu is 0.398166, loss_esu is 0.416495
+Recommendation EP_train:0:  52%|| 610/1162 [20:30<16:32,  1.80s/it]DEBUG: Epoch 0, Step 610, loss_gsu is 0.439903, loss_esu is 0.456797
+Recommendation EP_train:0:  53%|| 611/1162 [20:32<16:38,  1.81s/it]DEBUG: Epoch 0, Step 611, loss_gsu is 0.438128, loss_esu is 0.454392
+Recommendation EP_train:0:  53%|| 612/1162 [20:34<16:46,  1.83s/it]DEBUG: Epoch 0, Step 612, loss_gsu is 0.467639, loss_esu is 0.477660
+Recommendation EP_train:0:  53%|| 613/1162 [20:36<16:50,  1.84s/it]DEBUG: Epoch 0, Step 613, loss_gsu is 0.422806, loss_esu is 0.437354
+Recommendation EP_train:0:  53%|| 614/1162 [20:38<16:47,  1.84s/it]DEBUG: Epoch 0, Step 614, loss_gsu is 0.456644, loss_esu is 0.457838
+Recommendation EP_train:0:  53%|| 615/1162 [20:40<16:47,  1.84s/it]DEBUG: Epoch 0, Step 615, loss_gsu is 0.419667, loss_esu is 0.435604
+Recommendation EP_train:0:  53%|| 616/1162 [20:42<16:50,  1.85s/it]DEBUG: Epoch 0, Step 616, loss_gsu is 0.461257, loss_esu is 0.495640
+Recommendation EP_train:0:  53%|| 617/1162 [20:43<16:48,  1.85s/it]DEBUG: Epoch 0, Step 617, loss_gsu is 0.423222, loss_esu is 0.448522
+Recommendation EP_train:0:  53%|| 618/1162 [20:45<16:45,  1.85s/it]DEBUG: Epoch 0, Step 618, loss_gsu is 0.450253, loss_esu is 0.467539
+Recommendation EP_train:0:  53%|| 619/1162 [20:47<16:38,  1.84s/it]DEBUG: Epoch 0, Step 619, loss_gsu is 0.407734, loss_esu is 0.426884
+Recommendation EP_train:0:  53%|| 620/1162 [20:49<16:27,  1.82s/it]DEBUG: Epoch 0, Step 620, loss_gsu is 0.418023, loss_esu is 0.436552
+Recommendation EP_train:0:  53%|| 621/1162 [20:51<16:30,  1.83s/it]DEBUG: Epoch 0, Step 621, loss_gsu is 0.377060, loss_esu is 0.397888
+Recommendation EP_train:0:  54%|| 622/1162 [20:53<16:27,  1.83s/it]DEBUG: Epoch 0, Step 622, loss_gsu is 0.455615, loss_esu is 0.469261
+Recommendation EP_train:0:  54%|| 623/1162 [20:54<16:38,  1.85s/it]DEBUG: Epoch 0, Step 623, loss_gsu is 0.475415, loss_esu is 0.489150
+Recommendation EP_train:0:  54%|| 624/1162 [20:56<16:47,  1.87s/it]DEBUG: Epoch 0, Step 624, loss_gsu is 0.383764, loss_esu is 0.403261
+Recommendation EP_train:0:  54%|| 625/1162 [20:58<16:31,  1.85s/it]DEBUG: Epoch 0, Step 625, loss_gsu is 0.475914, loss_esu is 0.487921
+Recommendation EP_train:0:  54%|| 626/1162 [21:00<16:26,  1.84s/it]DEBUG: Epoch 0, Step 626, loss_gsu is 0.452444, loss_esu is 0.469131
+Recommendation EP_train:0:  54%|| 627/1162 [21:02<16:20,  1.83s/it]DEBUG: Epoch 0, Step 627, loss_gsu is 0.435738, loss_esu is 0.439441
+Recommendation EP_train:0:  54%|| 628/1162 [21:04<16:09,  1.82s/it]DEBUG: Epoch 0, Step 628, loss_gsu is 0.436521, loss_esu is 0.452595
+Recommendation EP_train:0:  54%|| 629/1162 [21:05<16:10,  1.82s/it]DEBUG: Epoch 0, Step 629, loss_gsu is 0.369621, loss_esu is 0.382365
+Recommendation EP_train:0:  54%|| 630/1162 [21:07<16:03,  1.81s/it]DEBUG: Epoch 0, Step 630, loss_gsu is 0.414919, loss_esu is 0.430046
+Recommendation EP_train:0:  54%|| 631/1162 [21:09<16:00,  1.81s/it]DEBUG: Epoch 0, Step 631, loss_gsu is 0.435477, loss_esu is 0.455414
+Recommendation EP_train:0:  54%|| 632/1162 [21:11<16:08,  1.83s/it]DEBUG: Epoch 0, Step 632, loss_gsu is 0.441480, loss_esu is 0.459180
+Recommendation EP_train:0:  54%|| 633/1162 [21:13<16:14,  1.84s/it]DEBUG: Epoch 0, Step 633, loss_gsu is 0.421719, loss_esu is 0.440218
+Recommendation EP_train:0:  55%|| 634/1162 [21:15<16:01,  1.82s/it]DEBUG: Epoch 0, Step 634, loss_gsu is 0.438461, loss_esu is 0.450763
+Recommendation EP_train:0:  55%|| 635/1162 [21:16<16:05,  1.83s/it]DEBUG: Epoch 0, Step 635, loss_gsu is 0.405933, loss_esu is 0.412266
+Recommendation EP_train:0:  55%|| 636/1162 [21:18<15:57,  1.82s/it]DEBUG: Epoch 0, Step 636, loss_gsu is 0.456260, loss_esu is 0.471453
+Recommendation EP_train:0:  55%|| 637/1162 [21:20<15:58,  1.83s/it]DEBUG: Epoch 0, Step 637, loss_gsu is 0.463681, loss_esu is 0.490181
+Recommendation EP_train:0:  55%|| 638/1162 [21:22<15:56,  1.83s/it]DEBUG: Epoch 0, Step 638, loss_gsu is 0.417381, loss_esu is 0.433703
+Recommendation EP_train:0:  55%|| 639/1162 [21:24<15:48,  1.81s/it]DEBUG: Epoch 0, Step 639, loss_gsu is 0.414577, loss_esu is 0.431133
+Recommendation EP_train:0:  55%|| 640/1162 [21:25<15:44,  1.81s/it]DEBUG: Epoch 0, Step 640, loss_gsu is 0.412584, loss_esu is 0.427183
+Recommendation EP_train:0:  55%|| 641/1162 [21:27<15:40,  1.80s/it]DEBUG: Epoch 0, Step 641, loss_gsu is 0.412325, loss_esu is 0.432588
+Recommendation EP_train:0:  55%|| 642/1162 [21:29<15:36,  1.80s/it]DEBUG: Epoch 0, Step 642, loss_gsu is 0.444139, loss_esu is 0.452131
+Recommendation EP_train:0:  55%|| 643/1162 [21:31<15:37,  1.81s/it]DEBUG: Epoch 0, Step 643, loss_gsu is 0.393401, loss_esu is 0.408217
+Recommendation EP_train:0:  55%|| 644/1162 [21:33<15:31,  1.80s/it]DEBUG: Epoch 0, Step 644, loss_gsu is 0.422985, loss_esu is 0.428181
+Recommendation EP_train:0:  56%|| 645/1162 [21:35<15:46,  1.83s/it]DEBUG: Epoch 0, Step 645, loss_gsu is 0.370526, loss_esu is 0.391959
+Recommendation EP_train:0:  56%|| 646/1162 [21:36<15:39,  1.82s/it]DEBUG: Epoch 0, Step 646, loss_gsu is 0.476791, loss_esu is 0.485777
+Recommendation EP_train:0:  56%|| 647/1162 [21:38<15:32,  1.81s/it]DEBUG: Epoch 0, Step 647, loss_gsu is 0.419118, loss_esu is 0.426816
+Recommendation EP_train:0:  56%|| 648/1162 [21:40<15:35,  1.82s/it]DEBUG: Epoch 0, Step 648, loss_gsu is 0.443741, loss_esu is 0.458248
+Recommendation EP_train:0:  56%|| 649/1162 [21:42<15:39,  1.83s/it]DEBUG: Epoch 0, Step 649, loss_gsu is 0.383302, loss_esu is 0.395413
+Recommendation EP_train:0:  56%|| 650/1162 [21:44<15:38,  1.83s/it]DEBUG: Epoch 0, Step 650, loss_gsu is 0.463024, loss_esu is 0.479412
+Recommendation EP_train:0:  56%|| 651/1162 [21:46<15:51,  1.86s/it]DEBUG: Epoch 0, Step 651, loss_gsu is 0.419762, loss_esu is 0.434067
+Recommendation EP_train:0:  56%|| 652/1162 [21:47<15:39,  1.84s/it]DEBUG: Epoch 0, Step 652, loss_gsu is 0.405869, loss_esu is 0.420566
+Recommendation EP_train:0:  56%|| 653/1162 [21:49<15:37,  1.84s/it]DEBUG: Epoch 0, Step 653, loss_gsu is 0.422746, loss_esu is 0.456220
+Recommendation EP_train:0:  56%|| 654/1162 [21:51<15:21,  1.81s/it]DEBUG: Epoch 0, Step 654, loss_gsu is 0.390689, loss_esu is 0.410871
+Recommendation EP_train:0:  56%|| 655/1162 [21:53<15:28,  1.83s/it]DEBUG: Epoch 0, Step 655, loss_gsu is 0.422718, loss_esu is 0.435814
+Recommendation EP_train:0:  56%|| 656/1162 [21:55<15:28,  1.84s/it]DEBUG: Epoch 0, Step 656, loss_gsu is 0.392752, loss_esu is 0.409407
+Recommendation EP_train:0:  57%|| 657/1162 [21:57<15:31,  1.85s/it]DEBUG: Epoch 0, Step 657, loss_gsu is 0.479418, loss_esu is 0.510627
+Recommendation EP_train:0:  57%|| 658/1162 [21:58<15:19,  1.82s/it]DEBUG: Epoch 0, Step 658, loss_gsu is 0.440635, loss_esu is 0.452324
+Recommendation EP_train:0:  57%|| 659/1162 [22:00<15:10,  1.81s/it]DEBUG: Epoch 0, Step 659, loss_gsu is 0.402794, loss_esu is 0.429676
+Recommendation EP_train:0:  57%|| 660/1162 [22:02<15:10,  1.81s/it]DEBUG: Epoch 0, Step 660, loss_gsu is 0.434225, loss_esu is 0.451192
+Recommendation EP_train:0:  57%|| 661/1162 [22:04<15:19,  1.84s/it]DEBUG: Epoch 0, Step 661, loss_gsu is 0.387314, loss_esu is 0.399399
+Recommendation EP_train:0:  57%|| 662/1162 [22:06<15:21,  1.84s/it]DEBUG: Epoch 0, Step 662, loss_gsu is 0.416160, loss_esu is 0.439374
+Recommendation EP_train:0:  57%|| 663/1162 [22:07<15:16,  1.84s/it]DEBUG: Epoch 0, Step 663, loss_gsu is 0.407029, loss_esu is 0.431578
+Recommendation EP_train:0:  57%|| 664/1162 [22:09<15:05,  1.82s/it]DEBUG: Epoch 0, Step 664, loss_gsu is 0.430952, loss_esu is 0.429893
+Recommendation EP_train:0:  57%|| 665/1162 [22:11<15:05,  1.82s/it]DEBUG: Epoch 0, Step 665, loss_gsu is 0.403353, loss_esu is 0.428389
+Recommendation EP_train:0:  57%|| 666/1162 [22:13<15:00,  1.82s/it]DEBUG: Epoch 0, Step 666, loss_gsu is 0.491649, loss_esu is 0.506362
+Recommendation EP_train:0:  57%|| 667/1162 [22:15<14:57,  1.81s/it]DEBUG: Epoch 0, Step 667, loss_gsu is 0.386686, loss_esu is 0.413556
+Recommendation EP_train:0:  57%|| 668/1162 [22:17<14:54,  1.81s/it]DEBUG: Epoch 0, Step 668, loss_gsu is 0.416968, loss_esu is 0.428093
+Recommendation EP_train:0:  58%|| 669/1162 [22:18<14:48,  1.80s/it]DEBUG: Epoch 0, Step 669, loss_gsu is 0.459445, loss_esu is 0.478325
+Recommendation EP_train:0:  58%|| 670/1162 [22:20<14:43,  1.80s/it]DEBUG: Epoch 0, Step 670, loss_gsu is 0.397043, loss_esu is 0.410263
+Recommendation EP_train:0:  58%|| 671/1162 [22:22<15:17,  1.87s/it]DEBUG: Epoch 0, Step 671, loss_gsu is 0.466651, loss_esu is 0.469988
+Recommendation EP_train:0:  58%|| 672/1162 [22:25<16:34,  2.03s/it]DEBUG: Epoch 0, Step 672, loss_gsu is 0.434750, loss_esu is 0.463809
+Recommendation EP_train:0:  58%|| 673/1162 [22:27<16:48,  2.06s/it]DEBUG: Epoch 0, Step 673, loss_gsu is 0.431999, loss_esu is 0.457218
+Recommendation EP_train:0:  58%|| 674/1162 [22:29<17:01,  2.09s/it]DEBUG: Epoch 0, Step 674, loss_gsu is 0.439773, loss_esu is 0.467204
+Recommendation EP_train:0:  58%|| 675/1162 [22:31<17:00,  2.10s/it]DEBUG: Epoch 0, Step 675, loss_gsu is 0.412071, loss_esu is 0.419036
+Recommendation EP_train:0:  58%|| 676/1162 [22:34<18:11,  2.25s/it]DEBUG: Epoch 0, Step 676, loss_gsu is 0.443054, loss_esu is 0.467609
+Recommendation EP_train:0:  58%|| 677/1162 [22:36<18:04,  2.24s/it]DEBUG: Epoch 0, Step 677, loss_gsu is 0.440976, loss_esu is 0.462107
+Recommendation EP_train:0:  58%|| 678/1162 [22:38<17:59,  2.23s/it]DEBUG: Epoch 0, Step 678, loss_gsu is 0.467722, loss_esu is 0.481174
+Recommendation EP_train:0:  58%|| 679/1162 [22:40<17:48,  2.21s/it]DEBUG: Epoch 0, Step 679, loss_gsu is 0.364484, loss_esu is 0.390021
+Recommendation EP_train:0:  59%|| 680/1162 [22:43<19:18,  2.40s/it]DEBUG: Epoch 0, Step 680, loss_gsu is 0.395177, loss_esu is 0.409529
+Recommendation EP_train:0:  59%|| 681/1162 [22:45<18:51,  2.35s/it]DEBUG: Epoch 0, Step 681, loss_gsu is 0.404098, loss_esu is 0.413940
+Recommendation EP_train:0:  59%|| 682/1162 [22:48<19:20,  2.42s/it]DEBUG: Epoch 0, Step 682, loss_gsu is 0.418163, loss_esu is 0.438568
+Recommendation EP_train:0:  59%|| 683/1162 [22:50<19:39,  2.46s/it]DEBUG: Epoch 0, Step 683, loss_gsu is 0.433808, loss_esu is 0.453910
+Recommendation EP_train:0:  59%|| 684/1162 [22:53<19:41,  2.47s/it]DEBUG: Epoch 0, Step 684, loss_gsu is 0.395074, loss_esu is 0.416354
+Recommendation EP_train:0:  59%|| 685/1162 [22:55<19:53,  2.50s/it]DEBUG: Epoch 0, Step 685, loss_gsu is 0.477984, loss_esu is 0.497799
+Recommendation EP_train:0:  59%|| 686/1162 [22:58<19:27,  2.45s/it]DEBUG: Epoch 0, Step 686, loss_gsu is 0.393018, loss_esu is 0.405755
+Recommendation EP_train:0:  59%|| 687/1162 [23:00<19:24,  2.45s/it]DEBUG: Epoch 0, Step 687, loss_gsu is 0.404605, loss_esu is 0.419918
+Recommendation EP_train:0:  59%|| 688/1162 [23:02<18:59,  2.40s/it]DEBUG: Epoch 0, Step 688, loss_gsu is 0.408783, loss_esu is 0.426907
+Recommendation EP_train:0:  59%|| 689/1162 [23:05<18:49,  2.39s/it]DEBUG: Epoch 0, Step 689, loss_gsu is 0.456417, loss_esu is 0.472297
+Recommendation EP_train:0:  59%|| 690/1162 [23:07<18:09,  2.31s/it]DEBUG: Epoch 0, Step 690, loss_gsu is 0.402267, loss_esu is 0.426124
+Recommendation EP_train:0:  59%|| 691/1162 [23:09<17:35,  2.24s/it]DEBUG: Epoch 0, Step 691, loss_gsu is 0.403741, loss_esu is 0.425125
+Recommendation EP_train:0:  60%|| 692/1162 [23:11<16:38,  2.12s/it]DEBUG: Epoch 0, Step 692, loss_gsu is 0.427563, loss_esu is 0.450079
+Recommendation EP_train:0:  60%|| 693/1162 [23:13<16:08,  2.06s/it]DEBUG: Epoch 0, Step 693, loss_gsu is 0.433760, loss_esu is 0.434309
+Recommendation EP_train:0:  60%|| 694/1162 [23:15<15:42,  2.01s/it]DEBUG: Epoch 0, Step 694, loss_gsu is 0.380962, loss_esu is 0.404915
+Recommendation EP_train:0:  60%|| 695/1162 [23:17<15:25,  1.98s/it]DEBUG: Epoch 0, Step 695, loss_gsu is 0.444863, loss_esu is 0.460047
+Recommendation EP_train:0:  60%|| 696/1162 [23:18<15:06,  1.95s/it]DEBUG: Epoch 0, Step 696, loss_gsu is 0.389884, loss_esu is 0.405746
+Recommendation EP_train:0:  60%|| 697/1162 [23:20<14:51,  1.92s/it]DEBUG: Epoch 0, Step 697, loss_gsu is 0.435934, loss_esu is 0.470924
+Recommendation EP_train:0:  60%|| 698/1162 [23:22<14:31,  1.88s/it]DEBUG: Epoch 0, Step 698, loss_gsu is 0.435561, loss_esu is 0.452907
+Recommendation EP_train:0:  60%|| 699/1162 [23:24<14:22,  1.86s/it]DEBUG: Epoch 0, Step 699, loss_gsu is 0.408966, loss_esu is 0.435099
+Recommendation EP_train:0:  60%|| 700/1162 [23:26<14:17,  1.86s/it]DEBUG: Epoch 0, Step 700, loss_gsu is 0.417843, loss_esu is 0.438211
+Recommendation EP_train:0:  60%|| 701/1162 [23:28<14:09,  1.84s/it]DEBUG: Epoch 0, Step 701, loss_gsu is 0.428331, loss_esu is 0.424178
+Recommendation EP_train:0:  60%|| 702/1162 [23:29<14:02,  1.83s/it]DEBUG: Epoch 0, Step 702, loss_gsu is 0.433414, loss_esu is 0.450808
+Recommendation EP_train:0:  60%|| 703/1162 [23:31<14:01,  1.83s/it]DEBUG: Epoch 0, Step 703, loss_gsu is 0.472429, loss_esu is 0.486366
+Recommendation EP_train:0:  61%|| 704/1162 [23:33<14:09,  1.85s/it]DEBUG: Epoch 0, Step 704, loss_gsu is 0.428557, loss_esu is 0.440313
+Recommendation EP_train:0:  61%|| 705/1162 [23:35<14:12,  1.87s/it]DEBUG: Epoch 0, Step 705, loss_gsu is 0.429263, loss_esu is 0.444724
+Recommendation EP_train:0:  61%|| 706/1162 [23:37<14:14,  1.87s/it]DEBUG: Epoch 0, Step 706, loss_gsu is 0.431607, loss_esu is 0.450890
+Recommendation EP_train:0:  61%|| 707/1162 [23:39<14:07,  1.86s/it]DEBUG: Epoch 0, Step 707, loss_gsu is 0.439742, loss_esu is 0.453000
+Recommendation EP_train:0:  61%|| 708/1162 [23:41<14:04,  1.86s/it]DEBUG: Epoch 0, Step 708, loss_gsu is 0.384066, loss_esu is 0.403714
+Recommendation EP_train:0:  61%|| 709/1162 [23:42<14:01,  1.86s/it]DEBUG: Epoch 0, Step 709, loss_gsu is 0.401049, loss_esu is 0.417450
+Recommendation EP_train:0:  61%|| 710/1162 [23:44<13:50,  1.84s/it]DEBUG: Epoch 0, Step 710, loss_gsu is 0.428522, loss_esu is 0.442664
+Recommendation EP_train:0:  61%|| 711/1162 [23:46<13:51,  1.84s/it]DEBUG: Epoch 0, Step 711, loss_gsu is 0.403523, loss_esu is 0.428659
+Recommendation EP_train:0:  61%|| 712/1162 [23:48<13:37,  1.82s/it]DEBUG: Epoch 0, Step 712, loss_gsu is 0.415507, loss_esu is 0.435445
+Recommendation EP_train:0:  61%|| 713/1162 [23:50<13:34,  1.81s/it]DEBUG: Epoch 0, Step 713, loss_gsu is 0.426002, loss_esu is 0.446218
+Recommendation EP_train:0:  61%|| 714/1162 [23:51<13:33,  1.81s/it]DEBUG: Epoch 0, Step 714, loss_gsu is 0.451271, loss_esu is 0.480748
+Recommendation EP_train:0:  62%|| 715/1162 [23:53<13:44,  1.84s/it]DEBUG: Epoch 0, Step 715, loss_gsu is 0.433602, loss_esu is 0.455540
+Recommendation EP_train:0:  62%|| 716/1162 [23:55<13:47,  1.85s/it]DEBUG: Epoch 0, Step 716, loss_gsu is 0.383295, loss_esu is 0.402752
+Recommendation EP_train:0:  62%|| 717/1162 [23:57<13:53,  1.87s/it]DEBUG: Epoch 0, Step 717, loss_gsu is 0.436013, loss_esu is 0.457177
+Recommendation EP_train:0:  62%|| 718/1162 [23:59<14:02,  1.90s/it]DEBUG: Epoch 0, Step 718, loss_gsu is 0.432042, loss_esu is 0.455828
+Recommendation EP_train:0:  62%|| 719/1162 [24:01<14:04,  1.91s/it]DEBUG: Epoch 0, Step 719, loss_gsu is 0.418616, loss_esu is 0.437143
+Recommendation EP_train:0:  62%|| 720/1162 [24:03<13:55,  1.89s/it]DEBUG: Epoch 0, Step 720, loss_gsu is 0.441428, loss_esu is 0.460479
+Recommendation EP_train:0:  62%|| 721/1162 [24:05<13:54,  1.89s/it]DEBUG: Epoch 0, Step 721, loss_gsu is 0.447795, loss_esu is 0.480344
+Recommendation EP_train:0:  62%|| 722/1162 [24:07<13:51,  1.89s/it]DEBUG: Epoch 0, Step 722, loss_gsu is 0.400802, loss_esu is 0.408670
+Recommendation EP_train:0:  62%|| 723/1162 [24:09<13:50,  1.89s/it]DEBUG: Epoch 0, Step 723, loss_gsu is 0.422824, loss_esu is 0.447324
+Recommendation EP_train:0:  62%|| 724/1162 [24:10<13:38,  1.87s/it]DEBUG: Epoch 0, Step 724, loss_gsu is 0.438271, loss_esu is 0.454911
+Recommendation EP_train:0:  62%|| 725/1162 [24:12<13:45,  1.89s/it]DEBUG: Epoch 0, Step 725, loss_gsu is 0.424775, loss_esu is 0.442936
+Recommendation EP_train:0:  62%|| 726/1162 [24:14<13:44,  1.89s/it]DEBUG: Epoch 0, Step 726, loss_gsu is 0.428929, loss_esu is 0.438697
+Recommendation EP_train:0:  63%|| 727/1162 [24:16<13:42,  1.89s/it]DEBUG: Epoch 0, Step 727, loss_gsu is 0.375523, loss_esu is 0.378829
+Recommendation EP_train:0:  63%|| 728/1162 [24:18<13:33,  1.87s/it]DEBUG: Epoch 0, Step 728, loss_gsu is 0.463429, loss_esu is 0.482572
+Recommendation EP_train:0:  63%|| 729/1162 [24:20<13:28,  1.87s/it]DEBUG: Epoch 0, Step 729, loss_gsu is 0.399824, loss_esu is 0.418819
+Recommendation EP_train:0:  63%|| 730/1162 [24:22<13:30,  1.88s/it]DEBUG: Epoch 0, Step 730, loss_gsu is 0.440408, loss_esu is 0.468571
+Recommendation EP_train:0:  63%|| 731/1162 [24:24<13:35,  1.89s/it]DEBUG: Epoch 0, Step 731, loss_gsu is 0.450282, loss_esu is 0.459351
+Recommendation EP_train:0:  63%|| 732/1162 [24:26<13:35,  1.90s/it]DEBUG: Epoch 0, Step 732, loss_gsu is 0.421778, loss_esu is 0.441823
+Recommendation EP_train:0:  63%|| 733/1162 [24:27<13:28,  1.89s/it]DEBUG: Epoch 0, Step 733, loss_gsu is 0.391487, loss_esu is 0.409979
+Recommendation EP_train:0:  63%|| 734/1162 [24:29<13:28,  1.89s/it]DEBUG: Epoch 0, Step 734, loss_gsu is 0.400850, loss_esu is 0.415141
+Recommendation EP_train:0:  63%|| 735/1162 [24:31<13:21,  1.88s/it]DEBUG: Epoch 0, Step 735, loss_gsu is 0.406478, loss_esu is 0.436315
+Recommendation EP_train:0:  63%|| 736/1162 [24:33<13:11,  1.86s/it]DEBUG: Epoch 0, Step 736, loss_gsu is 0.443772, loss_esu is 0.463726
+Recommendation EP_train:0:  63%|| 737/1162 [24:35<13:24,  1.89s/it]DEBUG: Epoch 0, Step 737, loss_gsu is 0.385190, loss_esu is 0.401811
+Recommendation EP_train:0:  64%|| 738/1162 [24:37<13:26,  1.90s/it]DEBUG: Epoch 0, Step 738, loss_gsu is 0.414529, loss_esu is 0.426060
+Recommendation EP_train:0:  64%|| 739/1162 [24:39<13:29,  1.91s/it]DEBUG: Epoch 0, Step 739, loss_gsu is 0.415855, loss_esu is 0.434679
+Recommendation EP_train:0:  64%|| 740/1162 [24:41<13:18,  1.89s/it]DEBUG: Epoch 0, Step 740, loss_gsu is 0.470702, loss_esu is 0.492352
+Recommendation EP_train:0:  64%|| 741/1162 [24:43<13:17,  1.89s/it]DEBUG: Epoch 0, Step 741, loss_gsu is 0.441621, loss_esu is 0.453173
+Recommendation EP_train:0:  64%|| 742/1162 [24:44<13:03,  1.87s/it]DEBUG: Epoch 0, Step 742, loss_gsu is 0.449807, loss_esu is 0.462735
+Recommendation EP_train:0:  64%|| 743/1162 [24:46<12:58,  1.86s/it]DEBUG: Epoch 0, Step 743, loss_gsu is 0.368604, loss_esu is 0.402141
+Recommendation EP_train:0:  64%|| 744/1162 [24:48<13:00,  1.87s/it]DEBUG: Epoch 0, Step 744, loss_gsu is 0.410769, loss_esu is 0.414693
+Recommendation EP_train:0:  64%|| 745/1162 [24:50<12:53,  1.85s/it]DEBUG: Epoch 0, Step 745, loss_gsu is 0.423718, loss_esu is 0.444762
+Recommendation EP_train:0:  64%|| 746/1162 [24:52<13:01,  1.88s/it]DEBUG: Epoch 0, Step 746, loss_gsu is 0.430526, loss_esu is 0.459054
+Recommendation EP_train:0:  64%|| 747/1162 [24:54<13:13,  1.91s/it]DEBUG: Epoch 0, Step 747, loss_gsu is 0.355437, loss_esu is 0.368883
+Recommendation EP_train:0:  64%|| 748/1162 [24:56<13:16,  1.92s/it]DEBUG: Epoch 0, Step 748, loss_gsu is 0.426765, loss_esu is 0.447302
+Recommendation EP_train:0:  64%|| 749/1162 [24:58<13:11,  1.92s/it]DEBUG: Epoch 0, Step 749, loss_gsu is 0.391620, loss_esu is 0.404394
+Recommendation EP_train:0:  65%|| 750/1162 [25:00<13:06,  1.91s/it]DEBUG: Epoch 0, Step 750, loss_gsu is 0.437279, loss_esu is 0.449358
+Recommendation EP_train:0:  65%|| 751/1162 [25:01<12:55,  1.89s/it]DEBUG: Epoch 0, Step 751, loss_gsu is 0.356535, loss_esu is 0.383423
+Recommendation EP_train:0:  65%|| 752/1162 [25:04<13:27,  1.97s/it]DEBUG: Epoch 0, Step 752, loss_gsu is 0.393546, loss_esu is 0.409221
+Recommendation EP_train:0:  65%|| 753/1162 [25:06<13:54,  2.04s/it]DEBUG: Epoch 0, Step 753, loss_gsu is 0.430066, loss_esu is 0.449287
+Recommendation EP_train:0:  65%|| 754/1162 [25:08<14:58,  2.20s/it]DEBUG: Epoch 0, Step 754, loss_gsu is 0.393332, loss_esu is 0.403893
+Recommendation EP_train:0:  65%|| 755/1162 [25:11<15:24,  2.27s/it]DEBUG: Epoch 0, Step 755, loss_gsu is 0.384826, loss_esu is 0.405903
+Recommendation EP_train:0:  65%|| 756/1162 [25:13<15:38,  2.31s/it]DEBUG: Epoch 0, Step 756, loss_gsu is 0.413452, loss_esu is 0.424207
+Recommendation EP_train:0:  65%|| 757/1162 [25:16<16:42,  2.47s/it]DEBUG: Epoch 0, Step 757, loss_gsu is 0.431678, loss_esu is 0.447875
+Recommendation EP_train:0:  65%|| 758/1162 [25:18<16:14,  2.41s/it]DEBUG: Epoch 0, Step 758, loss_gsu is 0.437292, loss_esu is 0.460292
+Recommendation EP_train:0:  65%|| 759/1162 [25:20<15:25,  2.30s/it]DEBUG: Epoch 0, Step 759, loss_gsu is 0.416356, loss_esu is 0.429863
+Recommendation EP_train:0:  65%|| 760/1162 [25:22<14:52,  2.22s/it]DEBUG: Epoch 0, Step 760, loss_gsu is 0.423957, loss_esu is 0.449622
+Recommendation EP_train:0:  65%|| 761/1162 [25:24<14:31,  2.17s/it]DEBUG: Epoch 0, Step 761, loss_gsu is 0.372468, loss_esu is 0.398800
+Recommendation EP_train:0:  66%|| 762/1162 [25:26<14:05,  2.11s/it]DEBUG: Epoch 0, Step 762, loss_gsu is 0.429512, loss_esu is 0.440300
+Recommendation EP_train:0:  66%|| 763/1162 [25:29<14:26,  2.17s/it]DEBUG: Epoch 0, Step 763, loss_gsu is 0.415796, loss_esu is 0.442574
+Recommendation EP_train:0:  66%|| 764/1162 [25:31<14:49,  2.23s/it]DEBUG: Epoch 0, Step 764, loss_gsu is 0.429559, loss_esu is 0.452095
+Recommendation EP_train:0:  66%|| 765/1162 [25:33<14:27,  2.19s/it]DEBUG: Epoch 0, Step 765, loss_gsu is 0.426739, loss_esu is 0.439199
+Recommendation EP_train:0:  66%|| 766/1162 [25:35<14:19,  2.17s/it]DEBUG: Epoch 0, Step 766, loss_gsu is 0.358209, loss_esu is 0.366126
+Recommendation EP_train:0:  66%|| 767/1162 [25:37<13:45,  2.09s/it]DEBUG: Epoch 0, Step 767, loss_gsu is 0.399874, loss_esu is 0.423164
+Recommendation EP_train:0:  66%|| 768/1162 [25:39<13:05,  1.99s/it]DEBUG: Epoch 0, Step 768, loss_gsu is 0.390954, loss_esu is 0.411601
+Recommendation EP_train:0:  66%|| 769/1162 [25:41<13:01,  1.99s/it]DEBUG: Epoch 0, Step 769, loss_gsu is 0.404721, loss_esu is 0.448943
+Recommendation EP_train:0:  66%|| 770/1162 [25:43<12:52,  1.97s/it]DEBUG: Epoch 0, Step 770, loss_gsu is 0.385023, loss_esu is 0.395255
+Recommendation EP_train:0:  66%|| 771/1162 [25:45<12:52,  1.98s/it]DEBUG: Epoch 0, Step 771, loss_gsu is 0.380967, loss_esu is 0.406499
+Recommendation EP_train:0:  66%|| 772/1162 [25:47<12:40,  1.95s/it]DEBUG: Epoch 0, Step 772, loss_gsu is 0.396529, loss_esu is 0.418296
+Recommendation EP_train:0:  67%|| 773/1162 [25:49<12:35,  1.94s/it]DEBUG: Epoch 0, Step 773, loss_gsu is 0.385969, loss_esu is 0.402952
+Recommendation EP_train:0:  67%|| 774/1162 [25:51<12:26,  1.92s/it]DEBUG: Epoch 0, Step 774, loss_gsu is 0.389200, loss_esu is 0.419480
+Recommendation EP_train:0:  67%|| 775/1162 [25:53<12:24,  1.92s/it]DEBUG: Epoch 0, Step 775, loss_gsu is 0.406475, loss_esu is 0.425969
+Recommendation EP_train:0:  67%|| 776/1162 [25:54<12:26,  1.93s/it]DEBUG: Epoch 0, Step 776, loss_gsu is 0.423957, loss_esu is 0.449927
+Recommendation EP_train:0:  67%|| 777/1162 [25:57<12:35,  1.96s/it]DEBUG: Epoch 0, Step 777, loss_gsu is 0.441342, loss_esu is 0.477089
+Recommendation EP_train:0:  67%|| 778/1162 [25:59<12:45,  1.99s/it]DEBUG: Epoch 0, Step 778, loss_gsu is 0.357397, loss_esu is 0.373078
+Recommendation EP_train:0:  67%|| 779/1162 [26:01<12:55,  2.03s/it]DEBUG: Epoch 0, Step 779, loss_gsu is 0.433938, loss_esu is 0.455591
+Recommendation EP_train:0:  67%|| 780/1162 [26:03<12:48,  2.01s/it]DEBUG: Epoch 0, Step 780, loss_gsu is 0.414437, loss_esu is 0.432842
+Recommendation EP_train:0:  67%|| 781/1162 [26:05<12:53,  2.03s/it]DEBUG: Epoch 0, Step 781, loss_gsu is 0.444969, loss_esu is 0.475672
+Recommendation EP_train:0:  67%|| 782/1162 [26:07<12:54,  2.04s/it]DEBUG: Epoch 0, Step 782, loss_gsu is 0.393406, loss_esu is 0.422385
+Recommendation EP_train:0:  67%|| 783/1162 [26:09<12:56,  2.05s/it]DEBUG: Epoch 0, Step 783, loss_gsu is 0.414959, loss_esu is 0.441732
+Recommendation EP_train:0:  67%|| 784/1162 [26:11<12:21,  1.96s/it]DEBUG: Epoch 0, Step 784, loss_gsu is 0.432222, loss_esu is 0.472648
+Recommendation EP_train:0:  68%|| 785/1162 [26:12<11:49,  1.88s/it]DEBUG: Epoch 0, Step 785, loss_gsu is 0.456255, loss_esu is 0.469466
+Recommendation EP_train:0:  68%|| 786/1162 [26:14<11:17,  1.80s/it]DEBUG: Epoch 0, Step 786, loss_gsu is 0.369045, loss_esu is 0.398730
+Recommendation EP_train:0:  68%|| 787/1162 [26:16<10:58,  1.76s/it]DEBUG: Epoch 0, Step 787, loss_gsu is 0.396977, loss_esu is 0.414604
+Recommendation EP_train:0:  68%|| 788/1162 [26:17<11:06,  1.78s/it]DEBUG: Epoch 0, Step 788, loss_gsu is 0.429794, loss_esu is 0.465459
+Recommendation EP_train:0:  68%|| 789/1162 [26:19<11:14,  1.81s/it]DEBUG: Epoch 0, Step 789, loss_gsu is 0.405579, loss_esu is 0.428808
+Recommendation EP_train:0:  68%|| 790/1162 [26:21<11:08,  1.80s/it]DEBUG: Epoch 0, Step 790, loss_gsu is 0.433141, loss_esu is 0.455145
+Recommendation EP_train:0:  68%|| 791/1162 [26:23<11:15,  1.82s/it]DEBUG: Epoch 0, Step 791, loss_gsu is 0.403971, loss_esu is 0.434626
+Recommendation EP_train:0:  68%|| 792/1162 [26:25<11:12,  1.82s/it]DEBUG: Epoch 0, Step 792, loss_gsu is 0.423453, loss_esu is 0.446163
+Recommendation EP_train:0:  68%|| 793/1162 [26:27<11:18,  1.84s/it]DEBUG: Epoch 0, Step 793, loss_gsu is 0.431004, loss_esu is 0.450579
+Recommendation EP_train:0:  68%|| 794/1162 [26:28<11:14,  1.83s/it]DEBUG: Epoch 0, Step 794, loss_gsu is 0.398585, loss_esu is 0.414251
+Recommendation EP_train:0:  68%|| 795/1162 [26:30<11:09,  1.82s/it]DEBUG: Epoch 0, Step 795, loss_gsu is 0.409691, loss_esu is 0.444572
+Recommendation EP_train:0:  69%|| 796/1162 [26:32<11:18,  1.85s/it]DEBUG: Epoch 0, Step 796, loss_gsu is 0.450554, loss_esu is 0.486988
+Recommendation EP_train:0:  69%|| 797/1162 [26:34<11:30,  1.89s/it]DEBUG: Epoch 0, Step 797, loss_gsu is 0.400701, loss_esu is 0.432870
+Recommendation EP_train:0:  69%|| 798/1162 [26:36<11:25,  1.88s/it]DEBUG: Epoch 0, Step 798, loss_gsu is 0.416263, loss_esu is 0.422124
+Recommendation EP_train:0:  69%|| 799/1162 [26:38<11:24,  1.89s/it]DEBUG: Epoch 0, Step 799, loss_gsu is 0.398130, loss_esu is 0.418278
+Recommendation EP_train:0:  69%|| 800/1162 [26:40<11:22,  1.88s/it]DEBUG: Epoch 0, Step 800, loss_gsu is 0.445462, loss_esu is 0.467135
+Recommendation EP_train:0:  69%|| 801/1162 [26:42<11:24,  1.90s/it]DEBUG: Epoch 0, Step 801, loss_gsu is 0.403003, loss_esu is 0.430373
+Recommendation EP_train:0:  69%|| 802/1162 [26:44<11:16,  1.88s/it]DEBUG: Epoch 0, Step 802, loss_gsu is 0.401052, loss_esu is 0.416414
+Recommendation EP_train:0:  69%|| 803/1162 [26:45<11:16,  1.88s/it]DEBUG: Epoch 0, Step 803, loss_gsu is 0.414409, loss_esu is 0.442516
+Recommendation EP_train:0:  69%|| 804/1162 [26:47<11:05,  1.86s/it]DEBUG: Epoch 0, Step 804, loss_gsu is 0.399240, loss_esu is 0.420624
+Recommendation EP_train:0:  69%|| 805/1162 [26:49<10:59,  1.85s/it]DEBUG: Epoch 0, Step 805, loss_gsu is 0.384100, loss_esu is 0.401870
+Recommendation EP_train:0:  69%|| 806/1162 [26:51<10:54,  1.84s/it]DEBUG: Epoch 0, Step 806, loss_gsu is 0.382661, loss_esu is 0.420047
+Recommendation EP_train:0:  69%|| 807/1162 [26:53<10:56,  1.85s/it]DEBUG: Epoch 0, Step 807, loss_gsu is 0.464175, loss_esu is 0.493676
+Recommendation EP_train:0:  70%|| 808/1162 [26:55<10:51,  1.84s/it]DEBUG: Epoch 0, Step 808, loss_gsu is 0.395223, loss_esu is 0.433220
+Recommendation EP_train:0:  70%|| 809/1162 [26:56<10:55,  1.86s/it]DEBUG: Epoch 0, Step 809, loss_gsu is 0.425815, loss_esu is 0.448053
+Recommendation EP_train:0:  70%|| 810/1162 [26:58<10:40,  1.82s/it]DEBUG: Epoch 0, Step 810, loss_gsu is 0.458163, loss_esu is 0.476780
+Recommendation EP_train:0:  70%|| 811/1162 [27:00<10:38,  1.82s/it]DEBUG: Epoch 0, Step 811, loss_gsu is 0.425317, loss_esu is 0.442097
+Recommendation EP_train:0:  70%|| 812/1162 [27:02<10:37,  1.82s/it]DEBUG: Epoch 0, Step 812, loss_gsu is 0.416015, loss_esu is 0.441714
+Recommendation EP_train:0:  70%|| 813/1162 [27:04<10:38,  1.83s/it]DEBUG: Epoch 0, Step 813, loss_gsu is 0.423538, loss_esu is 0.434000
+Recommendation EP_train:0:  70%|| 814/1162 [27:06<10:40,  1.84s/it]DEBUG: Epoch 0, Step 814, loss_gsu is 0.431007, loss_esu is 0.460432
+Recommendation EP_train:0:  70%|| 815/1162 [27:08<10:48,  1.87s/it]DEBUG: Epoch 0, Step 815, loss_gsu is 0.411735, loss_esu is 0.441235
+Recommendation EP_train:0:  70%|| 816/1162 [27:09<10:49,  1.88s/it]DEBUG: Epoch 0, Step 816, loss_gsu is 0.450107, loss_esu is 0.489387
+Recommendation EP_train:0:  70%|| 817/1162 [27:11<10:48,  1.88s/it]DEBUG: Epoch 0, Step 817, loss_gsu is 0.434306, loss_esu is 0.453768
+Recommendation EP_train:0:  70%|| 818/1162 [27:13<10:42,  1.87s/it]DEBUG: Epoch 0, Step 818, loss_gsu is 0.386889, loss_esu is 0.406079
+Recommendation EP_train:0:  70%|| 819/1162 [27:15<10:38,  1.86s/it]DEBUG: Epoch 0, Step 819, loss_gsu is 0.401654, loss_esu is 0.438076
+Recommendation EP_train:0:  71%|| 820/1162 [27:17<10:29,  1.84s/it]DEBUG: Epoch 0, Step 820, loss_gsu is 0.401985, loss_esu is 0.437265
+Recommendation EP_train:0:  71%|| 821/1162 [27:19<10:28,  1.84s/it]DEBUG: Epoch 0, Step 821, loss_gsu is 0.425352, loss_esu is 0.455236
+Recommendation EP_train:0:  71%|| 822/1162 [27:20<10:20,  1.83s/it]DEBUG: Epoch 0, Step 822, loss_gsu is 0.411418, loss_esu is 0.444405
+Recommendation EP_train:0:  71%|| 823/1162 [27:22<10:19,  1.83s/it]DEBUG: Epoch 0, Step 823, loss_gsu is 0.424879, loss_esu is 0.464422
+Recommendation EP_train:0:  71%|| 824/1162 [27:24<10:09,  1.80s/it]DEBUG: Epoch 0, Step 824, loss_gsu is 0.385971, loss_esu is 0.415508
+Recommendation EP_train:0:  71%|| 825/1162 [27:26<10:10,  1.81s/it]DEBUG: Epoch 0, Step 825, loss_gsu is 0.401812, loss_esu is 0.440328
+Recommendation EP_train:0:  71%|| 826/1162 [27:28<10:17,  1.84s/it]DEBUG: Epoch 0, Step 826, loss_gsu is 0.428263, loss_esu is 0.444090
+Recommendation EP_train:0:  71%|| 827/1162 [27:30<10:27,  1.87s/it]DEBUG: Epoch 0, Step 827, loss_gsu is 0.418853, loss_esu is 0.446656
+Recommendation EP_train:0:  71%|| 828/1162 [27:32<10:28,  1.88s/it]DEBUG: Epoch 0, Step 828, loss_gsu is 0.417122, loss_esu is 0.459781
+Recommendation EP_train:0:  71%|| 829/1162 [27:33<10:29,  1.89s/it]DEBUG: Epoch 0, Step 829, loss_gsu is 0.386237, loss_esu is 0.419459
+Recommendation EP_train:0:  71%|| 830/1162 [27:35<10:22,  1.87s/it]DEBUG: Epoch 0, Step 830, loss_gsu is 0.384016, loss_esu is 0.423558
+Recommendation EP_train:0:  72%|| 831/1162 [27:37<10:19,  1.87s/it]DEBUG: Epoch 0, Step 831, loss_gsu is 0.421309, loss_esu is 0.461983
+Recommendation EP_train:0:  72%|| 832/1162 [27:39<10:06,  1.84s/it]DEBUG: Epoch 0, Step 832, loss_gsu is 0.351841, loss_esu is 0.382363
+Recommendation EP_train:0:  72%|| 833/1162 [27:41<10:07,  1.85s/it]DEBUG: Epoch 0, Step 833, loss_gsu is 0.378545, loss_esu is 0.407222
+Recommendation EP_train:0:  72%|| 834/1162 [27:43<10:04,  1.84s/it]DEBUG: Epoch 0, Step 834, loss_gsu is 0.412462, loss_esu is 0.448458
+Recommendation EP_train:0:  72%|| 835/1162 [27:44<10:01,  1.84s/it]DEBUG: Epoch 0, Step 835, loss_gsu is 0.392456, loss_esu is 0.418321
+Recommendation EP_train:0:  72%|| 836/1162 [27:46<10:07,  1.86s/it]DEBUG: Epoch 0, Step 836, loss_gsu is 0.349545, loss_esu is 0.396218
+Recommendation EP_train:0:  72%|| 837/1162 [27:48<10:02,  1.85s/it]DEBUG: Epoch 0, Step 837, loss_gsu is 0.372294, loss_esu is 0.390331
+Recommendation EP_train:0:  72%|| 838/1162 [27:50<09:59,  1.85s/it]DEBUG: Epoch 0, Step 838, loss_gsu is 0.390470, loss_esu is 0.429257
+Recommendation EP_train:0:  72%|| 839/1162 [27:52<10:03,  1.87s/it]DEBUG: Epoch 0, Step 839, loss_gsu is 0.336200, loss_esu is 0.374420
+Recommendation EP_train:0:  72%|| 840/1162 [27:54<10:07,  1.89s/it]DEBUG: Epoch 0, Step 840, loss_gsu is 0.403076, loss_esu is 0.433118
+Recommendation EP_train:0:  72%|| 841/1162 [27:56<10:09,  1.90s/it]DEBUG: Epoch 0, Step 841, loss_gsu is 0.397860, loss_esu is 0.421840
+Recommendation EP_train:0:  72%|| 842/1162 [27:58<09:59,  1.87s/it]DEBUG: Epoch 0, Step 842, loss_gsu is 0.368412, loss_esu is 0.406740
+Recommendation EP_train:0:  73%|| 843/1162 [27:59<09:54,  1.86s/it]DEBUG: Epoch 0, Step 843, loss_gsu is 0.392087, loss_esu is 0.409101
+Recommendation EP_train:0:  73%|| 844/1162 [28:01<09:53,  1.87s/it]DEBUG: Epoch 0, Step 844, loss_gsu is 0.378224, loss_esu is 0.435855
+Recommendation EP_train:0:  73%|| 845/1162 [28:03<09:51,  1.87s/it]DEBUG: Epoch 0, Step 845, loss_gsu is 0.386029, loss_esu is 0.435200
+Recommendation EP_train:0:  73%|| 846/1162 [28:05<09:50,  1.87s/it]DEBUG: Epoch 0, Step 846, loss_gsu is 0.454781, loss_esu is 0.481515
+Recommendation EP_train:0:  73%|| 847/1162 [28:07<09:52,  1.88s/it]DEBUG: Epoch 0, Step 847, loss_gsu is 0.364162, loss_esu is 0.405320
+Recommendation EP_train:0:  73%|| 848/1162 [28:09<10:01,  1.92s/it]DEBUG: Epoch 0, Step 848, loss_gsu is 0.392234, loss_esu is 0.447638
+Recommendation EP_train:0:  73%|| 849/1162 [28:11<09:56,  1.91s/it]DEBUG: Epoch 0, Step 849, loss_gsu is 0.384025, loss_esu is 0.431552
+Recommendation EP_train:0:  73%|| 850/1162 [28:13<09:51,  1.90s/it]DEBUG: Epoch 0, Step 850, loss_gsu is 0.404768, loss_esu is 0.439163
+Recommendation EP_train:0:  73%|| 851/1162 [28:15<09:44,  1.88s/it]DEBUG: Epoch 0, Step 851, loss_gsu is 0.374970, loss_esu is 0.413167
+Recommendation EP_train:0:  73%|| 852/1162 [28:16<09:40,  1.87s/it]DEBUG: Epoch 0, Step 852, loss_gsu is 0.383816, loss_esu is 0.406931
+Recommendation EP_train:0:  73%|| 853/1162 [28:18<09:33,  1.86s/it]DEBUG: Epoch 0, Step 853, loss_gsu is 0.408459, loss_esu is 0.453972
+Recommendation EP_train:0:  73%|| 854/1162 [28:20<09:33,  1.86s/it]DEBUG: Epoch 0, Step 854, loss_gsu is 0.375958, loss_esu is 0.423596
+Recommendation EP_train:0:  74%|| 855/1162 [28:22<09:30,  1.86s/it]DEBUG: Epoch 0, Step 855, loss_gsu is 0.364251, loss_esu is 0.434066
+Recommendation EP_train:0:  74%|| 856/1162 [28:24<09:29,  1.86s/it]DEBUG: Epoch 0, Step 856, loss_gsu is 0.413946, loss_esu is 0.447508
+Recommendation EP_train:0:  74%|| 857/1162 [28:26<09:32,  1.88s/it]DEBUG: Epoch 0, Step 857, loss_gsu is 0.332507, loss_esu is 0.397119
+Recommendation EP_train:0:  74%|| 858/1162 [28:28<09:25,  1.86s/it]DEBUG: Epoch 0, Step 858, loss_gsu is 0.398155, loss_esu is 0.459866
+Recommendation EP_train:0:  74%|| 859/1162 [28:30<09:28,  1.88s/it]DEBUG: Epoch 0, Step 859, loss_gsu is 0.397512, loss_esu is 0.438068
+Recommendation EP_train:0:  74%|| 860/1162 [28:31<09:26,  1.88s/it]DEBUG: Epoch 0, Step 860, loss_gsu is 0.419281, loss_esu is 0.463350
+Recommendation EP_train:0:  74%|| 861/1162 [28:33<09:23,  1.87s/it]DEBUG: Epoch 0, Step 861, loss_gsu is 0.416804, loss_esu is 0.451382
+Recommendation EP_train:0:  74%|| 862/1162 [28:35<09:21,  1.87s/it]DEBUG: Epoch 0, Step 862, loss_gsu is 0.390233, loss_esu is 0.449706
+Recommendation EP_train:0:  74%|| 863/1162 [28:37<09:21,  1.88s/it]DEBUG: Epoch 0, Step 863, loss_gsu is 0.445535, loss_esu is 0.468408
+Recommendation EP_train:0:  74%|| 864/1162 [28:39<09:20,  1.88s/it]DEBUG: Epoch 0, Step 864, loss_gsu is 0.410503, loss_esu is 0.454200
+Recommendation EP_train:0:  74%|| 865/1162 [28:41<09:20,  1.89s/it]DEBUG: Epoch 0, Step 865, loss_gsu is 0.359988, loss_esu is 0.409030
+Recommendation EP_train:0:  75%|| 866/1162 [28:43<09:14,  1.87s/it]DEBUG: Epoch 0, Step 866, loss_gsu is 0.344233, loss_esu is 0.378734
+Recommendation EP_train:0:  75%|| 867/1162 [28:45<09:14,  1.88s/it]DEBUG: Epoch 0, Step 867, loss_gsu is 0.424217, loss_esu is 0.463017
+Recommendation EP_train:0:  75%|| 868/1162 [28:46<09:07,  1.86s/it]DEBUG: Epoch 0, Step 868, loss_gsu is 0.366318, loss_esu is 0.401872
+Recommendation EP_train:0:  75%|| 869/1162 [28:48<09:07,  1.87s/it]DEBUG: Epoch 0, Step 869, loss_gsu is 0.354392, loss_esu is 0.394031
+Recommendation EP_train:0:  75%|| 870/1162 [28:50<09:09,  1.88s/it]DEBUG: Epoch 0, Step 870, loss_gsu is 0.391141, loss_esu is 0.416138
+Recommendation EP_train:0:  75%|| 871/1162 [28:52<09:08,  1.88s/it]DEBUG: Epoch 0, Step 871, loss_gsu is 0.377191, loss_esu is 0.416959
+Recommendation EP_train:0:  75%|| 872/1162 [28:54<09:16,  1.92s/it]DEBUG: Epoch 0, Step 872, loss_gsu is 0.383038, loss_esu is 0.417726
+Recommendation EP_train:0:  75%|| 873/1162 [28:56<09:25,  1.96s/it]DEBUG: Epoch 0, Step 873, loss_gsu is 0.410427, loss_esu is 0.456923
+Recommendation EP_train:0:  75%|| 874/1162 [28:58<09:12,  1.92s/it]DEBUG: Epoch 0, Step 874, loss_gsu is 0.427020, loss_esu is 0.463086
+Recommendation EP_train:0:  75%|| 875/1162 [29:00<09:08,  1.91s/it]DEBUG: Epoch 0, Step 875, loss_gsu is 0.377041, loss_esu is 0.406361
+Recommendation EP_train:0:  75%|| 876/1162 [29:02<08:59,  1.89s/it]DEBUG: Epoch 0, Step 876, loss_gsu is 0.375076, loss_esu is 0.423480
+Recommendation EP_train:0:  75%|| 877/1162 [29:04<08:56,  1.88s/it]DEBUG: Epoch 0, Step 877, loss_gsu is 0.411198, loss_esu is 0.465236
+Recommendation EP_train:0:  76%|| 878/1162 [29:05<08:52,  1.87s/it]DEBUG: Epoch 0, Step 878, loss_gsu is 0.394366, loss_esu is 0.425207
+Recommendation EP_train:0:  76%|| 879/1162 [29:07<08:48,  1.87s/it]DEBUG: Epoch 0, Step 879, loss_gsu is 0.360609, loss_esu is 0.398632
+Recommendation EP_train:0:  76%|| 880/1162 [29:09<08:46,  1.87s/it]DEBUG: Epoch 0, Step 880, loss_gsu is 0.373266, loss_esu is 0.410152
+Recommendation EP_train:0:  76%|| 881/1162 [29:11<08:42,  1.86s/it]DEBUG: Epoch 0, Step 881, loss_gsu is 0.376541, loss_esu is 0.428227
+Recommendation EP_train:0:  76%|| 882/1162 [29:13<08:41,  1.86s/it]DEBUG: Epoch 0, Step 882, loss_gsu is 0.386039, loss_esu is 0.446276
+Recommendation EP_train:0:  76%|| 883/1162 [29:15<08:35,  1.85s/it]DEBUG: Epoch 0, Step 883, loss_gsu is 0.394629, loss_esu is 0.431052
+Recommendation EP_train:0:  76%|| 884/1162 [29:16<08:32,  1.84s/it]DEBUG: Epoch 0, Step 884, loss_gsu is 0.377526, loss_esu is 0.440129
+Recommendation EP_train:0:  76%|| 885/1162 [29:18<08:35,  1.86s/it]DEBUG: Epoch 0, Step 885, loss_gsu is 0.420546, loss_esu is 0.456587
+Recommendation EP_train:0:  76%|| 886/1162 [29:20<08:27,  1.84s/it]DEBUG: Epoch 0, Step 886, loss_gsu is 0.408827, loss_esu is 0.456809
+Recommendation EP_train:0:  76%|| 887/1162 [29:22<08:27,  1.84s/it]DEBUG: Epoch 0, Step 887, loss_gsu is 0.411305, loss_esu is 0.445119
+Recommendation EP_train:0:  76%|| 888/1162 [29:24<08:21,  1.83s/it]DEBUG: Epoch 0, Step 888, loss_gsu is 0.356698, loss_esu is 0.414893
+Recommendation EP_train:0:  77%|| 889/1162 [29:26<08:21,  1.84s/it]DEBUG: Epoch 0, Step 889, loss_gsu is 0.364050, loss_esu is 0.409482
+Recommendation EP_train:0:  77%|| 890/1162 [29:27<08:17,  1.83s/it]DEBUG: Epoch 0, Step 890, loss_gsu is 0.379601, loss_esu is 0.404239
+Recommendation EP_train:0:  77%|| 891/1162 [29:29<08:11,  1.81s/it]DEBUG: Epoch 0, Step 891, loss_gsu is 0.358617, loss_esu is 0.408084
+Recommendation EP_train:0:  77%|| 892/1162 [29:31<08:08,  1.81s/it]DEBUG: Epoch 0, Step 892, loss_gsu is 0.399003, loss_esu is 0.445730
+Recommendation EP_train:0:  77%|| 893/1162 [29:33<08:08,  1.81s/it]DEBUG: Epoch 0, Step 893, loss_gsu is 0.402613, loss_esu is 0.452765
+Recommendation EP_train:0:  77%|| 894/1162 [29:35<08:13,  1.84s/it]DEBUG: Epoch 0, Step 894, loss_gsu is 0.372949, loss_esu is 0.412844
+Recommendation EP_train:0:  77%|| 895/1162 [29:37<08:16,  1.86s/it]DEBUG: Epoch 0, Step 895, loss_gsu is 0.391125, loss_esu is 0.393683
+Recommendation EP_train:0:  77%|| 896/1162 [29:38<08:09,  1.84s/it]DEBUG: Epoch 0, Step 896, loss_gsu is 0.391052, loss_esu is 0.418116
+Recommendation EP_train:0:  77%|| 897/1162 [29:40<08:11,  1.85s/it]DEBUG: Epoch 0, Step 897, loss_gsu is 0.368597, loss_esu is 0.402137
+Recommendation EP_train:0:  77%|| 898/1162 [29:42<08:06,  1.84s/it]DEBUG: Epoch 0, Step 898, loss_gsu is 0.398168, loss_esu is 0.448183
+Recommendation EP_train:0:  77%|| 899/1162 [29:44<08:06,  1.85s/it]DEBUG: Epoch 0, Step 899, loss_gsu is 0.431065, loss_esu is 0.508625
+Recommendation EP_train:0:  77%|| 900/1162 [29:46<08:02,  1.84s/it]DEBUG: Epoch 0, Step 900, loss_gsu is 0.431949, loss_esu is 0.462762
+Recommendation EP_train:0:  78%|| 901/1162 [29:48<07:57,  1.83s/it]DEBUG: Epoch 0, Step 901, loss_gsu is 0.366475, loss_esu is 0.399241
+Recommendation EP_train:0:  78%|| 902/1162 [29:49<07:55,  1.83s/it]DEBUG: Epoch 0, Step 902, loss_gsu is 0.382804, loss_esu is 0.401054
+Recommendation EP_train:0:  78%|| 903/1162 [29:51<07:50,  1.82s/it]DEBUG: Epoch 0, Step 903, loss_gsu is 0.398501, loss_esu is 0.422963
+Recommendation EP_train:0:  78%|| 904/1162 [29:53<07:58,  1.85s/it]DEBUG: Epoch 0, Step 904, loss_gsu is 0.378192, loss_esu is 0.404112
+Recommendation EP_train:0:  78%|| 905/1162 [29:55<08:02,  1.88s/it]DEBUG: Epoch 0, Step 905, loss_gsu is 0.378537, loss_esu is 0.429601
+Recommendation EP_train:0:  78%|| 906/1162 [29:57<07:55,  1.86s/it]DEBUG: Epoch 0, Step 906, loss_gsu is 0.392748, loss_esu is 0.429862
+Recommendation EP_train:0:  78%|| 907/1162 [29:59<07:54,  1.86s/it]DEBUG: Epoch 0, Step 907, loss_gsu is 0.382071, loss_esu is 0.450413
+Recommendation EP_train:0:  78%|| 908/1162 [30:01<07:50,  1.85s/it]DEBUG: Epoch 0, Step 908, loss_gsu is 0.359063, loss_esu is 0.397475
+Recommendation EP_train:0:  78%|| 909/1162 [30:03<07:49,  1.86s/it]DEBUG: Epoch 0, Step 909, loss_gsu is 0.376928, loss_esu is 0.435622
+Recommendation EP_train:0:  78%|| 910/1162 [30:04<07:49,  1.86s/it]DEBUG: Epoch 0, Step 910, loss_gsu is 0.375958, loss_esu is 0.413619
+Recommendation EP_train:0:  78%|| 911/1162 [30:06<07:43,  1.85s/it]DEBUG: Epoch 0, Step 911, loss_gsu is 0.382246, loss_esu is 0.442592
+Recommendation EP_train:0:  78%|| 912/1162 [30:08<07:42,  1.85s/it]DEBUG: Epoch 0, Step 912, loss_gsu is 0.385293, loss_esu is 0.423628
+Recommendation EP_train:0:  79%|| 913/1162 [30:10<07:37,  1.84s/it]DEBUG: Epoch 0, Step 913, loss_gsu is 0.368612, loss_esu is 0.403645
+Recommendation EP_train:0:  79%|| 914/1162 [30:12<07:31,  1.82s/it]DEBUG: Epoch 0, Step 914, loss_gsu is 0.338079, loss_esu is 0.382110
+Recommendation EP_train:0:  79%|| 915/1162 [30:13<07:31,  1.83s/it]DEBUG: Epoch 0, Step 915, loss_gsu is 0.402057, loss_esu is 0.443110
+Recommendation EP_train:0:  79%|| 916/1162 [30:15<07:24,  1.81s/it]DEBUG: Epoch 0, Step 916, loss_gsu is 0.394124, loss_esu is 0.435377
+Recommendation EP_train:0:  79%|| 917/1162 [30:17<07:27,  1.82s/it]DEBUG: Epoch 0, Step 917, loss_gsu is 0.381471, loss_esu is 0.414361
+Recommendation EP_train:0:  79%|| 918/1162 [30:19<07:22,  1.81s/it]DEBUG: Epoch 0, Step 918, loss_gsu is 0.411992, loss_esu is 0.446119
+Recommendation EP_train:0:  79%|| 919/1162 [30:21<07:22,  1.82s/it]DEBUG: Epoch 0, Step 919, loss_gsu is 0.401243, loss_esu is 0.446098
+Recommendation EP_train:0:  79%|| 920/1162 [30:23<07:17,  1.81s/it]DEBUG: Epoch 0, Step 920, loss_gsu is 0.357878, loss_esu is 0.398223
+Recommendation EP_train:0:  79%|| 921/1162 [30:24<07:12,  1.79s/it]DEBUG: Epoch 0, Step 921, loss_gsu is 0.373081, loss_esu is 0.440282
+Recommendation EP_train:0:  79%|| 922/1162 [30:26<07:10,  1.80s/it]DEBUG: Epoch 0, Step 922, loss_gsu is 0.349607, loss_esu is 0.387838
+Recommendation EP_train:0:  79%|| 923/1162 [30:28<06:55,  1.74s/it]DEBUG: Epoch 0, Step 923, loss_gsu is 0.391821, loss_esu is 0.435961
+Recommendation EP_train:0:  80%|| 924/1162 [30:29<06:47,  1.71s/it]DEBUG: Epoch 0, Step 924, loss_gsu is 0.354484, loss_esu is 0.408062
+Recommendation EP_train:0:  80%|| 925/1162 [30:31<06:34,  1.67s/it]DEBUG: Epoch 0, Step 925, loss_gsu is 0.362898, loss_esu is 0.411768
+Recommendation EP_train:0:  80%|| 926/1162 [30:33<06:47,  1.73s/it]DEBUG: Epoch 0, Step 926, loss_gsu is 0.385903, loss_esu is 0.437099
+Recommendation EP_train:0:  80%|| 927/1162 [30:35<07:17,  1.86s/it]DEBUG: Epoch 0, Step 927, loss_gsu is 0.399568, loss_esu is 0.444157
+Recommendation EP_train:0:  80%|| 928/1162 [30:37<07:16,  1.86s/it]DEBUG: Epoch 0, Step 928, loss_gsu is 0.358668, loss_esu is 0.419418
+Recommendation EP_train:0:  80%|| 929/1162 [30:39<07:15,  1.87s/it]DEBUG: Epoch 0, Step 929, loss_gsu is 0.347174, loss_esu is 0.396405
+Recommendation EP_train:0:  80%|| 930/1162 [30:41<07:11,  1.86s/it]DEBUG: Epoch 0, Step 930, loss_gsu is 0.357387, loss_esu is 0.408402
+Recommendation EP_train:0:  80%|| 931/1162 [30:42<07:09,  1.86s/it]DEBUG: Epoch 0, Step 931, loss_gsu is 0.389666, loss_esu is 0.424025
+Recommendation EP_train:0:  80%|| 932/1162 [30:44<07:04,  1.84s/it]DEBUG: Epoch 0, Step 932, loss_gsu is 0.413064, loss_esu is 0.448053
+Recommendation EP_train:0:  80%|| 933/1162 [30:46<07:03,  1.85s/it]DEBUG: Epoch 0, Step 933, loss_gsu is 0.381713, loss_esu is 0.425870
+Recommendation EP_train:0:  80%|| 934/1162 [30:48<07:08,  1.88s/it]DEBUG: Epoch 0, Step 934, loss_gsu is 0.398256, loss_esu is 0.422547
+Recommendation EP_train:0:  80%|| 935/1162 [30:50<07:06,  1.88s/it]DEBUG: Epoch 0, Step 935, loss_gsu is 0.357404, loss_esu is 0.369213
+Recommendation EP_train:0:  81%|| 936/1162 [30:52<07:00,  1.86s/it]DEBUG: Epoch 0, Step 936, loss_gsu is 0.363799, loss_esu is 0.422023
+Recommendation EP_train:0:  81%|| 937/1162 [30:54<07:06,  1.90s/it]DEBUG: Epoch 0, Step 937, loss_gsu is 0.377349, loss_esu is 0.416279
+Recommendation EP_train:0:  81%|| 938/1162 [30:56<07:08,  1.91s/it]DEBUG: Epoch 0, Step 938, loss_gsu is 0.411057, loss_esu is 0.454028
+Recommendation EP_train:0:  81%|| 939/1162 [30:58<07:04,  1.90s/it]DEBUG: Epoch 0, Step 939, loss_gsu is 0.373157, loss_esu is 0.416755
+Recommendation EP_train:0:  81%|| 940/1162 [30:59<07:04,  1.91s/it]DEBUG: Epoch 0, Step 940, loss_gsu is 0.363297, loss_esu is 0.400211
+Recommendation EP_train:0:  81%|| 941/1162 [31:01<07:01,  1.91s/it]DEBUG: Epoch 0, Step 941, loss_gsu is 0.356847, loss_esu is 0.424511
+Recommendation EP_train:0:  81%|| 942/1162 [31:03<06:52,  1.88s/it]DEBUG: Epoch 0, Step 942, loss_gsu is 0.361080, loss_esu is 0.392195
+Recommendation EP_train:0:  81%|| 943/1162 [31:05<06:57,  1.91s/it]DEBUG: Epoch 0, Step 943, loss_gsu is 0.375957, loss_esu is 0.445198
+Recommendation EP_train:0:  81%|| 944/1162 [31:07<07:08,  1.96s/it]DEBUG: Epoch 0, Step 944, loss_gsu is 0.355233, loss_esu is 0.411500
+Recommendation EP_train:0:  81%|| 945/1162 [31:10<07:28,  2.07s/it]DEBUG: Epoch 0, Step 945, loss_gsu is 0.386908, loss_esu is 0.436348
+Recommendation EP_train:0:  81%|| 946/1162 [31:13<08:45,  2.43s/it]DEBUG: Epoch 0, Step 946, loss_gsu is 0.377771, loss_esu is 0.417947
+Recommendation EP_train:0:  81%|| 947/1162 [31:16<09:06,  2.54s/it]DEBUG: Epoch 0, Step 947, loss_gsu is 0.383420, loss_esu is 0.418089
+Recommendation EP_train:0:  82%|| 948/1162 [31:18<08:51,  2.48s/it]DEBUG: Epoch 0, Step 948, loss_gsu is 0.363082, loss_esu is 0.369134
+Recommendation EP_train:0:  82%|| 949/1162 [31:20<08:49,  2.49s/it]DEBUG: Epoch 0, Step 949, loss_gsu is 0.376883, loss_esu is 0.410247
+Recommendation EP_train:0:  82%|| 950/1162 [31:22<08:18,  2.35s/it]DEBUG: Epoch 0, Step 950, loss_gsu is 0.346451, loss_esu is 0.396534
+Recommendation EP_train:0:  82%|| 951/1162 [31:25<08:19,  2.37s/it]DEBUG: Epoch 0, Step 951, loss_gsu is 0.356765, loss_esu is 0.407918
+Recommendation EP_train:0:  82%|| 952/1162 [31:27<08:00,  2.29s/it]DEBUG: Epoch 0, Step 952, loss_gsu is 0.367930, loss_esu is 0.411603
+Recommendation EP_train:0:  82%|| 953/1162 [31:29<07:56,  2.28s/it]DEBUG: Epoch 0, Step 953, loss_gsu is 0.361752, loss_esu is 0.410966
+Recommendation EP_train:0:  82%|| 954/1162 [31:31<07:46,  2.24s/it]DEBUG: Epoch 0, Step 954, loss_gsu is 0.385399, loss_esu is 0.430755
+Recommendation EP_train:0:  82%|| 955/1162 [31:34<07:51,  2.28s/it]DEBUG: Epoch 0, Step 955, loss_gsu is 0.366337, loss_esu is 0.411180
+Recommendation EP_train:0:  82%|| 956/1162 [31:36<07:32,  2.20s/it]DEBUG: Epoch 0, Step 956, loss_gsu is 0.425082, loss_esu is 0.465994
+Recommendation EP_train:0:  82%|| 957/1162 [31:38<07:14,  2.12s/it]DEBUG: Epoch 0, Step 957, loss_gsu is 0.383892, loss_esu is 0.453377
+Recommendation EP_train:0:  82%|| 958/1162 [31:39<06:49,  2.01s/it]DEBUG: Epoch 0, Step 958, loss_gsu is 0.399113, loss_esu is 0.424921
+Recommendation EP_train:0:  83%|| 959/1162 [31:42<06:54,  2.04s/it]DEBUG: Epoch 0, Step 959, loss_gsu is 0.395123, loss_esu is 0.435540
+Recommendation EP_train:0:  83%|| 960/1162 [31:44<07:06,  2.11s/it]DEBUG: Epoch 0, Step 960, loss_gsu is 0.362592, loss_esu is 0.381333
+Recommendation EP_train:0:  83%|| 961/1162 [31:46<07:03,  2.11s/it]DEBUG: Epoch 0, Step 961, loss_gsu is 0.371062, loss_esu is 0.434338
+Recommendation EP_train:0:  83%|| 962/1162 [31:48<06:59,  2.10s/it]DEBUG: Epoch 0, Step 962, loss_gsu is 0.343333, loss_esu is 0.395840
+Recommendation EP_train:0:  83%|| 963/1162 [31:50<07:00,  2.11s/it]DEBUG: Epoch 0, Step 963, loss_gsu is 0.388603, loss_esu is 0.427090
+Recommendation EP_train:0:  83%|| 964/1162 [31:53<07:18,  2.21s/it]DEBUG: Epoch 0, Step 964, loss_gsu is 0.387572, loss_esu is 0.469921
+Recommendation EP_train:0:  83%|| 965/1162 [31:55<07:24,  2.26s/it]DEBUG: Epoch 0, Step 965, loss_gsu is 0.361614, loss_esu is 0.413453
+Recommendation EP_train:0:  83%|| 966/1162 [31:57<07:20,  2.25s/it]DEBUG: Epoch 0, Step 966, loss_gsu is 0.425172, loss_esu is 0.449554
+Recommendation EP_train:0:  83%|| 967/1162 [31:59<07:15,  2.24s/it]DEBUG: Epoch 0, Step 967, loss_gsu is 0.457003, loss_esu is 0.476983
+Recommendation EP_train:0:  83%|| 968/1162 [32:02<07:14,  2.24s/it]DEBUG: Epoch 0, Step 968, loss_gsu is 0.348848, loss_esu is 0.399121
+Recommendation EP_train:0:  83%|| 969/1162 [32:04<07:05,  2.20s/it]DEBUG: Epoch 0, Step 969, loss_gsu is 0.388685, loss_esu is 0.449495
+Recommendation EP_train:0:  83%|| 970/1162 [32:06<07:21,  2.30s/it]DEBUG: Epoch 0, Step 970, loss_gsu is 0.349842, loss_esu is 0.426825
+Recommendation EP_train:0:  84%|| 971/1162 [32:09<07:39,  2.41s/it]DEBUG: Epoch 0, Step 971, loss_gsu is 0.378171, loss_esu is 0.390050
+Recommendation EP_train:0:  84%|| 972/1162 [32:11<07:28,  2.36s/it]DEBUG: Epoch 0, Step 972, loss_gsu is 0.388562, loss_esu is 0.465168
+Recommendation EP_train:0:  84%|| 973/1162 [32:13<07:20,  2.33s/it]DEBUG: Epoch 0, Step 973, loss_gsu is 0.336953, loss_esu is 0.382588
+Recommendation EP_train:0:  84%|| 974/1162 [32:15<06:57,  2.22s/it]DEBUG: Epoch 0, Step 974, loss_gsu is 0.402505, loss_esu is 0.410517
+Recommendation EP_train:0:  84%|| 975/1162 [32:17<06:44,  2.16s/it]DEBUG: Epoch 0, Step 975, loss_gsu is 0.362174, loss_esu is 0.419230
+Recommendation EP_train:0:  84%|| 976/1162 [32:19<06:30,  2.10s/it]DEBUG: Epoch 0, Step 976, loss_gsu is 0.368448, loss_esu is 0.403713
+Recommendation EP_train:0:  84%|| 977/1162 [32:22<06:28,  2.10s/it]DEBUG: Epoch 0, Step 977, loss_gsu is 0.403714, loss_esu is 0.444505
+Recommendation EP_train:0:  84%|| 978/1162 [32:24<06:24,  2.09s/it]DEBUG: Epoch 0, Step 978, loss_gsu is 0.359460, loss_esu is 0.387277
+Recommendation EP_train:0:  84%|| 979/1162 [32:26<06:24,  2.10s/it]DEBUG: Epoch 0, Step 979, loss_gsu is 0.364873, loss_esu is 0.408000
+Recommendation EP_train:0:  84%|| 980/1162 [32:28<06:21,  2.09s/it]DEBUG: Epoch 0, Step 980, loss_gsu is 0.323981, loss_esu is 0.362683
+Recommendation EP_train:0:  84%|| 981/1162 [32:30<06:24,  2.13s/it]DEBUG: Epoch 0, Step 981, loss_gsu is 0.388378, loss_esu is 0.442226
+Recommendation EP_train:0:  85%|| 982/1162 [32:32<06:21,  2.12s/it]DEBUG: Epoch 0, Step 982, loss_gsu is 0.393125, loss_esu is 0.454276
+Recommendation EP_train:0:  85%|| 983/1162 [32:34<06:26,  2.16s/it]DEBUG: Epoch 0, Step 983, loss_gsu is 0.354125, loss_esu is 0.391368
+Recommendation EP_train:0:  85%|| 984/1162 [32:37<06:31,  2.20s/it]DEBUG: Epoch 0, Step 984, loss_gsu is 0.304723, loss_esu is 0.368365
+Recommendation EP_train:0:  85%|| 985/1162 [32:39<06:29,  2.20s/it]DEBUG: Epoch 0, Step 985, loss_gsu is 0.375078, loss_esu is 0.436570
+Recommendation EP_train:0:  85%|| 986/1162 [32:40<05:55,  2.02s/it]DEBUG: Epoch 0, Step 986, loss_gsu is 0.393650, loss_esu is 0.449414
+Recommendation EP_train:0:  85%|| 987/1162 [32:42<05:37,  1.93s/it]DEBUG: Epoch 0, Step 987, loss_gsu is 0.423485, loss_esu is 0.486581
+Recommendation EP_train:0:  85%|| 988/1162 [32:44<05:27,  1.88s/it]DEBUG: Epoch 0, Step 988, loss_gsu is 0.356198, loss_esu is 0.420678
+Recommendation EP_train:0:  85%|| 989/1162 [32:46<05:23,  1.87s/it]DEBUG: Epoch 0, Step 989, loss_gsu is 0.371660, loss_esu is 0.410542
+Recommendation EP_train:0:  85%|| 990/1162 [32:48<05:21,  1.87s/it]DEBUG: Epoch 0, Step 990, loss_gsu is 0.383074, loss_esu is 0.465955
+Recommendation EP_train:0:  85%|| 991/1162 [32:50<05:18,  1.86s/it]DEBUG: Epoch 0, Step 991, loss_gsu is 0.372512, loss_esu is 0.422232
+Recommendation EP_train:0:  85%|| 992/1162 [32:52<05:28,  1.93s/it]DEBUG: Epoch 0, Step 992, loss_gsu is 0.372738, loss_esu is 0.413178
+Recommendation EP_train:0:  85%|| 993/1162 [32:54<05:50,  2.08s/it]DEBUG: Epoch 0, Step 993, loss_gsu is 0.385075, loss_esu is 0.437027
+Recommendation EP_train:0:  86%|| 994/1162 [32:57<06:12,  2.22s/it]DEBUG: Epoch 0, Step 994, loss_gsu is 0.379842, loss_esu is 0.421847
+Recommendation EP_train:0:  86%|| 995/1162 [32:59<06:11,  2.23s/it]DEBUG: Epoch 0, Step 995, loss_gsu is 0.375424, loss_esu is 0.426507
+Recommendation EP_train:0:  86%|| 996/1162 [33:01<05:59,  2.17s/it]DEBUG: Epoch 0, Step 996, loss_gsu is 0.360681, loss_esu is 0.394762
+Recommendation EP_train:0:  86%|| 997/1162 [33:03<05:54,  2.15s/it]DEBUG: Epoch 0, Step 997, loss_gsu is 0.382391, loss_esu is 0.423065
+Recommendation EP_train:0:  86%|| 998/1162 [33:05<05:45,  2.11s/it]DEBUG: Epoch 0, Step 998, loss_gsu is 0.334113, loss_esu is 0.357945
+Recommendation EP_train:0:  86%|| 999/1162 [33:07<05:40,  2.09s/it]DEBUG: Epoch 0, Step 999, loss_gsu is 0.363222, loss_esu is 0.404533
+Recommendation EP_train:0:  86%|| 1000/1162 [33:09<05:30,  2.04s/it]DEBUG: Epoch 0, Step 1000, loss_gsu is 0.379845, loss_esu is 0.432975
+Recommendation EP_train:0:  86%|| 1001/1162 [33:11<05:22,  2.00s/it]DEBUG: Epoch 0, Step 1001, loss_gsu is 0.387617, loss_esu is 0.450025
+Recommendation EP_train:0:  86%|| 1002/1162 [33:13<05:15,  1.97s/it]DEBUG: Epoch 0, Step 1002, loss_gsu is 0.372196, loss_esu is 0.411618
+Recommendation EP_train:0:  86%|| 1003/1162 [33:15<05:09,  1.94s/it]DEBUG: Epoch 0, Step 1003, loss_gsu is 0.391023, loss_esu is 0.453482
+Recommendation EP_train:0:  86%|| 1004/1162 [33:16<05:03,  1.92s/it]DEBUG: Epoch 0, Step 1004, loss_gsu is 0.363227, loss_esu is 0.420216
+Recommendation EP_train:0:  86%|| 1005/1162 [33:18<05:01,  1.92s/it]DEBUG: Epoch 0, Step 1005, loss_gsu is 0.376616, loss_esu is 0.440074
+Recommendation EP_train:0:  87%|| 1006/1162 [33:20<04:57,  1.91s/it]DEBUG: Epoch 0, Step 1006, loss_gsu is 0.367512, loss_esu is 0.381697
+Recommendation EP_train:0:  87%|| 1007/1162 [33:22<04:54,  1.90s/it]DEBUG: Epoch 0, Step 1007, loss_gsu is 0.359053, loss_esu is 0.398490
+Recommendation EP_train:0:  87%|| 1008/1162 [33:24<04:50,  1.88s/it]DEBUG: Epoch 0, Step 1008, loss_gsu is 0.419392, loss_esu is 0.459989
+Recommendation EP_train:0:  87%|| 1009/1162 [33:26<04:48,  1.89s/it]DEBUG: Epoch 0, Step 1009, loss_gsu is 0.408878, loss_esu is 0.471121
+Recommendation EP_train:0:  87%|| 1010/1162 [33:28<04:45,  1.88s/it]DEBUG: Epoch 0, Step 1010, loss_gsu is 0.376603, loss_esu is 0.445704
+Recommendation EP_train:0:  87%|| 1011/1162 [33:30<04:45,  1.89s/it]DEBUG: Epoch 0, Step 1011, loss_gsu is 0.409366, loss_esu is 0.446573
+Recommendation EP_train:0:  87%|| 1012/1162 [33:32<04:49,  1.93s/it]DEBUG: Epoch 0, Step 1012, loss_gsu is 0.372691, loss_esu is 0.433819
+Recommendation EP_train:0:  87%|| 1013/1162 [33:33<04:40,  1.88s/it]DEBUG: Epoch 0, Step 1013, loss_gsu is 0.382183, loss_esu is 0.427592
+Recommendation EP_train:0:  87%|| 1014/1162 [33:35<04:35,  1.86s/it]DEBUG: Epoch 0, Step 1014, loss_gsu is 0.363313, loss_esu is 0.406617
+Recommendation EP_train:0:  87%|| 1015/1162 [33:37<04:43,  1.93s/it]DEBUG: Epoch 0, Step 1015, loss_gsu is 0.383129, loss_esu is 0.458112
+Recommendation EP_train:0:  87%|| 1016/1162 [33:39<04:50,  1.99s/it]DEBUG: Epoch 0, Step 1016, loss_gsu is 0.367986, loss_esu is 0.390530
+Recommendation EP_train:0:  88%|| 1017/1162 [33:42<04:56,  2.04s/it]DEBUG: Epoch 0, Step 1017, loss_gsu is 0.401015, loss_esu is 0.469635
+Recommendation EP_train:0:  88%|| 1018/1162 [33:44<04:47,  1.99s/it]DEBUG: Epoch 0, Step 1018, loss_gsu is 0.385196, loss_esu is 0.427494
+Recommendation EP_train:0:  88%|| 1019/1162 [33:45<04:38,  1.95s/it]DEBUG: Epoch 0, Step 1019, loss_gsu is 0.376357, loss_esu is 0.419418
+Recommendation EP_train:0:  88%|| 1020/1162 [33:47<04:36,  1.95s/it]DEBUG: Epoch 0, Step 1020, loss_gsu is 0.361206, loss_esu is 0.424931
+Recommendation EP_train:0:  88%|| 1021/1162 [33:49<04:37,  1.97s/it]DEBUG: Epoch 0, Step 1021, loss_gsu is 0.342785, loss_esu is 0.422678
+Recommendation EP_train:0:  88%|| 1022/1162 [33:52<04:46,  2.05s/it]DEBUG: Epoch 0, Step 1022, loss_gsu is 0.361283, loss_esu is 0.405504
+Recommendation EP_train:0:  88%|| 1023/1162 [33:54<05:02,  2.18s/it]DEBUG: Epoch 0, Step 1023, loss_gsu is 0.359543, loss_esu is 0.418371
+Recommendation EP_train:0:  88%|| 1024/1162 [33:56<04:56,  2.15s/it]DEBUG: Epoch 0, Step 1024, loss_gsu is 0.411380, loss_esu is 0.446907
+Recommendation EP_train:0:  88%|| 1025/1162 [33:58<04:50,  2.12s/it]DEBUG: Epoch 0, Step 1025, loss_gsu is 0.344510, loss_esu is 0.388601
+Recommendation EP_train:0:  88%|| 1026/1162 [34:00<04:38,  2.05s/it]DEBUG: Epoch 0, Step 1026, loss_gsu is 0.381825, loss_esu is 0.444698
+Recommendation EP_train:0:  88%|| 1027/1162 [34:02<04:34,  2.03s/it]DEBUG: Epoch 0, Step 1027, loss_gsu is 0.392997, loss_esu is 0.421776
+Recommendation EP_train:0:  88%|| 1028/1162 [34:04<04:36,  2.06s/it]DEBUG: Epoch 0, Step 1028, loss_gsu is 0.383193, loss_esu is 0.447990
+Recommendation EP_train:0:  89%|| 1029/1162 [34:06<04:35,  2.07s/it]DEBUG: Epoch 0, Step 1029, loss_gsu is 0.348562, loss_esu is 0.393783
+Recommendation EP_train:0:  89%|| 1030/1162 [34:08<04:36,  2.10s/it]DEBUG: Epoch 0, Step 1030, loss_gsu is 0.377304, loss_esu is 0.396076
+Recommendation EP_train:0:  89%|| 1031/1162 [34:11<04:35,  2.10s/it]DEBUG: Epoch 0, Step 1031, loss_gsu is 0.414358, loss_esu is 0.467309
+Recommendation EP_train:0:  89%|| 1032/1162 [34:13<04:30,  2.08s/it]DEBUG: Epoch 0, Step 1032, loss_gsu is 0.394283, loss_esu is 0.452707
+Recommendation EP_train:0:  89%|| 1033/1162 [34:14<04:17,  2.00s/it]DEBUG: Epoch 0, Step 1033, loss_gsu is 0.331453, loss_esu is 0.384342
+Recommendation EP_train:0:  89%|| 1034/1162 [34:16<04:15,  2.00s/it]DEBUG: Epoch 0, Step 1034, loss_gsu is 0.403823, loss_esu is 0.439762
+Recommendation EP_train:0:  89%|| 1035/1162 [34:18<04:02,  1.91s/it]DEBUG: Epoch 0, Step 1035, loss_gsu is 0.389990, loss_esu is 0.432351
+Recommendation EP_train:0:  89%|| 1036/1162 [34:20<03:53,  1.86s/it]DEBUG: Epoch 0, Step 1036, loss_gsu is 0.408192, loss_esu is 0.459249
+Recommendation EP_train:0:  89%|| 1037/1162 [34:22<04:02,  1.94s/it]DEBUG: Epoch 0, Step 1037, loss_gsu is 0.371191, loss_esu is 0.405717
+Recommendation EP_train:0:  89%|| 1038/1162 [34:24<04:05,  1.98s/it]DEBUG: Epoch 0, Step 1038, loss_gsu is 0.418319, loss_esu is 0.452671
+Recommendation EP_train:0:  89%|| 1039/1162 [34:27<04:30,  2.20s/it]DEBUG: Epoch 0, Step 1039, loss_gsu is 0.374555, loss_esu is 0.429304
+Recommendation EP_train:0:  90%|| 1040/1162 [34:29<04:30,  2.22s/it]DEBUG: Epoch 0, Step 1040, loss_gsu is 0.363566, loss_esu is 0.398554
+Recommendation EP_train:0:  90%|| 1041/1162 [34:31<04:30,  2.24s/it]DEBUG: Epoch 0, Step 1041, loss_gsu is 0.365881, loss_esu is 0.402645
+Recommendation EP_train:0:  90%|| 1042/1162 [34:33<04:24,  2.20s/it]DEBUG: Epoch 0, Step 1042, loss_gsu is 0.383525, loss_esu is 0.401156
+Recommendation EP_train:0:  90%|| 1043/1162 [34:36<04:28,  2.26s/it]DEBUG: Epoch 0, Step 1043, loss_gsu is 0.358056, loss_esu is 0.399882
+Recommendation EP_train:0:  90%|| 1044/1162 [34:38<04:23,  2.24s/it]DEBUG: Epoch 0, Step 1044, loss_gsu is 0.376883, loss_esu is 0.439044
+Recommendation EP_train:0:  90%|| 1045/1162 [34:40<04:23,  2.25s/it]DEBUG: Epoch 0, Step 1045, loss_gsu is 0.380217, loss_esu is 0.434349
+Recommendation EP_train:0:  90%|| 1046/1162 [34:42<04:14,  2.19s/it]DEBUG: Epoch 0, Step 1046, loss_gsu is 0.365857, loss_esu is 0.424968
+Recommendation EP_train:0:  90%|| 1047/1162 [34:45<04:15,  2.22s/it]DEBUG: Epoch 0, Step 1047, loss_gsu is 0.338819, loss_esu is 0.387267
+Recommendation EP_train:0:  90%|| 1048/1162 [34:47<04:10,  2.20s/it]DEBUG: Epoch 0, Step 1048, loss_gsu is 0.371972, loss_esu is 0.399155
+Recommendation EP_train:0:  90%|| 1049/1162 [34:49<04:14,  2.25s/it]DEBUG: Epoch 0, Step 1049, loss_gsu is 0.377596, loss_esu is 0.431036
+Recommendation EP_train:0:  90%|| 1050/1162 [34:51<04:06,  2.20s/it]DEBUG: Epoch 0, Step 1050, loss_gsu is 0.337334, loss_esu is 0.384449
+Recommendation EP_train:0:  90%|| 1051/1162 [34:53<04:03,  2.19s/it]DEBUG: Epoch 0, Step 1051, loss_gsu is 0.370299, loss_esu is 0.441263
+Recommendation EP_train:0:  91%|| 1052/1162 [34:55<03:54,  2.13s/it]DEBUG: Epoch 0, Step 1052, loss_gsu is 0.323251, loss_esu is 0.385676
+Recommendation EP_train:0:  91%|| 1053/1162 [34:58<03:54,  2.15s/it]DEBUG: Epoch 0, Step 1053, loss_gsu is 0.349633, loss_esu is 0.378391
+Recommendation EP_train:0:  91%|| 1054/1162 [35:00<03:52,  2.16s/it]DEBUG: Epoch 0, Step 1054, loss_gsu is 0.364626, loss_esu is 0.415217
+Recommendation EP_train:0:  91%|| 1055/1162 [35:02<03:49,  2.15s/it]DEBUG: Epoch 0, Step 1055, loss_gsu is 0.385596, loss_esu is 0.458555
+Recommendation EP_train:0:  91%|| 1056/1162 [35:04<03:52,  2.19s/it]DEBUG: Epoch 0, Step 1056, loss_gsu is 0.352524, loss_esu is 0.409923
+Recommendation EP_train:0:  91%|| 1057/1162 [35:06<03:49,  2.18s/it]DEBUG: Epoch 0, Step 1057, loss_gsu is 0.336978, loss_esu is 0.386581
+Recommendation EP_train:0:  91%|| 1058/1162 [35:08<03:42,  2.14s/it]DEBUG: Epoch 0, Step 1058, loss_gsu is 0.369303, loss_esu is 0.416753
+Recommendation EP_train:0:  91%|| 1059/1162 [35:10<03:38,  2.12s/it]DEBUG: Epoch 0, Step 1059, loss_gsu is 0.384625, loss_esu is 0.439403
+Recommendation EP_train:0:  91%|| 1060/1162 [35:13<03:34,  2.10s/it]DEBUG: Epoch 0, Step 1060, loss_gsu is 0.390253, loss_esu is 0.428038
+Recommendation EP_train:0:  91%|| 1061/1162 [35:14<03:25,  2.03s/it]DEBUG: Epoch 0, Step 1061, loss_gsu is 0.351378, loss_esu is 0.400239
+Recommendation EP_train:0:  91%|| 1062/1162 [35:16<03:21,  2.02s/it]DEBUG: Epoch 0, Step 1062, loss_gsu is 0.397676, loss_esu is 0.461038
+Recommendation EP_train:0:  91%|| 1063/1162 [35:18<03:17,  2.00s/it]DEBUG: Epoch 0, Step 1063, loss_gsu is 0.319395, loss_esu is 0.367234
+Recommendation EP_train:0:  92%|| 1064/1162 [35:20<03:10,  1.95s/it]DEBUG: Epoch 0, Step 1064, loss_gsu is 0.347300, loss_esu is 0.398124
+Recommendation EP_train:0:  92%|| 1065/1162 [35:22<03:06,  1.92s/it]DEBUG: Epoch 0, Step 1065, loss_gsu is 0.323908, loss_esu is 0.380966
+Recommendation EP_train:0:  92%|| 1066/1162 [35:24<03:01,  1.89s/it]DEBUG: Epoch 0, Step 1066, loss_gsu is 0.356044, loss_esu is 0.384251
+Recommendation EP_train:0:  92%|| 1067/1162 [35:26<02:59,  1.89s/it]DEBUG: Epoch 0, Step 1067, loss_gsu is 0.418927, loss_esu is 0.457447
+Recommendation EP_train:0:  92%|| 1068/1162 [35:28<03:18,  2.11s/it]DEBUG: Epoch 0, Step 1068, loss_gsu is 0.337991, loss_esu is 0.400580
+Recommendation EP_train:0:  92%|| 1069/1162 [35:31<03:25,  2.21s/it]DEBUG: Epoch 0, Step 1069, loss_gsu is 0.412013, loss_esu is 0.440598
+Recommendation EP_train:0:  92%|| 1070/1162 [35:33<03:10,  2.08s/it]DEBUG: Epoch 0, Step 1070, loss_gsu is 0.363526, loss_esu is 0.394337
+Recommendation EP_train:0:  92%|| 1071/1162 [35:34<03:00,  1.98s/it]DEBUG: Epoch 0, Step 1071, loss_gsu is 0.350895, loss_esu is 0.414828
+Recommendation EP_train:0:  92%|| 1072/1162 [35:36<02:48,  1.87s/it]DEBUG: Epoch 0, Step 1072, loss_gsu is 0.347049, loss_esu is 0.392563
+Recommendation EP_train:0:  92%|| 1073/1162 [35:38<02:44,  1.85s/it]DEBUG: Epoch 0, Step 1073, loss_gsu is 0.389905, loss_esu is 0.461981
+Recommendation EP_train:0:  92%|| 1074/1162 [35:40<02:44,  1.87s/it]DEBUG: Epoch 0, Step 1074, loss_gsu is 0.368755, loss_esu is 0.412277
+Recommendation EP_train:0:  93%|| 1075/1162 [35:42<02:45,  1.90s/it]DEBUG: Epoch 0, Step 1075, loss_gsu is 0.341486, loss_esu is 0.411141
+Recommendation EP_train:0:  93%|| 1076/1162 [35:43<02:42,  1.89s/it]DEBUG: Epoch 0, Step 1076, loss_gsu is 0.385476, loss_esu is 0.437433
+Recommendation EP_train:0:  93%|| 1077/1162 [35:45<02:40,  1.89s/it]DEBUG: Epoch 0, Step 1077, loss_gsu is 0.347830, loss_esu is 0.415912
+Recommendation EP_train:0:  93%|| 1078/1162 [35:48<02:45,  1.97s/it]DEBUG: Epoch 0, Step 1078, loss_gsu is 0.369955, loss_esu is 0.408927
+Recommendation EP_train:0:  93%|| 1079/1162 [35:50<02:57,  2.14s/it]DEBUG: Epoch 0, Step 1079, loss_gsu is 0.407898, loss_esu is 0.472379
+Recommendation EP_train:0:  93%|| 1080/1162 [35:53<03:06,  2.28s/it]DEBUG: Epoch 0, Step 1080, loss_gsu is 0.391301, loss_esu is 0.438609
+Recommendation EP_train:0:  93%|| 1081/1162 [35:55<03:09,  2.34s/it]DEBUG: Epoch 0, Step 1081, loss_gsu is 0.381387, loss_esu is 0.433254
+Recommendation EP_train:0:  93%|| 1082/1162 [35:58<03:12,  2.41s/it]DEBUG: Epoch 0, Step 1082, loss_gsu is 0.381582, loss_esu is 0.426452
+Recommendation EP_train:0:  93%|| 1083/1162 [36:00<03:09,  2.39s/it]DEBUG: Epoch 0, Step 1083, loss_gsu is 0.347300, loss_esu is 0.410140
+Recommendation EP_train:0:  93%|| 1084/1162 [36:02<02:58,  2.29s/it]DEBUG: Epoch 0, Step 1084, loss_gsu is 0.328315, loss_esu is 0.380629
+Recommendation EP_train:0:  93%|| 1085/1162 [36:04<02:49,  2.21s/it]DEBUG: Epoch 0, Step 1085, loss_gsu is 0.378225, loss_esu is 0.443899
+Recommendation EP_train:0:  93%|| 1086/1162 [36:06<02:39,  2.10s/it]DEBUG: Epoch 0, Step 1086, loss_gsu is 0.370276, loss_esu is 0.407007
+Recommendation EP_train:0:  94%|| 1087/1162 [36:08<02:32,  2.03s/it]DEBUG: Epoch 0, Step 1087, loss_gsu is 0.360605, loss_esu is 0.411149
+Recommendation EP_train:0:  94%|| 1088/1162 [36:10<02:25,  1.96s/it]DEBUG: Epoch 0, Step 1088, loss_gsu is 0.377065, loss_esu is 0.451436
+Recommendation EP_train:0:  94%|| 1089/1162 [36:12<02:26,  2.01s/it]DEBUG: Epoch 0, Step 1089, loss_gsu is 0.367347, loss_esu is 0.398842
+Recommendation EP_train:0:  94%|| 1090/1162 [36:14<02:23,  2.00s/it]DEBUG: Epoch 0, Step 1090, loss_gsu is 0.368169, loss_esu is 0.401073
+Recommendation EP_train:0:  94%|| 1091/1162 [36:16<02:19,  1.96s/it]DEBUG: Epoch 0, Step 1091, loss_gsu is 0.359199, loss_esu is 0.447903
+Recommendation EP_train:0:  94%|| 1092/1162 [36:18<02:17,  1.97s/it]DEBUG: Epoch 0, Step 1092, loss_gsu is 0.353999, loss_esu is 0.398795
+Recommendation EP_train:0:  94%|| 1093/1162 [36:20<02:15,  1.96s/it]DEBUG: Epoch 0, Step 1093, loss_gsu is 0.343635, loss_esu is 0.400912
+Recommendation EP_train:0:  94%|| 1094/1162 [36:21<02:11,  1.94s/it]DEBUG: Epoch 0, Step 1094, loss_gsu is 0.323738, loss_esu is 0.395014
+Recommendation EP_train:0:  94%|| 1095/1162 [36:23<02:09,  1.93s/it]DEBUG: Epoch 0, Step 1095, loss_gsu is 0.367892, loss_esu is 0.419280
+Recommendation EP_train:0:  94%|| 1096/1162 [36:25<02:05,  1.90s/it]DEBUG: Epoch 0, Step 1096, loss_gsu is 0.359901, loss_esu is 0.409276
+Recommendation EP_train:0:  94%|| 1097/1162 [36:27<02:04,  1.92s/it]DEBUG: Epoch 0, Step 1097, loss_gsu is 0.362383, loss_esu is 0.421572
+Recommendation EP_train:0:  94%|| 1098/1162 [36:30<02:11,  2.05s/it]DEBUG: Epoch 0, Step 1098, loss_gsu is 0.359864, loss_esu is 0.416358
+Recommendation EP_train:0:  95%|| 1099/1162 [36:32<02:13,  2.11s/it]DEBUG: Epoch 0, Step 1099, loss_gsu is 0.360050, loss_esu is 0.411349
+Recommendation EP_train:0:  95%|| 1100/1162 [36:34<02:15,  2.19s/it]DEBUG: Epoch 0, Step 1100, loss_gsu is 0.402123, loss_esu is 0.432447
+Recommendation EP_train:0:  95%|| 1101/1162 [36:36<02:16,  2.24s/it]DEBUG: Epoch 0, Step 1101, loss_gsu is 0.426449, loss_esu is 0.460041
+Recommendation EP_train:0:  95%|| 1102/1162 [36:39<02:15,  2.26s/it]DEBUG: Epoch 0, Step 1102, loss_gsu is 0.383270, loss_esu is 0.431846
+Recommendation EP_train:0:  95%|| 1103/1162 [36:41<02:14,  2.28s/it]DEBUG: Epoch 0, Step 1103, loss_gsu is 0.366957, loss_esu is 0.437310
+Recommendation EP_train:0:  95%|| 1104/1162 [36:43<02:07,  2.20s/it]DEBUG: Epoch 0, Step 1104, loss_gsu is 0.391574, loss_esu is 0.440473
+Recommendation EP_train:0:  95%|| 1105/1162 [36:45<02:06,  2.22s/it]DEBUG: Epoch 0, Step 1105, loss_gsu is 0.334289, loss_esu is 0.379117
+Recommendation EP_train:0:  95%|| 1106/1162 [36:48<02:05,  2.23s/it]DEBUG: Epoch 0, Step 1106, loss_gsu is 0.362021, loss_esu is 0.436870
+Recommendation EP_train:0:  95%|| 1107/1162 [36:50<01:57,  2.13s/it]DEBUG: Epoch 0, Step 1107, loss_gsu is 0.372347, loss_esu is 0.412927
+Recommendation EP_train:0:  95%|| 1108/1162 [36:52<01:56,  2.16s/it]DEBUG: Epoch 0, Step 1108, loss_gsu is 0.354742, loss_esu is 0.402566
+Recommendation EP_train:0:  95%|| 1109/1162 [36:54<01:54,  2.15s/it]DEBUG: Epoch 0, Step 1109, loss_gsu is 0.350716, loss_esu is 0.405277
+Recommendation EP_train:0:  96%|| 1110/1162 [36:56<01:50,  2.12s/it]DEBUG: Epoch 0, Step 1110, loss_gsu is 0.379381, loss_esu is 0.417530
+Recommendation EP_train:0:  96%|| 1111/1162 [36:58<01:47,  2.10s/it]DEBUG: Epoch 0, Step 1111, loss_gsu is 0.389287, loss_esu is 0.424268
+Recommendation EP_train:0:  96%|| 1112/1162 [37:00<01:42,  2.05s/it]DEBUG: Epoch 0, Step 1112, loss_gsu is 0.393337, loss_esu is 0.426297
+Recommendation EP_train:0:  96%|| 1113/1162 [37:02<01:44,  2.14s/it]DEBUG: Epoch 0, Step 1113, loss_gsu is 0.322884, loss_esu is 0.379822
+Recommendation EP_train:0:  96%|| 1114/1162 [37:05<01:43,  2.16s/it]DEBUG: Epoch 0, Step 1114, loss_gsu is 0.380871, loss_esu is 0.421658
+Recommendation EP_train:0:  96%|| 1115/1162 [37:06<01:38,  2.10s/it]DEBUG: Epoch 0, Step 1115, loss_gsu is 0.328686, loss_esu is 0.389140
+Recommendation EP_train:0:  96%|| 1116/1162 [37:09<01:41,  2.20s/it]DEBUG: Epoch 0, Step 1116, loss_gsu is 0.344625, loss_esu is 0.385283
+Recommendation EP_train:0:  96%|| 1117/1162 [37:11<01:36,  2.15s/it]DEBUG: Epoch 0, Step 1117, loss_gsu is 0.398630, loss_esu is 0.433940
+Recommendation EP_train:0:  96%|| 1118/1162 [37:13<01:34,  2.14s/it]DEBUG: Epoch 0, Step 1118, loss_gsu is 0.387670, loss_esu is 0.443703
+Recommendation EP_train:0:  96%|| 1119/1162 [37:15<01:30,  2.11s/it]DEBUG: Epoch 0, Step 1119, loss_gsu is 0.353049, loss_esu is 0.405348
+Recommendation EP_train:0:  96%|| 1120/1162 [37:17<01:27,  2.08s/it]DEBUG: Epoch 0, Step 1120, loss_gsu is 0.361833, loss_esu is 0.424415
+Recommendation EP_train:0:  96%|| 1121/1162 [37:19<01:25,  2.08s/it]DEBUG: Epoch 0, Step 1121, loss_gsu is 0.371821, loss_esu is 0.418135
+Recommendation EP_train:0:  97%|| 1122/1162 [37:21<01:20,  2.01s/it]DEBUG: Epoch 0, Step 1122, loss_gsu is 0.367458, loss_esu is 0.407339
+Recommendation EP_train:0:  97%|| 1123/1162 [37:23<01:19,  2.03s/it]DEBUG: Epoch 0, Step 1123, loss_gsu is 0.369005, loss_esu is 0.404638
+Recommendation EP_train:0:  97%|| 1124/1162 [37:25<01:17,  2.04s/it]DEBUG: Epoch 0, Step 1124, loss_gsu is 0.411488, loss_esu is 0.469483
+Recommendation EP_train:0:  97%|| 1125/1162 [37:27<01:16,  2.06s/it]DEBUG: Epoch 0, Step 1125, loss_gsu is 0.303387, loss_esu is 0.366297
+Recommendation EP_train:0:  97%|| 1126/1162 [37:29<01:13,  2.03s/it]DEBUG: Epoch 0, Step 1126, loss_gsu is 0.317027, loss_esu is 0.371927
+Recommendation EP_train:0:  97%|| 1127/1162 [37:31<01:08,  1.94s/it]DEBUG: Epoch 0, Step 1127, loss_gsu is 0.376776, loss_esu is 0.404669
+Recommendation EP_train:0:  97%|| 1128/1162 [37:33<01:08,  2.01s/it]DEBUG: Epoch 0, Step 1128, loss_gsu is 0.339427, loss_esu is 0.381156
+Recommendation EP_train:0:  97%|| 1129/1162 [37:35<01:09,  2.11s/it]DEBUG: Epoch 0, Step 1129, loss_gsu is 0.364570, loss_esu is 0.408293
+Recommendation EP_train:0:  97%|| 1130/1162 [37:38<01:09,  2.18s/it]DEBUG: Epoch 0, Step 1130, loss_gsu is 0.423386, loss_esu is 0.500602
+Recommendation EP_train:0:  97%|| 1131/1162 [37:40<01:09,  2.26s/it]DEBUG: Epoch 0, Step 1131, loss_gsu is 0.357400, loss_esu is 0.408826
+Recommendation EP_train:0:  97%|| 1132/1162 [37:42<01:04,  2.15s/it]DEBUG: Epoch 0, Step 1132, loss_gsu is 0.368233, loss_esu is 0.419680
+Recommendation EP_train:0:  98%|| 1133/1162 [37:44<01:00,  2.07s/it]DEBUG: Epoch 0, Step 1133, loss_gsu is 0.352808, loss_esu is 0.406672
+Recommendation EP_train:0:  98%|| 1134/1162 [37:46<00:57,  2.05s/it]DEBUG: Epoch 0, Step 1134, loss_gsu is 0.366064, loss_esu is 0.420621
+Recommendation EP_train:0:  98%|| 1135/1162 [37:48<00:53,  1.97s/it]DEBUG: Epoch 0, Step 1135, loss_gsu is 0.402582, loss_esu is 0.447542
+Recommendation EP_train:0:  98%|| 1136/1162 [37:50<00:49,  1.89s/it]DEBUG: Epoch 0, Step 1136, loss_gsu is 0.397364, loss_esu is 0.443800
+Recommendation EP_train:0:  98%|| 1137/1162 [37:51<00:47,  1.91s/it]DEBUG: Epoch 0, Step 1137, loss_gsu is 0.328386, loss_esu is 0.376511
+Recommendation EP_train:0:  98%|| 1138/1162 [37:54<00:47,  1.96s/it]DEBUG: Epoch 0, Step 1138, loss_gsu is 0.394305, loss_esu is 0.436083
+Recommendation EP_train:0:  98%|| 1139/1162 [37:56<00:45,  1.98s/it]DEBUG: Epoch 0, Step 1139, loss_gsu is 0.400362, loss_esu is 0.434645
+Recommendation EP_train:0:  98%|| 1140/1162 [37:58<00:43,  1.98s/it]DEBUG: Epoch 0, Step 1140, loss_gsu is 0.325839, loss_esu is 0.396135
+Recommendation EP_train:0:  98%|| 1141/1162 [38:00<00:42,  2.01s/it]DEBUG: Epoch 0, Step 1141, loss_gsu is 0.349570, loss_esu is 0.394557
+Recommendation EP_train:0:  98%|| 1142/1162 [38:02<00:40,  2.02s/it]DEBUG: Epoch 0, Step 1142, loss_gsu is 0.374740, loss_esu is 0.407311
+Recommendation EP_train:0:  98%|| 1143/1162 [38:04<00:38,  2.02s/it]DEBUG: Epoch 0, Step 1143, loss_gsu is 0.386183, loss_esu is 0.431272
+Recommendation EP_train:0:  98%|| 1144/1162 [38:06<00:36,  2.02s/it]DEBUG: Epoch 0, Step 1144, loss_gsu is 0.358829, loss_esu is 0.411394
+Recommendation EP_train:0:  99%|| 1145/1162 [38:08<00:35,  2.08s/it]DEBUG: Epoch 0, Step 1145, loss_gsu is 0.325735, loss_esu is 0.372345
+Recommendation EP_train:0:  99%|| 1146/1162 [38:10<00:33,  2.09s/it]DEBUG: Epoch 0, Step 1146, loss_gsu is 0.345816, loss_esu is 0.399648
+Recommendation EP_train:0:  99%|| 1147/1162 [38:12<00:31,  2.11s/it]DEBUG: Epoch 0, Step 1147, loss_gsu is 0.368991, loss_esu is 0.447376
+Recommendation EP_train:0:  99%|| 1148/1162 [38:14<00:29,  2.07s/it]DEBUG: Epoch 0, Step 1148, loss_gsu is 0.346821, loss_esu is 0.411608
+Recommendation EP_train:0:  99%|| 1149/1162 [38:16<00:26,  2.06s/it]DEBUG: Epoch 0, Step 1149, loss_gsu is 0.348012, loss_esu is 0.381887
+Recommendation EP_train:0:  99%|| 1150/1162 [38:18<00:24,  2.02s/it]DEBUG: Epoch 0, Step 1150, loss_gsu is 0.359075, loss_esu is 0.389918
+Recommendation EP_train:0:  99%|| 1151/1162 [38:20<00:22,  2.03s/it]DEBUG: Epoch 0, Step 1151, loss_gsu is 0.362608, loss_esu is 0.416078
+Recommendation EP_train:0:  99%|| 1152/1162 [38:22<00:20,  2.02s/it]DEBUG: Epoch 0, Step 1152, loss_gsu is 0.318208, loss_esu is 0.364953
+Recommendation EP_train:0:  99%|| 1153/1162 [38:24<00:18,  2.00s/it]DEBUG: Epoch 0, Step 1153, loss_gsu is 0.365383, loss_esu is 0.408736
+Recommendation EP_train:0:  99%|| 1154/1162 [38:26<00:16,  2.02s/it]DEBUG: Epoch 0, Step 1154, loss_gsu is 0.347088, loss_esu is 0.370681
+Recommendation EP_train:0:  99%|| 1155/1162 [38:28<00:14,  2.01s/it]DEBUG: Epoch 0, Step 1155, loss_gsu is 0.372169, loss_esu is 0.427315
+Recommendation EP_train:0:  99%|| 1156/1162 [38:30<00:12,  2.06s/it]DEBUG: Epoch 0, Step 1156, loss_gsu is 0.366560, loss_esu is 0.412520
+Recommendation EP_train:0: 100%|| 1157/1162 [38:32<00:10,  2.04s/it]DEBUG: Epoch 0, Step 1157, loss_gsu is 0.364230, loss_esu is 0.401619
+Recommendation EP_train:0: 100%|| 1158/1162 [38:34<00:08,  2.01s/it]DEBUG: Epoch 0, Step 1158, loss_gsu is 0.376061, loss_esu is 0.416668
+Recommendation EP_train:0: 100%|| 1159/1162 [38:37<00:06,  2.06s/it]DEBUG: Epoch 0, Step 1159, loss_gsu is 0.336893, loss_esu is 0.391599
+Recommendation EP_train:0: 100%|| 1160/1162 [38:39<00:04,  2.04s/it]DEBUG: Epoch 0, Step 1160, loss_gsu is 0.354433, loss_esu is 0.378398
+Recommendation EP_train:0: 100%|| 1161/1162 [38:40<00:01,  2.00s/it]DEBUG: Epoch 0, Step 1161, loss_gsu is 0.354484, loss_esu is 0.397361
+Recommendation EP_train:0: 100%|| 1162/1162 [38:42<00:00,  2.00s/it]
+{'epoch': 0, 'rec_avg_loss': '0.9190', 'rec_cur_loss': '0.7518'}
+Validation score increased.  Saving model ...
+---------------Sample 99 results-------------------
+Recommendation EP_test:0: 100%|| 1162/1162 [53:37<00:00,  2.77s/it]
+{'Epoch': 0, 'HIT@1': '0.2203', 'NDCG@1': '0.2203', 'HIT@5': '0.4815', 'NDCG@5': '0.3573', 'HIT@10': '0.6011', 'NDCG@10': '0.3959', 'HIT@50': '0.8778', 'NDCG@50': '0.4577', 'MRR': '0.3473'}
+amazon_sim_model_mm-sim-Movies_and_TV-10
+{'Epoch': 0, 'HIT@1': '0.2203', 'NDCG@1': '0.2203', 'HIT@5': '0.4815', 'NDCG@5': '0.3573', 'HIT@10': '0.6011', 'NDCG@10': '0.3959', 'HIT@50': '0.8778', 'NDCG@50': '0.4577', 'MRR': '0.3473'}
